@@ -26,35 +26,53 @@ export function MotionPlaybackProvider({ children }: { children: ReactNode }) {
   return <PlaybackContext.Provider value={value}>{children}</PlaybackContext.Provider>;
 }
 
-export function ExercisePlayer({ exercise }: { exercise: Exercise }) {
+export function ExercisePlayer({ exercise, display = false }: { exercise: Exercise; display?: boolean }) {
   const id = useId();
   const container = useRef<HTMLDivElement>(null);
   const { active, setActive, reducedMotion } = useContext(PlaybackContext);
   const playing = active === id;
   const [progress, setProgress] = useState(0);
   const progressRef = useRef(0);
+  const elapsedRef = useRef(0);
   const scene = exerciseMotions[exercise.id];
-  useEffect(() => () => setActive(current => current === id ? null : current), [id, setActive]);
+  useEffect(() => {
+    // Opening a detail view stops the card behind the dialog.
+    if (!display) setActive(null);
+    return () => setActive(current => current === id ? null : current);
+  }, [id, setActive, display]);
   const updateProgress = (next: number) => { progressRef.current = next; setProgress(next); };
 
   useEffect(() => {
     if (!playing || reducedMotion) return;
     const from = progressRef.current;
+    const elapsedBefore = elapsedRef.current;
     let frame = 0;
     const start = performance.now();
     const tick = (now: number) => {
-      const next = Math.min(1, from + Math.max(0, now - start - 220) / 1700);
+      let next: number;
+      if (display) {
+        // One complete five-second cycle: hold, extend, hold, return, rest.
+        const elapsed = (elapsedBefore + now - start) % 5000;
+        elapsedRef.current = elapsed;
+        next = elapsed < 350 ? 0
+          : elapsed < 2050 ? (elapsed - 350) / 1700
+          : elapsed < 2650 ? 1
+          : elapsed < 4350 ? 1 - (elapsed - 2650) / 1700
+          : 0;
+      } else {
+        next = Math.min(1, from + Math.max(0, now - start - 220) / 1700);
+      }
       updateProgress(next);
-      if (next < 1) frame = requestAnimationFrame(tick);
-      else setActive(null);
+      if (display || next < 1) frame = requestAnimationFrame(tick);
+      else setActive(current => current === id ? null : current);
     };
     frame = requestAnimationFrame(tick);
     const observer = new IntersectionObserver(entries => {
-      if (!entries[0]?.isIntersecting) setActive(null);
+      if (!entries[0]?.isIntersecting) setActive(current => current === id ? null : current);
     });
     if (container.current) observer.observe(container.current);
     return () => { cancelAnimationFrame(frame); observer.disconnect(); };
-  }, [playing, reducedMotion, setActive]);
+  }, [playing, reducedMotion, setActive, id, display]);
 
   if (!scene) return <div className="motion-unavailable">动作演示整理中</div>;
   const selectPhase = (next: number) => {
@@ -65,13 +83,22 @@ export function ExercisePlayer({ exercise }: { exercise: Exercise }) {
     if (reducedMotion) { selectPhase(progress < .5 ? 1 : 0); return; }
     if (playing) setActive(null);
     else {
-      if (progressRef.current >= 1) updateProgress(0);
+      if (!display && progressRef.current >= 1) updateProgress(0);
       setActive(id);
     }
   };
   const phase = progress === 0 ? '起始' : progress === 1 ? '结束' : '过渡';
   const toggleText = reducedMotion ? '切换姿势' : playing ? '暂停' : progress === 1 ? '重播' : progress > 0 ? '继续' : '播放';
   const easing = progress * progress * (3 - 2 * progress);
+  if (display) {
+    const label = reducedMotion ? '切换姿势' : playing ? '停止' : '开始';
+    return <div className="motion-player is-display" ref={container} data-motion-id={exercise.id} data-playing={playing} data-phase={phase}>
+      <button className="motion-stage" onClick={toggle} aria-pressed={playing} aria-label={`${label}${exercise.name}动作展示`}>
+        <ExerciseIllustration exercise={exercise} progress={easing} />
+        <span className="motion-display-caption" aria-hidden="true"><span>{scene.action}</span><span className="motion-display-hint"><i className="motion-signal" />{reducedMotion ? '轻点切换姿势' : playing ? '5s 循环' : '轻点演示'}</span></span>
+      </button>
+    </div>;
+  }
   return <div className="motion-player" ref={container} data-motion-id={exercise.id} data-playing={playing} data-phase={phase}>
     <button className="motion-stage" onClick={toggle} aria-label={`${toggleText}${exercise.name}动作演示`}>
       <ExerciseIllustration exercise={exercise} progress={easing} />

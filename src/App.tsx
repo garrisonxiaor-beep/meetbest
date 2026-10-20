@@ -146,7 +146,7 @@ function SupplementDetail({ item }: { item: Supplement }) {
 
 function ExerciseCard({ item, index, favorite, onFavorite, onOpen }: { item: Exercise; index: number; favorite: boolean; onFavorite: () => void; onOpen: () => void }) {
   return <article className={`exercise-card card-spotlight body-${bodyParts.indexOf(item.bodyPart)}`}>
-    <div className="exercise-art"><span className="art-eyebrow"><span>{String(index + 1).padStart(2, '0')} /</span>{item.equipment}</span><ExercisePlayer exercise={item} /><button className={`favorite-button ${favorite ? 'active' : ''}`} onClick={onFavorite} aria-label={`${favorite ? '取消收藏' : '收藏'}${item.name}`} aria-pressed={favorite}><Icon name="bookmark" size={18} /></button></div>
+    <div className="exercise-art"><span className="art-eyebrow"><span>{String(index + 1).padStart(2, '0')} /</span>{item.equipment}</span><ExercisePlayer exercise={item} display /><button className={`favorite-button ${favorite ? 'active' : ''}`} onClick={onFavorite} aria-label={`${favorite ? '取消收藏' : '收藏'}${item.name}`} aria-pressed={favorite}><Icon name="bookmark" size={18} /></button></div>
     <button className="exercise-info" onClick={onOpen}><div className="card-kicker"><span className="body-part-label">{item.bodyPart}</span><span className="difficulty"><i />{item.difficulty}</span></div><h3>{item.name}<Icon name="arrow" size={18} /></h3><p>{item.summary}</p><div className="card-meta"><span>{item.equipment}</span><span>{item.category}</span><span className="video-status">{item.video ? <><Icon name="play" size={12} />视频教程</> : '动作讲解'}</span></div></button>
   </article>;
 }
