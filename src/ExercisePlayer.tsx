@@ -1,18 +1,41 @@
-import { createContext, useContext, useEffect, useId, useMemo, useRef, useState, type ReactNode, type Dispatch, type SetStateAction } from 'react';
+import { createContext, useContext, useEffect, useId, useMemo, useRef, useState, type ReactNode, type RefObject, type Dispatch, type SetStateAction } from 'react';
 import type { Exercise } from './types';
 import { ExerciseIllustration, exerciseMotions } from './ExerciseIllustration';
+
+function readPlaybackAnchor() {
+  const viewport = window.visualViewport;
+  const top = Math.round((viewport?.offsetTop ?? 0) + (viewport?.height ?? window.innerHeight) / 2);
+  // rootMargin percentages resolve against width; use pixels for a two-pixel screen midline.
+  return { top, rootMargin: `-${Math.max(0, top - 1)}px 0px -${Math.max(0, window.innerHeight - top - 1)}px 0px` };
+}
 
 const PlaybackContext = createContext<{
   active: string | null;
   setActive: Dispatch<SetStateAction<string | null>>;
   reducedMotion: boolean;
   pageVisible: boolean;
-}>({ active: null, setActive: () => {}, reducedMotion: false, pageVisible: true });
+  anchor: ReturnType<typeof readPlaybackAnchor>;
+}>({ active: null, setActive: () => {}, reducedMotion: false, pageVisible: true, anchor: { top: 0, rootMargin: '0px' } });
 
 export function MotionPlaybackProvider({ children }: { children: ReactNode }) {
   const [active, setActive] = useState<string | null>(null);
   const [pageVisible, setPageVisible] = useState(() => !document.hidden);
   const [reducedMotion, setReducedMotion] = useState(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  const [anchor, setAnchor] = useState(readPlaybackAnchor);
+  useEffect(() => {
+    const updateAnchor = () => {
+      const next = readPlaybackAnchor();
+      setAnchor(previous => previous.top === next.top && previous.rootMargin === next.rootMargin ? previous : next);
+    };
+    window.addEventListener('resize', updateAnchor);
+    window.visualViewport?.addEventListener('resize', updateAnchor);
+    window.visualViewport?.addEventListener('scroll', updateAnchor);
+    return () => {
+      window.removeEventListener('resize', updateAnchor);
+      window.visualViewport?.removeEventListener('resize', updateAnchor);
+      window.visualViewport?.removeEventListener('scroll', updateAnchor);
+    };
+  }, []);
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const onPreference = () => { setReducedMotion(preference.matches); setActive(null); };
@@ -24,8 +47,22 @@ export function MotionPlaybackProvider({ children }: { children: ReactNode }) {
       document.removeEventListener('visibilitychange', onVisibility);
     };
   }, []);
-  const value = useMemo(() => ({ active, setActive, reducedMotion, pageVisible }), [active, reducedMotion, pageVisible]);
+  const value = useMemo(() => ({ active, setActive, reducedMotion, pageVisible, anchor }), [active, reducedMotion, pageVisible, anchor]);
   return <PlaybackContext.Provider value={value}>{children}</PlaybackContext.Provider>;
+}
+
+function useAtPlaybackAnchor(target: RefObject<HTMLDivElement | null>, enabled: boolean) {
+  const { anchor } = useContext(PlaybackContext);
+  const [atAnchor, setAtAnchor] = useState(false);
+  useEffect(() => {
+    if (!enabled || !target.current) { setAtAnchor(false); return; }
+    const observer = new IntersectionObserver(entries => {
+      setAtAnchor(entries[0]?.isIntersecting ?? false);
+    }, { rootMargin: anchor.rootMargin });
+    observer.observe(target.current);
+    return () => observer.disconnect();
+  }, [target, enabled, anchor.rootMargin]);
+  return enabled && atAnchor;
 }
 
 export function ExercisePlayer({ exercise, display = false, autoEnabled = true }: { exercise: Exercise; display?: boolean; autoEnabled?: boolean }) {
@@ -33,15 +70,15 @@ export function ExercisePlayer({ exercise, display = false, autoEnabled = true }
   const container = useRef<HTMLDivElement>(null);
   const { active, setActive, reducedMotion, pageVisible } = useContext(PlaybackContext);
   const [inView, setInView] = useState(false);
-  const [manuallyPaused, setManuallyPaused] = useState(false);
-  const wasInView = useRef(false);
-  const playing = inView && pageVisible && !reducedMotion && (display ? autoEnabled && !manuallyPaused : active === id);
+  const [loopLocked, setLoopLocked] = useState(false);
+  const atAnchor = useAtPlaybackAnchor(container, display && autoEnabled);
+  const playing = inView && pageVisible && !reducedMotion && (display ? autoEnabled && (atAnchor || loopLocked) : active === id);
   const [progress, setProgress] = useState(0);
   const progressRef = useRef(0);
   const elapsedRef = useRef(0);
   const scene = exerciseMotions[exercise.id];
   useEffect(() => {
-    // Detail controls remain manual; cards are independently gated by visibility.
+    // Detail controls remain manual; cards follow the anchor or a visible, locked loop.
     if (!display) setActive(null);
     return () => setActive(current => current === id ? null : current);
   }, [id, setActive, display]);
@@ -51,8 +88,6 @@ export function ExercisePlayer({ exercise, display = false, autoEnabled = true }
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       const visible = entries[0]?.isIntersecting ?? false;
-      if (visible && !wasInView.current) setManuallyPaused(false);
-      wasInView.current = visible;
       setInView(visible);
       if (!visible) setActive(current => current === id ? null : current);
     });
@@ -61,16 +96,28 @@ export function ExercisePlayer({ exercise, display = false, autoEnabled = true }
   }, [id, setActive]);
 
   useEffect(() => {
+    if (!inView || !autoEnabled || !pageVisible || reducedMotion) setLoopLocked(false);
+  }, [inView, autoEnabled, pageVisible, reducedMotion]);
+
+  useEffect(() => {
+    if (atAnchor && !loopLocked) {
+      elapsedRef.current = 0;
+      updateProgress(0);
+    }
+  }, [atAnchor, loopLocked]);
+
+  useEffect(() => {
     if (!playing || reducedMotion) return;
     const from = progressRef.current;
-    const elapsedBefore = elapsedRef.current;
     let frame = 0;
     const start = performance.now();
+    let previousFrame = start;
     const tick = (now: number) => {
       let next: number;
       if (display) {
         // One complete five-second cycle: hold, extend, hold, return, rest.
-        const elapsed = (elapsedBefore + now - start) % 5000;
+        const elapsed = (elapsedRef.current + now - previousFrame) % 5000;
+        previousFrame = now;
         elapsedRef.current = elapsed;
         next = elapsed < 350 ? 0
           : elapsed < 2050 ? (elapsed - 350) / 1700
@@ -95,7 +142,7 @@ export function ExercisePlayer({ exercise, display = false, autoEnabled = true }
   };
   const toggle = () => {
     if (reducedMotion) { selectPhase(progress < .5 ? 1 : 0); return; }
-    if (display) { setManuallyPaused(paused => !paused); return; }
+    if (display) { setLoopLocked(locked => !locked); return; }
     if (playing) setActive(null);
     else {
       if (!display && progressRef.current >= 1) updateProgress(0);
@@ -106,11 +153,11 @@ export function ExercisePlayer({ exercise, display = false, autoEnabled = true }
   const toggleText = reducedMotion ? '切换姿势' : playing ? '暂停' : progress === 1 ? '重播' : progress > 0 ? '继续' : '播放';
   const easing = progress * progress * (3 - 2 * progress);
   if (display) {
-    const label = reducedMotion ? '切换姿势' : manuallyPaused ? '恢复' : '暂停';
-    return <div className="motion-player is-display" ref={container} data-motion-id={exercise.id} data-playing={playing} data-phase={phase}>
-      <button className="motion-stage" onClick={toggle} aria-pressed={playing} aria-label={`${label}${exercise.name}动作展示`}>
+    const label = reducedMotion ? '切换姿势' : loopLocked ? '取消循环锁定' : '锁定循环播放';
+    return <div className="motion-player is-display" ref={container} data-motion-id={exercise.id} data-playing={playing} data-at-anchor={atAnchor} data-loop-locked={loopLocked} data-phase={phase}>
+      <button className="motion-stage" onClick={toggle} aria-pressed={reducedMotion ? undefined : loopLocked} aria-label={`${label}${exercise.name}动作展示`}>
         <ExerciseIllustration exercise={exercise} progress={easing} />
-        <span className="motion-display-caption" aria-hidden="true"><span>{scene.action}</span><span className="motion-display-hint"><i className="motion-signal" />{reducedMotion ? '轻点切换姿势' : manuallyPaused ? '已暂停 · 轻点继续' : '5s 自动演示'}</span></span>
+        <span className="motion-display-caption" aria-hidden="true">{scene.action}</span>
       </button>
     </div>;
   }
