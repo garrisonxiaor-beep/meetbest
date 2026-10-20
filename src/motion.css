@@ -107,3 +107,39 @@
 @media (prefers-reduced-motion: reduce) {
   .exercise-card:hover .art-open > .exercise-illustration { transform: none; }
 }
+
+/* Explicit, touch-friendly playback keeps the library calm until a user plays. */
+.exercise-art { aspect-ratio: auto; padding-top: 38px; }
+.motion-player { position: relative; width: 100%; }
+.motion-stage { position: relative; display: block; width: 100%; padding: 0 6px 16px; aspect-ratio: 320 / 228; background: transparent; color: inherit; border-radius: 12px; cursor: pointer; }
+.motion-stage .exercise-illustration { width: 100%; height: 100%; overflow: visible; }
+.motion-view { position: absolute; right: 20px; bottom: 1px; color: #617264; font-size: 10px; letter-spacing: .4px; }
+.motion-cue { display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 9px 18px 4px; color: #405d4c; font-size: 11px; line-height: 1.5; }
+.motion-cue > span { flex-shrink: 0; padding: 3px 6px; border: 1px solid #90a18b66; border-radius: 4px; color: #506c57; font-size: 10px; letter-spacing: 1px; }
+.motion-controls { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 16px 15px; }
+.motion-toggle { min-width: 88px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 0 12px; background: #254e3d; color: #edf2d9; border-radius: 8px; font-size: 12px; }
+.motion-toggle[aria-pressed="true"] { background: #d2e0ad; color: #254e3d; }
+.motion-phase-buttons { display: flex; padding: 2px; border: 1px solid #94a18d55; border-radius: 9px; background: #ffffff35; }
+.motion-phase-buttons button { min-width: 52px; min-height: 40px; padding: 0 10px; background: transparent; color: #667862; font-size: 11px; border-radius: 6px; }
+.motion-phase-buttons button[aria-pressed="true"] { background: #fffefae6; color: #274d39; box-shadow: 0 1px 4px #32412c0d; }
+.motion-progress { position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: #a9ba9733; }
+.motion-progress > span { display: block; width: 100%; height: 100%; background: #708c54; transform-origin: left; }
+.motion-stage:focus-visible, .motion-controls button:focus-visible { outline: 2px solid #416b46; outline-offset: -3px; }
+.detail-motion { width: 300px; flex-basis: 300px; padding: 6px 0 0; overflow: hidden; }
+.detail-motion .motion-stage { aspect-ratio: 320 / 228; }
+.detail-motion .exercise-illustration { height: 100%; }
+@media (hover: hover) and (pointer: fine) {
+  .motion-toggle:hover { filter: brightness(1.09); }
+  .motion-phase-buttons button:hover { color: #254e3d; background: #fffefa99; }
+}
+@media (max-width: 700px) {
+  .detail-motion { width: 100%; flex-basis: 100%; }
+  .detail-motion .motion-stage { max-height: 250px; }
+}
+@media (max-width: 600px) {
+  .exercise-art { aspect-ratio: auto; padding-top: 40px; }
+  .motion-cue { font-size: 12px; padding-left: 21px; padding-right: 21px; }
+  .motion-controls { padding: 8px 20px 17px; }
+  .motion-phase-buttons button { min-width: 56px; min-height: 44px; font-size: 12px; }
+  .motion-toggle { min-height: 48px; font-size: 13px; }
+}

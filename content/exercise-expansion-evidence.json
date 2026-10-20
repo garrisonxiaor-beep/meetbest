@@ -1,0 +1,406 @@
+{
+  "reviewedAt": "2026-10-20",
+  "referenceSite": "https://fitness.j1exanderspace.cn/fitness/?v=mobile-1",
+  "count": 12,
+  "platformCounts": {
+    "抖音": 5,
+    "哔哩哔哩": 7
+  },
+  "items": [
+    {
+      "id": "pec-deck-chest-fly",
+      "name": "蝴蝶机夹胸",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=pec-deck-chest-fly",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/pec-deck-chest-fly",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1PcNQ6AE3f",
+        "url": "https://www.bilibili.com/video/BV1PcNQ6AE3f/",
+        "start": 53.47,
+        "end": 112.03,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "健身房器械讲解系列之坐姿夹胸，反飞鸟一体机教学讲解，希望对大家有所帮助！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.bilibili.com/video/BV1PcNQ6AE3f/?t=53",
+        "platform": "哔哩哔哩",
+        "title": "健身房器械讲解系列之坐姿夹胸，反飞鸟一体机教学讲解，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "00:53–01:52",
+        "appUrl": "bilibili://video/116916324801044?page=0&start_progress=53000"
+      },
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1PcNQ6AE3f",
+      "verification": "B站公开接口 code=0，标题、作者、BV/AV编号一致，片段末尾不超视频时长；动作与时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "parallel-bar-dip-home",
+      "name": "双杠臂屈伸",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=parallel-bar-dip-home",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/parallel-bar-dip-home",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1ZxEk6cEv1",
+        "url": "https://www.bilibili.com/video/BV1ZxEk6cEv1/",
+        "start": 425,
+        "end": 770.72,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "第三期私教系列之胸部教学来喽，希望对大家有所帮助！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.douyin.com/video/7625479021379194118",
+        "platform": "抖音",
+        "title": "凯圣王-谭成义三分化②——跟练胸肩三头",
+        "author": "凯圣王",
+        "startLabel": "合集内：双杠臂屈伸（含退阶）",
+        "appUrl": "snssdk1128://aweme/detail/7625479021379194118?refer=web"
+      },
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7625479021379194118",
+      "verification": "抖音精选公开页显示作者凯圣王，视频正文明确列出双杠臂屈伸（含退阶）。未核验该抖音版时间点，因此仅标合集内动作名；原参考站的B站分段教程也保留。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "chest-supported-t-bar-row",
+      "name": "胸托T杆划船",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=chest-supported-t-bar-row",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/chest-supported-t-bar-row",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1hnrWBHEu7",
+        "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/",
+        "start": 910,
+        "end": 1067.89,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "三分化之拉日来啦，希望对大家有所帮助，谢谢大家的喜欢和支持！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/?t=910",
+        "platform": "哔哩哔哩",
+        "title": "三分化之拉日来啦，希望对大家有所帮助，谢谢大家的喜欢和支持！！",
+        "author": "谭成义",
+        "startLabel": "15:10–17:47",
+        "appUrl": "bilibili://video/115892411241568?page=0&start_progress=910000"
+      },
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1hnrWBHEu7",
+      "verification": "B站公开接口 code=0，标题、作者、BV/AV编号一致，片段末尾不超视频时长；动作与时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "standing-overhead-press",
+      "name": "站姿杠铃推举",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=standing-overhead-press",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/standing-overhead-press",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "7613586950141907450",
+        "url": "https://www.douyin.com/video/7613586950141907450",
+        "start": 612,
+        "end": 735,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "最后一期来喽，肩加手臂的训练，希望对大家有所帮助！！下一期居家训练的具体计划#健身教学 #肩部训练",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.douyin.com/video/7613586950141907450",
+        "platform": "抖音",
+        "title": "最后一期来喽，肩加手臂的训练，希望对大家有所帮助！！下一期居家训练的具体计划#健身教学 #肩部训练",
+        "author": "谭成义",
+        "startLabel": "10:12–12:15（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7613586950141907450?refer=web"
+      },
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7613586950141907450",
+      "verification": "抖音精选公开页可核验相同视频ID、作者谭成义与标题；动作和时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "dumbbell-reverse-fly",
+      "name": "俯身哑铃反飞鸟",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=dumbbell-reverse-fly",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/dumbbell-reverse-fly",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1E8un61EVg",
+        "url": "https://www.bilibili.com/video/BV1E8un61EVg/",
+        "start": 627.53,
+        "end": 1044.34,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "哑铃划船，哑铃反飞鸟动作教学，希望对大家有所帮助！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.douyin.com/video/7319448373956709684",
+        "platform": "抖音",
+        "title": "哑铃俯身反向飞鸟 #健身干货 #塑形 #居家锻炼 #练肩 #健身教学",
+        "author": "乐涛健身",
+        "appUrl": "snssdk1128://aweme/detail/7319448373956709684?refer=web"
+      },
+      "verificationUrl": "https://www.douyin.com/video/7319448373956709684",
+      "verification": "抖音公开视频页的作者、标题直接对应俯身哑铃反飞鸟，评论区作者答复补充大臂运动与躯干稳定。原参考站的同名动作和B站教程保留在来源中。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "single-leg-dumbbell-romanian-deadlift",
+      "name": "单腿哑铃硬拉",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=single-leg-dumbbell-romanian-deadlift",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/single-leg-dumbbell-romanian-deadlift",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "7612270623104450533",
+        "url": "https://www.douyin.com/video/7612270623104450533",
+        "start": 397,
+        "end": 518,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "下肢训练来啦，希望对大家有所帮助！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.douyin.com/video/7612270623104450533",
+        "platform": "抖音",
+        "title": "下肢训练来啦，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "06:37–08:38（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7612270623104450533?refer=web"
+      },
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7612270623104450533",
+      "verification": "抖音精选公开页可核验相同视频ID、作者谭成义与标题；动作和时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "reclined-hip-adduction",
+      "name": "坐姿器械夹腿",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=reclined-hip-adduction",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/reclined-hip-adduction",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "7612270623104450533",
+        "url": "https://www.douyin.com/video/7612270623104450533",
+        "start": 156,
+        "end": 308,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "下肢训练来啦，希望对大家有所帮助！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.douyin.com/video/7612270623104450533",
+        "platform": "抖音",
+        "title": "下肢训练来啦，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "02:36–05:08（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7612270623104450533?refer=web"
+      },
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7612270623104450533",
+      "verification": "抖音精选公开页可核验相同视频ID、作者谭成义与标题；动作和时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "standing-cable-hip-extension",
+      "name": "站姿绳索后踢腿",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=standing-cable-hip-extension",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/standing-cable-hip-extension",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1pZiZBxE8y",
+        "url": "https://www.bilibili.com/video/BV1pZiZBxE8y/",
+        "start": 820.28,
+        "end": 977.96,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "下肢臀部跟练以及功能性训练！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.bilibili.com/video/BV1pZiZBxE8y/?t=820",
+        "platform": "哔哩哔哩",
+        "title": "下肢臀部跟练以及功能性训练！！",
+        "author": "谭成义",
+        "startLabel": "13:40–16:17",
+        "appUrl": "bilibili://video/115845871178150?page=0&start_progress=820000"
+      },
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1pZiZBxE8y",
+      "verification": "B站公开接口 code=0，标题、作者、BV/AV编号一致，片段末尾不超视频时长；动作与时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "incline-dumbbell-curl",
+      "name": "上斜哑铃弯举",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=incline-dumbbell-curl",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/incline-dumbbell-curl",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1GzEg6wEVb",
+        "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/",
+        "start": 1289.73,
+        "end": 1637.86,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "第二期私教系列之手臂教学，希望对大家有所帮助！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/?t=1289",
+        "platform": "哔哩哔哩",
+        "title": "第二期私教系列之手臂教学，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "21:29–27:17",
+        "appUrl": "bilibili://video/116713622345077?page=0&start_progress=1289000"
+      },
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1GzEg6wEVb",
+      "verification": "B站公开接口 code=0，标题、作者、BV/AV编号一致，片段末尾不超视频时长；动作与时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "lying-barbell-triceps-extension",
+      "name": "仰卧杠铃臂屈伸",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=lying-barbell-triceps-extension",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/lying-barbell-triceps-extension",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1GzEg6wEVb",
+        "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/",
+        "start": 559,
+        "end": 731.57,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "第二期私教系列之手臂教学，希望对大家有所帮助！！",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/?t=559",
+        "platform": "哔哩哔哩",
+        "title": "第二期私教系列之手臂教学，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "09:19–12:11",
+        "appUrl": "bilibili://video/116713622345077?page=0&start_progress=559000"
+      },
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1GzEg6wEVb",
+      "verification": "B站公开接口 code=0，标题、作者、BV/AV编号一致，片段末尾不超视频时长；动作与时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "kneeling-cable-crunch",
+      "name": "跪姿绳索卷腹",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=kneeling-cable-crunch",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/kneeling-cable-crunch",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1W1BFBKEdR",
+        "url": "https://www.bilibili.com/video/BV1W1BFBKEdR/",
+        "start": 422.07,
+        "end": 592.59,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "希望大家能安全高效的进步，走的远而不是走的太快",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.bilibili.com/video/BV1W1BFBKEdR/?t=422",
+        "platform": "哔哩哔哩",
+        "title": "希望大家能安全高效的进步，走的远而不是走的太快",
+        "author": "谭成义",
+        "startLabel": "07:02–09:52",
+        "appUrl": "bilibili://video/115746231294150?page=0&start_progress=422000"
+      },
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1W1BFBKEdR",
+      "verification": "B站公开接口 code=0，标题、作者、BV/AV编号一致，片段末尾不超视频时长；动作与时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    },
+    {
+      "id": "side-plank-rotation-warmup",
+      "name": "屈膝侧支撑转体",
+      "referenceUrl": "https://fitness.j1exanderspace.cn/fitness/#action=side-plank-rotation-warmup",
+      "referenceApi": "https://fitness.j1exanderspace.cn/fitness/api/actions/side-plank-rotation-warmup",
+      "referenceChecked": "2026-10-20",
+      "referencePrimary": {
+        "video_id": "BV1q4UwBpE2i",
+        "url": "https://www.bilibili.com/video/BV1q4UwBpE2i/",
+        "start": 174.21,
+        "end": 226.13,
+        "label": "基础讲解"
+      },
+      "referenceMetadata": {
+        "title": "胸部长视频跟练视频系列来喽，大家有需要的补剂可以去抖橱窗哈，谢谢大家支持",
+        "account": "谭成义"
+      },
+      "selectedVideo": {
+        "url": "https://www.bilibili.com/video/BV1q4UwBpE2i/?t=174",
+        "platform": "哔哩哔哩",
+        "title": "胸部长视频跟练视频系列来喽，大家有需要的补剂可以去抖橱窗哈，谢谢大家支持",
+        "author": "谭成义",
+        "startLabel": "02:54–03:46",
+        "appUrl": "bilibili://video/115596360421678?page=0&start_progress=174000"
+      },
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1q4UwBpE2i",
+      "verification": "B站公开接口 code=0，标题、作者、BV/AV编号一致，片段末尾不超视频时长；动作与时间段由当前参考站对应动作详情交叉核对。",
+      "limitations": [
+        "本轮核验公开目录、原片元数据与动作章节线索；未逐帧观看全部视频。",
+        "抖音唤端与播放仍受手机安装、浏览器和平台登录策略影响；未在真实手机上验证 App 唤起。"
+      ],
+      "editorial": "动作名称与编目参考公开目录；本站 summary/steps/tips/prescription 为独立简写，不复制原站长文、图片或视频。"
+    }
+  ]
+}

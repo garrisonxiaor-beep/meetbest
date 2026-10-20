@@ -1,6 +1,7 @@
 import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import type { Content, Exercise, Source, Supplement } from './types';
-import { ExerciseIllustration, exerciseMotions } from './ExerciseIllustration';
+import { ExerciseIllustration } from './ExerciseIllustration';
+import { ExercisePlayer } from './ExercisePlayer';
 
 type Page = 'exercises' | 'plans' | 'nutrition' | 'supplements';
 type IconName = 'arrow' | 'search' | 'bookmark' | 'close' | 'play' | 'check' | 'copy' | 'external' | 'exercise' | 'plan' | 'nutrition' | 'supplement' | 'filter' | 'chevron' | 'info' | 'refresh';
@@ -115,7 +116,7 @@ function ExerciseDetail({ exercise, favorite, onFavorite }: { exercise: Exercise
   };
   return <>
     <div className={`detail-top body-${bodyParts.indexOf(exercise.bodyPart)}`}>
-      <div><p className="eyebrow">{bodyEnglish[exercise.bodyPart]} / 动作讲解</p><h2>{exercise.name}</h2><p className="detail-description">{exercise.summary}</p><div className="tag-row"><span>{exercise.equipment}</span><span>{exercise.difficulty}</span><span>{exercise.category}</span></div></div><figure className="detail-motion"><ExerciseIllustration exercise={exercise} /><figcaption>{exerciseMotions[exercise.id]?.action} · 动作示意</figcaption></figure>
+      <div><p className="eyebrow">{bodyEnglish[exercise.bodyPart]} / 动作讲解</p><h2>{exercise.name}</h2><p className="detail-description">{exercise.summary}</p><div className="tag-row"><span>{exercise.equipment}</span><span>{exercise.difficulty}</span><span>{exercise.category}</span></div></div><figure className="detail-motion"><ExercisePlayer key={exercise.id} exercise={exercise} /></figure>
     </div>
     <div className="detail-content">
       <div className="detail-facts"><div><span>主要训练部位</span><strong>{exercise.muscles.join(' · ')}</strong></div><button className={`text-button ${favorite ? 'is-favorite' : ''}`} onClick={onFavorite}><Icon name={favorite ? 'check' : 'bookmark'} size={17} />{favorite ? '已收藏动作' : '收藏动作'}</button></div>
@@ -145,7 +146,7 @@ function SupplementDetail({ item }: { item: Supplement }) {
 
 function ExerciseCard({ item, index, favorite, onFavorite, onOpen }: { item: Exercise; index: number; favorite: boolean; onFavorite: () => void; onOpen: () => void }) {
   return <article className={`exercise-card card-spotlight body-${bodyParts.indexOf(item.bodyPart)}`}>
-    <div className="exercise-art"><button className="art-open" onClick={onOpen} aria-label={`查看${item.name}动作讲解`}><span className="art-eyebrow"><span>{String(index + 1).padStart(2, '0')} /</span>{item.equipment}</span><ExerciseIllustration exercise={item} /><span className="art-caption"><Icon name="arrow" size={13} />{exerciseMotions[item.id]?.action ?? item.category}</span><span className="art-view">{exerciseMotions[item.id]?.view}示意</span></button><button className={`favorite-button ${favorite ? 'active' : ''}`} onClick={onFavorite} aria-label={`${favorite ? '取消收藏' : '收藏'}${item.name}`} aria-pressed={favorite}><Icon name="bookmark" size={18} /></button></div>
+    <div className="exercise-art"><span className="art-eyebrow"><span>{String(index + 1).padStart(2, '0')} /</span>{item.equipment}</span><ExercisePlayer exercise={item} /><button className={`favorite-button ${favorite ? 'active' : ''}`} onClick={onFavorite} aria-label={`${favorite ? '取消收藏' : '收藏'}${item.name}`} aria-pressed={favorite}><Icon name="bookmark" size={18} /></button></div>
     <button className="exercise-info" onClick={onOpen}><div className="card-kicker"><span className="body-part-label">{item.bodyPart}</span><span className="difficulty"><i />{item.difficulty}</span></div><h3>{item.name}<Icon name="arrow" size={18} /></h3><p>{item.summary}</p><div className="card-meta"><span>{item.equipment}</span><span>{item.category}</span><span className="video-status">{item.video ? <><Icon name="play" size={12} />视频教程</> : '动作讲解'}</span></div></button>
   </article>;
 }

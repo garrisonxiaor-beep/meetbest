@@ -1398,6 +1398,510 @@
           "url": "https://fitness.j1exanderspace.cn/fitness/#action=wall-back-active-stretch"
         }
       ]
+    },
+    {
+      "id": "pec-deck-chest-fly",
+      "name": "蝴蝶机夹胸",
+      "bodyPart": "胸部",
+      "equipment": "固定器械",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "三角肌前束"
+      ],
+      "summary": "用固定轨迹练习双臂向胸前合拢，适合学习控制回程。",
+      "steps": [
+        "调好座椅，让把手大致位于胸部高度，双脚踩稳、背部贴住靠垫。",
+        "手肘保留轻微弯曲，以两侧上臂向中间靠拢带动把手。",
+        "慢慢展开回到肩部舒适的位置，身体保持贴垫。"
+      ],
+      "tips": [
+        "先用轻重量试出适合自己的起始幅度。",
+        "不靠身体前扑夹拢，也不把肩膀硬拉到身后。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1PcNQ6AE3f/?t=53",
+        "platform": "哔哩哔哩",
+        "title": "健身房器械讲解系列之坐姿夹胸，反飞鸟一体机教学讲解，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "00:53–01:52",
+        "appUrl": "bilibili://video/116916324801044?page=0&start_progress=53000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 蝴蝶机夹胸教程",
+          "url": "https://www.bilibili.com/video/BV1PcNQ6AE3f/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=pec-deck-chest-fly"
+        }
+      ]
+    },
+    {
+      "id": "parallel-bar-dip-home",
+      "name": "双杠臂屈伸",
+      "bodyPart": "胸部",
+      "equipment": "双杠",
+      "difficulty": "进阶",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌",
+        "三角肌前束"
+      ],
+      "summary": "通过双臂支撑身体完成下沉与撑起，可先使用辅助器械。",
+      "steps": [
+        "握稳双杠并撑起身体，保持躯干稳定，双脚离开地面。",
+        "缓慢弯肘下沉，身体可轻微前倾，下降幅度以肩部舒适和可控为准。",
+        "推压双杠，把身体撑回稳定的起始位置。"
+      ],
+      "tips": [
+        "先能稳定支撑，再练小幅度屈伸；做不了时使用辅助双杠器械。",
+        "避免下坠、摆腿借力或为了更低而把肩部顶到极限。"
+      ],
+      "prescription": "起步参考：辅助版2组×6–10次，保留约2–3次余力；能控制全程后再减少辅助。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7625479021379194118",
+        "platform": "抖音",
+        "title": "凯圣王-谭成义三分化②——跟练胸肩三头",
+        "author": "凯圣王",
+        "startLabel": "合集内：双杠臂屈伸（含退阶）",
+        "appUrl": "snssdk1128://aweme/detail/7625479021379194118?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 凯圣王 · 双杠臂屈伸教程",
+          "url": "https://www.douyin.com/video/7625479021379194118"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=parallel-bar-dip-home"
+        },
+        {
+          "title": "参考站所列原作者教程：谭成义",
+          "url": "https://www.bilibili.com/video/BV1ZxEk6cEv1/?t=425"
+        }
+      ]
+    },
+    {
+      "id": "chest-supported-t-bar-row",
+      "name": "胸托T杆划船",
+      "bodyPart": "背部",
+      "equipment": "固定器械",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "菱形肌",
+        "斜方肌中部",
+        "三角肌后束",
+        "背阔肌"
+      ],
+      "summary": "胸托提供稳定支撑，以开肘划船练习中背收缩。",
+      "steps": [
+        "调好胸托与脚踏位置，让躯干稳稳贴垫，双手握住把手。",
+        "肘向两侧打开并向后拉，让把手靠近胸前，保持身体与垫面接触。",
+        "控制把手前送，让肩胛自然展开，再进行下一次。"
+      ],
+      "tips": [
+        "不抬胸离垫或用腰部后仰拉起重量。",
+        "选择能完成受控回程的重量，肩胛随动作自然移动。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/?t=910",
+        "platform": "哔哩哔哩",
+        "title": "三分化之拉日来啦，希望对大家有所帮助，谢谢大家的喜欢和支持！！",
+        "author": "谭成义",
+        "startLabel": "15:10–17:47",
+        "appUrl": "bilibili://video/115892411241568?page=0&start_progress=910000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 胸托T杆划船教程",
+          "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=chest-supported-t-bar-row"
+        }
+      ]
+    },
+    {
+      "id": "standing-overhead-press",
+      "name": "站姿杠铃推举",
+      "bodyPart": "肩部",
+      "equipment": "杠铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "三角肌前束",
+        "三角肌中束",
+        "肱三头肌"
+      ],
+      "summary": "站姿把杠铃推向头顶，同时练习躯干稳定。",
+      "steps": [
+        "双脚站稳，全握杠铃，调整握距使前臂接近竖直。",
+        "收紧躯干，将杠铃沿靠近面部的轨迹推向头顶，注意让开下巴。",
+        "受控下放至面部前方的舒适高度，再重复推举。"
+      ],
+      "tips": [
+        "先用训练杆或轻重量练习，不用后仰腰部补出行程。",
+        "下降高度按肩部活动能力调整，不强求触及锁骨；练习前确认头顶空间。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7613586950141907450",
+        "platform": "抖音",
+        "title": "最后一期来喽，肩加手臂的训练，希望对大家有所帮助！！下一期居家训练的具体计划#健身教学 #肩部训练",
+        "author": "谭成义",
+        "startLabel": "10:12–12:15（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7613586950141907450?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 谭成义 · 站姿杠铃推举教程",
+          "url": "https://www.douyin.com/video/7613586950141907450"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=standing-overhead-press"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-reverse-fly",
+      "name": "俯身哑铃反飞鸟",
+      "bodyPart": "肩部",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "三角肌后束",
+        "斜方肌中部",
+        "菱形肌"
+      ],
+      "summary": "俯身后将双臂向两侧打开，突出后肩的控制。",
+      "steps": [
+        "双脚站稳，轻屈膝并从髋部前倾，双手持轻哑铃垂在肩下。",
+        "手肘微弯并保持角度，将上臂向两侧展开到可控高度。",
+        "缓慢把哑铃放回，躯干角度保持稳定。"
+      ],
+      "tips": [
+        "使用比划船更轻的重量，不靠身体弹起甩动。",
+        "若难以维持俯身，可改用胸托支撑；肩部不适时缩小幅度。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7319448373956709684",
+        "platform": "抖音",
+        "title": "哑铃俯身反向飞鸟 #健身干货 #塑形 #居家锻炼 #练肩 #健身教学",
+        "author": "乐涛健身",
+        "appUrl": "snssdk1128://aweme/detail/7319448373956709684?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 乐涛健身 · 俯身哑铃反飞鸟教程",
+          "url": "https://www.douyin.com/video/7319448373956709684"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=dumbbell-reverse-fly"
+        },
+        {
+          "title": "参考站所列原作者教程：谭成义",
+          "url": "https://www.bilibili.com/video/BV1E8un61EVg/?t=627"
+        }
+      ]
+    },
+    {
+      "id": "single-leg-dumbbell-romanian-deadlift",
+      "name": "单腿哑铃硬拉",
+      "bodyPart": "腿臀",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "腘绳肌群",
+        "臀大肌",
+        "臀中肌"
+      ],
+      "summary": "单腿支撑完成屈髋，练习后侧力量与平衡。",
+      "steps": [
+        "单腿站稳，支撑膝微屈，哑铃靠近身体；平衡不足时用另一手扶固定物。",
+        "髋部向后移动，躯干前倾，非支撑腿随身体向后抬起。",
+        "在骨盆保持平稳的范围内下放，再用支撑腿把身体带回站立。"
+      ],
+      "tips": [
+        "两侧髋部尽量朝向地面，避免为了抬腿而扭转骨盆。",
+        "哑铃不必碰地；先徒手练稳，再增加重量。"
+      ],
+      "prescription": "起步参考：每侧2组×6–10次，保留约2–3次余力；平衡优先于重量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7612270623104450533",
+        "platform": "抖音",
+        "title": "下肢训练来啦，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "06:37–08:38（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7612270623104450533?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 谭成义 · 单腿哑铃硬拉教程",
+          "url": "https://www.douyin.com/video/7612270623104450533"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=single-leg-dumbbell-romanian-deadlift"
+        }
+      ]
+    },
+    {
+      "id": "reclined-hip-adduction",
+      "name": "坐姿器械夹腿",
+      "bodyPart": "腿臀",
+      "equipment": "固定器械",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "髋内收肌群"
+      ],
+      "summary": "在坐姿支撑下控制双腿合拢，训练大腿内侧。",
+      "steps": [
+        "坐稳髋内收器械，背部贴靠，双腿放在相应靠垫位置。",
+        "从舒适的分腿幅度开始，保持骨盆稳定，慢慢向内合拢。",
+        "有控制地让双腿重新分开，不让配重快速砸落。"
+      ],
+      "tips": [
+        "靠背角度与起始宽度按器械和自身情况调整，不追求最大开腿。",
+        "避免用躯干前后晃动夹腿；腹股沟不适时停止该动作。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7612270623104450533",
+        "platform": "抖音",
+        "title": "下肢训练来啦，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "02:36–05:08（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7612270623104450533?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 谭成义 · 坐姿器械夹腿教程",
+          "url": "https://www.douyin.com/video/7612270623104450533"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=reclined-hip-adduction"
+        }
+      ]
+    },
+    {
+      "id": "standing-cable-hip-extension",
+      "name": "站姿绳索后踢腿",
+      "bodyPart": "腿臀",
+      "equipment": "绳索",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "臀大肌",
+        "腘绳肌群"
+      ],
+      "summary": "扶稳支撑后让工作腿向后移动，以髋伸带动动作。",
+      "steps": [
+        "将脚踝绑带连到低位绳索，面向器械并扶稳支撑，躯干轻微前倾。",
+        "支撑腿站稳，工作腿膝微屈，向正后方缓慢抬起。",
+        "在骨盆不转动、腰部不后仰的范围内停下，再控制回到起点。"
+      ],
+      "tips": [
+        "用较轻重量开始，不通过甩腿或挺腰踢得更高。",
+        "确认绑带和连接扣扣牢，回程时避免配重撞击。"
+      ],
+      "prescription": "起步参考：每侧2组×10–15次，保留约2–3次余力。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1pZiZBxE8y/?t=820",
+        "platform": "哔哩哔哩",
+        "title": "下肢臀部跟练以及功能性训练！！",
+        "author": "谭成义",
+        "startLabel": "13:40–16:17",
+        "appUrl": "bilibili://video/115845871178150?page=0&start_progress=820000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 站姿绳索后踢腿教程",
+          "url": "https://www.bilibili.com/video/BV1pZiZBxE8y/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=standing-cable-hip-extension"
+        }
+      ]
+    },
+    {
+      "id": "incline-dumbbell-curl",
+      "name": "上斜哑铃弯举",
+      "bodyPart": "手臂",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "肱二头肌",
+        "肱肌"
+      ],
+      "summary": "背靠斜凳，让上臂稳定地留在身体两侧完成弯举。",
+      "steps": [
+        "将斜凳调至约45°或肩部舒适角度，背部贴垫、双脚踩稳，手臂自然垂下。",
+        "掌心逐渐朝上，保持上臂位置，弯肘举起哑铃。",
+        "缓慢伸肘下放到能控制的位置，避免肩部被重量向后拉扯。"
+      ],
+      "tips": [
+        "不把手肘前摆变成推举，也不耸肩借力。",
+        "肩前侧不适时提高靠背或缩小下放幅度，不追求过度拉长。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/?t=1289",
+        "platform": "哔哩哔哩",
+        "title": "第二期私教系列之手臂教学，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "21:29–27:17",
+        "appUrl": "bilibili://video/116713622345077?page=0&start_progress=1289000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 上斜哑铃弯举教程",
+          "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=incline-dumbbell-curl"
+        }
+      ]
+    },
+    {
+      "id": "lying-barbell-triceps-extension",
+      "name": "仰卧杠铃臂屈伸",
+      "bodyPart": "手臂",
+      "equipment": "杠铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "肱三头肌"
+      ],
+      "summary": "躺在凳上以弯肘、伸肘移动杠铃，练习上臂后侧。",
+      "steps": [
+        "平躺或使用小角度上斜凳，双脚踩稳，全握轻杠铃并举至胸部上方。",
+        "保持上臂相对稳定，缓慢弯肘，让杠铃靠近额头上方并留出距离。",
+        "在肩肘舒适范围内伸肘抬回，手腕保持稳定。"
+      ],
+      "tips": [
+        "先用空杆或轻重量，不让杠铃碰到额头。",
+        "靠近力竭前结束，必要时安排保护者；肘部疼痛时停止。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/?t=559",
+        "platform": "哔哩哔哩",
+        "title": "第二期私教系列之手臂教学，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "09:19–12:11",
+        "appUrl": "bilibili://video/116713622345077?page=0&start_progress=559000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 仰卧杠铃臂屈伸教程",
+          "url": "https://www.bilibili.com/video/BV1GzEg6wEVb/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=lying-barbell-triceps-extension"
+        }
+      ]
+    },
+    {
+      "id": "kneeling-cable-crunch",
+      "name": "跪姿绳索卷腹",
+      "bodyPart": "腹部",
+      "equipment": "绳索",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "腹直肌",
+        "腹斜肌"
+      ],
+      "summary": "跪姿握住高位绳索，以躯干卷曲带动腹部收缩。",
+      "steps": [
+        "在高位滑轮前跪稳，握住绳端并放于头部两侧，先保持躯干稳定。",
+        "呼气时缓慢卷起上半身，使肋骨向骨盆靠近、手肘向大腿方向移动。",
+        "控制躯干重新展开到起始位置，髋部尽量保持原位。"
+      ],
+      "tips": [
+        "不要只把臀部坐向脚跟，或单靠手臂向下拉绳。",
+        "从轻重量开始，避免快速甩动或用绳索压迫颈部。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；先稳定动作，再逐步加量。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1W1BFBKEdR/?t=422",
+        "platform": "哔哩哔哩",
+        "title": "希望大家能安全高效的进步，走的远而不是走的太快",
+        "author": "谭成义",
+        "startLabel": "07:02–09:52",
+        "appUrl": "bilibili://video/115746231294150?page=0&start_progress=422000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 跪姿绳索卷腹教程",
+          "url": "https://www.bilibili.com/video/BV1W1BFBKEdR/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=kneeling-cable-crunch"
+        }
+      ]
+    },
+    {
+      "id": "side-plank-rotation-warmup",
+      "name": "屈膝侧支撑转体",
+      "bodyPart": "全身",
+      "equipment": "自重",
+      "difficulty": "基础",
+      "category": "热身",
+      "muscles": [
+        "腹斜肌",
+        "臀肌群",
+        "肩部稳定肌群"
+      ],
+      "summary": "由屈膝手撑坐姿抬臀开胸，练习支撑与躯干转动。",
+      "steps": [
+        "屈膝坐在垫上，一手放在身体后侧稳稳撑地，双脚踩稳。",
+        "推地抬起臀部，另一手向上伸展，胸廓随之缓慢转开。",
+        "在舒适幅度内停留后，控制臀部落回起始位置，再换另一侧。"
+      ],
+      "tips": [
+        "保持支撑肩稳定，手腕或肩部不适时减小幅度或跳过。",
+        "动作慢而连续，不靠猛甩手臂完成转动。"
+      ],
+      "prescription": "热身参考：每侧1–2组×4–6次，保持轻松呼吸，以舒适活动为准。本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1q4UwBpE2i/?t=174",
+        "platform": "哔哩哔哩",
+        "title": "胸部长视频跟练视频系列来喽，大家有需要的补剂可以去抖橱窗哈，谢谢大家支持",
+        "author": "谭成义",
+        "startLabel": "02:54–03:46",
+        "appUrl": "bilibili://video/115596360421678?page=0&start_progress=174000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 屈膝侧支撑转体教程",
+          "url": "https://www.bilibili.com/video/BV1q4UwBpE2i/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=side-plank-rotation-warmup"
+        }
+      ]
     }
   ],
   "supplements": [

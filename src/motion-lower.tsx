@@ -1,4 +1,16 @@
-import type { MotionScene } from './motion-types';
+import type { MotionScene, Point } from './motion-types';
+
+const jointArc = (start: Point, end: Point, pivot: Point, progress: number): Point => {
+  if (progress === 0) return start;
+  if (progress === 1) return end;
+  const startAngle = Math.atan2(start[1] - pivot[1], start[0] - pivot[0]);
+  const endAngle = Math.atan2(end[1] - pivot[1], end[0] - pivot[0]);
+  const delta = Math.atan2(Math.sin(endAngle - startAngle), Math.cos(endAngle - startAngle));
+  const radius = Math.hypot(start[0] - pivot[0], start[1] - pivot[1]) * (1 - progress)
+    + Math.hypot(end[0] - pivot[0], end[1] - pivot[1]) * progress;
+  const angle = startAngle + delta * progress;
+  return [pivot[0] + Math.cos(angle) * radius, pivot[1] + Math.sin(angle) * radius];
+};
 
 const dumbbell = (x: number, y: number, vertical = false) => (
   <g transform={`translate(${x} ${y})${vertical ? ' rotate(90)' : ''}`}>
@@ -10,12 +22,21 @@ const dumbbell = (x: number, y: number, vertical = false) => (
 
 export const lowerMotions: Record<string, MotionScene> = {
   'seated-dumbbell-shoulder-press': {
+    startLabel: '哑铃位于肩侧',
+    endLabel: '向上推至头顶',
+    startPose: {
+      head: [160, 63], neck: [160, 85], hip: [160, 140],
+      leftElbow: [119, 106], leftHand: [114, 73],
+      rightElbow: [201, 106], rightHand: [206, 73],
+      leftKnee: [138, 163], leftFoot: [126, 189],
+      rightKnee: [183, 163], rightFoot: [190, 189], torsoWidth: 25,
+    },
     view: '正面',
     action: '向上推举',
     pose: {
       head: [160, 63], neck: [160, 85], hip: [160, 140],
-      leftElbow: [121, 89], leftHand: [116, 52],
-      rightElbow: [199, 89], rightHand: [204, 52],
+      leftElbow: [132, 57], leftHand: [129, 24],
+      rightElbow: [188, 57], rightHand: [191, 24],
       leftKnee: [138, 163], leftFoot: [126, 189],
       rightKnee: [183, 163], rightFoot: [190, 189],
       torsoWidth: 25,
@@ -27,10 +48,19 @@ export const lowerMotions: Record<string, MotionScene> = {
         <rect className="equipment-pad" x="130" y="143" width="60" height="10" rx="4" />
       </g>
     ),
-    foreground: <g>{dumbbell(116, 52)}{dumbbell(204, 52)}</g>,
+    foreground: (p) => <g>{dumbbell(...p.leftHand)}{dumbbell(...p.rightHand)}</g>,
     arrows: ['M82 91V48', 'M238 91V48'],
   },
   'reverse-pec-deck': {
+    startLabel: '双臂向前握柄',
+    endLabel: '肘部向两侧打开',
+    startPose: {
+      head: [160, 65], neck: [160, 88], hip: [160, 146],
+      leftElbow: [139, 103], leftHand: [147, 82],
+      rightElbow: [181, 103], rightHand: [173, 82],
+      leftKnee: [138, 164], leftFoot: [129, 190],
+      rightKnee: [182, 164], rightFoot: [188, 190], torsoWidth: 25,
+    },
     view: '正面',
     action: '向两侧打开',
     pose: {
@@ -41,24 +71,33 @@ export const lowerMotions: Record<string, MotionScene> = {
       rightKnee: [182, 164], rightFoot: [188, 190],
       torsoWidth: 25,
     },
-    equipment: (
+    equipment: (p) => (
       <g>
         <path className="equipment-frame" d="M64 192V48H256V192M50 192H78M242 192H270M160 149V194" />
-        <path className="equipment-detail" d="M95 48L80 81M225 48L240 81" />
+        <path className="equipment-detail" d={`M95 48L${p.leftHand.join(" ")}M225 48L${p.rightHand.join(" ")}`} />
         <circle className="equipment-weight" cx="95" cy="48" r="6" />
         <circle className="equipment-weight" cx="225" cy="48" r="6" />
         <rect className="equipment-pad" x="134" y="149" width="52" height="9" rx="4" />
       </g>
     ),
-    foreground: (
+    foreground: (p) => (
       <g>
         <rect className="equipment-pad" x="145" y="108" width="30" height="33" rx="7" />
-        <path className="equipment-frame" d="M80 74V90M240 74V90" strokeWidth="5" />
+        <path className="equipment-frame" d={`M${p.leftHand[0]} ${p.leftHand[1] - 7}v16M${p.rightHand[0]} ${p.rightHand[1] - 7}v16`} strokeWidth="5" />
       </g>
     ),
     arrows: ['M126 63Q102 60 78 67', 'M194 63Q218 60 242 67'],
   },
   'seated-cable-face-pull': {
+    startLabel: '双臂向前伸展',
+    endLabel: '绳端拉至面部两侧',
+    startPose: {
+      head: [151, 70], neck: [143, 91], hip: [137, 146],
+      leftElbow: [185, 82], leftHand: [221, 72],
+      rightElbow: [190, 94], rightHand: [228, 82],
+      leftKnee: [175, 151], leftFoot: [180, 190],
+      rightKnee: [184, 147], rightFoot: [195, 190],
+    },
     view: '侧面',
     action: '拉向面部两侧',
     pose: {
@@ -75,19 +114,31 @@ export const lowerMotions: Record<string, MotionScene> = {
         <rect className="equipment-weight" x="255" y="128" width="23" height="51" rx="3" />
         <path className="equipment-detail" d="M256 140H277M256 151H277M256 162H277" />
         <circle className="equipment-pad" cx="250" cy="73" r="9" />
-        <path className="equipment-cable" d="M250 73L211 76" />
+
       </g>
     ),
-    foreground: (
-      <g>
-        <path className="equipment-cable" d="M211 76L165 70M211 76L176 81" strokeWidth="3" />
-        <circle className="equipment-weight" cx="165" cy="70" r="4" />
-        <circle className="equipment-weight" cx="176" cy="81" r="4" />
-      </g>
-    ),
+    foreground: (p) => {
+      const x = Math.min(242, (p.leftHand[0] + p.rightHand[0]) / 2 + 25);
+      const y = (p.leftHand[1] + p.rightHand[1]) / 2;
+      return <g>
+        <path className="equipment-cable" d={`M250 73L${x} ${y}`} />
+        <path className="equipment-cable" d={`M${p.leftHand.join(' ')}L${x} ${y}L${p.rightHand.join(' ')}`} strokeWidth="3" />
+        <circle className="equipment-weight" cx={p.leftHand[0]} cy={p.leftHand[1]} r="4" />
+        <circle className="equipment-weight" cx={p.rightHand[0]} cy={p.rightHand[1]} r="4" />
+      </g>;
+    },
     arrows: ['M228 103H190'],
   },
   'prone-y-raise': {
+    startLabel: '俯卧双臂呈Y形',
+    endLabel: '肩胛控制轻抬双臂',
+    startPose: {
+      head: [160, 85], neck: [160, 106], hip: [160, 145],
+      leftElbow: [129, 82], leftHand: [105, 51],
+      rightElbow: [191, 82], rightHand: [215, 51],
+      leftKnee: [145, 166], leftFoot: [133, 190],
+      rightKnee: [175, 166], rightFoot: [185, 190], torsoWidth: 26,
+    },
     view: '俯视',
     action: '双臂呈Y形',
     pose: {
@@ -107,6 +158,15 @@ export const lowerMotions: Record<string, MotionScene> = {
     arrows: ['M81 77L67 56', 'M239 77L253 56'],
   },
   'squat-pattern': {
+    startLabel: '站稳收紧核心',
+    endLabel: '髋膝弯曲下蹲',
+    startPose: {
+      head: [161, 24], neck: [160, 46], hip: [160, 109],
+      leftElbow: [187, 66], leftHand: [220, 73],
+      rightElbow: [193, 59], rightHand: [225, 65],
+      leftKnee: [154, 150], leftFoot: [153, 190],
+      rightKnee: [173, 150], rightFoot: [169, 190], torsoWidth: 25,
+    },
     view: '侧面',
     action: '髋膝一起弯曲',
     pose: {
@@ -120,6 +180,15 @@ export const lowerMotions: Record<string, MotionScene> = {
     arrows: ['M90 104Q76 125 89 151', 'M222 163V128'],
   },
   'romanian-deadlift': {
+    startLabel: '站立杠铃贴近大腿',
+    endLabel: '向后折髋缓慢下放',
+    startPose: {
+      head: [175, 26], neck: [175, 48], hip: [175, 109],
+      leftElbow: [183, 91], leftHand: [188, 127],
+      rightElbow: [193, 91], rightHand: [197, 127],
+      leftKnee: [169, 151], leftFoot: [173, 190],
+      rightKnee: [185, 151], rightFoot: [184, 190], torsoWidth: 25,
+    },
     view: '侧面',
     action: '髋部向后折叠',
     pose: {
@@ -130,8 +199,8 @@ export const lowerMotions: Record<string, MotionScene> = {
       rightKnee: [184, 145], rightFoot: [184, 190],
       torsoWidth: 25,
     },
-    foreground: (
-      <g>
+    foreground: (p) => (
+      <g transform={`translate(${(p.leftHand[0] + p.rightHand[0]) / 2 - 199.5} ${(p.leftHand[1] + p.rightHand[1]) / 2 - 154})`}>
         <path className="equipment-frame" d="M158 155H243" strokeWidth="4" />
         <rect className="equipment-weight" x="165" y="138" width="10" height="34" rx="3" />
         <rect className="equipment-weight" x="227" y="138" width="10" height="34" rx="3" />
@@ -140,6 +209,15 @@ export const lowerMotions: Record<string, MotionScene> = {
     arrows: ['M122 101H85', 'M254 110V145'],
   },
   'bulgarian-split-squat': {
+    startLabel: '前脚踩稳后脚搭凳',
+    endLabel: '前腿屈膝垂直下蹲',
+    startPose: {
+      head: [188, 30], neck: [187, 52], hip: [190, 103],
+      leftElbow: [176, 82], leftHand: [172, 112],
+      rightElbow: [217, 84], rightHand: [220, 113],
+      leftKnee: [149, 137], leftFoot: [103, 127],
+      rightKnee: [224, 145], rightFoot: [225, 190], torsoWidth: 24,
+    },
     view: '侧面',
     action: '后脚搭凳下蹲',
     pose: {
@@ -156,12 +234,29 @@ export const lowerMotions: Record<string, MotionScene> = {
         <rect className="equipment-pad" x="61" y="134" width="65" height="10" rx="4" />
       </g>
     ),
-    foreground: <g>{dumbbell(151, 137)}{dumbbell(199, 138)}</g>,
+    foreground: (p) => <g>{dumbbell(...p.leftHand)}{dumbbell(...p.rightHand)}</g>,
     arrows: ['M263 95V148'],
   },
   'prone-leg-curl': {
+    startLabel: '俯卧双腿伸展',
+    endLabel: '屈膝带起腿垫',
+    startPose: {
+      head: [79, 103], neck: [100, 112], hip: [163, 120],
+      leftElbow: [85, 135], leftHand: [63, 140],
+      rightElbow: [102, 139], rightHand: [77, 146],
+      leftKnee: [206, 122], leftFoot: [260, 140],
+      rightKnee: [216, 126], rightFoot: [271, 145], torsoWidth: 23,
+    },
     view: '侧面',
     action: '屈膝带起腿垫',
+    samplePose: (p, progress) => {
+      const scene = lowerMotions['prone-leg-curl'];
+      return {
+        ...p,
+        leftFoot: jointArc(scene.startPose.leftFoot, scene.pose.leftFoot, p.leftKnee, progress),
+        rightFoot: jointArc(scene.startPose.rightFoot, scene.pose.rightFoot, p.rightKnee, progress),
+      };
+    },
     pose: {
       head: [79, 103], neck: [100, 112], hip: [163, 120],
       leftElbow: [85, 135], leftHand: [63, 140],
@@ -170,9 +265,10 @@ export const lowerMotions: Record<string, MotionScene> = {
       rightKnee: [216, 126], rightFoot: [242, 74],
       torsoWidth: 23,
     },
-    equipment: (
+    equipment: (p) => (
       <g>
-        <path className="equipment-frame" d="M106 194V139M210 194V139M94 194H265M215 137L239 82" />
+        <path className="equipment-frame" d="M106 194V139M210 194V139M94 194H265" />
+        <path className="equipment-frame" d={`M215 137L${(p.leftFoot[0] + p.rightFoot[0]) / 2} ${(p.leftFoot[1] + p.rightFoot[1]) / 2 + 8}`} />
         <path className="equipment-pad" d="M101 123L165 130L224 136L222 147L164 141L99 134Z" />
         <path className="equipment-frame" d="M101 150H60V139M110 157H76V146" />
         <rect className="equipment-weight" x="246" y="151" width="23" height="39" rx="3" />
@@ -180,8 +276,8 @@ export const lowerMotions: Record<string, MotionScene> = {
         <circle className="equipment-weight" cx="215" cy="137" r="6" />
       </g>
     ),
-    foreground: (
-      <g transform="translate(235 79) rotate(15)">
+    foreground: (p, progress) => (
+      <g transform={`translate(${(p.leftFoot[0] + p.rightFoot[0]) / 2} ${(p.leftFoot[1] + p.rightFoot[1]) / 2 + 8}) rotate(${progress * 15})`}>
         <rect className="equipment-pad" x="-17" y="-6" width="34" height="12" rx="6" />
         <ellipse className="equipment-weight" cx="15" cy="0" rx="4" ry="6" />
       </g>
@@ -189,6 +285,15 @@ export const lowerMotions: Record<string, MotionScene> = {
     arrows: ['M263 124Q282 92 264 65'],
   },
   'hip-thrust': {
+    startLabel: '上背抵凳髋部下沉',
+    endLabel: '双脚踩稳向上伸髋',
+    startPose: {
+      head: [84, 109], neck: [104, 121], hip: [156, 158],
+      leftElbow: [125, 146], leftHand: [147, 175],
+      rightElbow: [137, 143], rightHand: [151, 167],
+      leftKnee: [196, 133], leftFoot: [214, 187],
+      rightKnee: [208, 133], rightFoot: [226, 187], torsoWidth: 26,
+    },
     view: '侧面',
     action: '踩稳双脚伸髋',
     pose: {
@@ -199,17 +304,18 @@ export const lowerMotions: Record<string, MotionScene> = {
       rightKnee: [228, 129], rightFoot: [226, 187],
       torsoWidth: 26,
     },
-    equipment: (
+    equipment: (p) => (
       <g>
-        <path className="equipment-frame" d="M71 193V142M119 193V142M58 193H276M169 133L261 176" />
+        <path className="equipment-frame" d="M71 193V142M119 193V142M58 193H276" />
+        <path className="equipment-frame" d={`M${p.hip[0] + 1} ${p.hip[1] + 10}L261 176`} />
         <rect className="equipment-pad" x="62" y="133" width="69" height="13" rx="5" />
         <rect className="equipment-pad" x="201" y="193" width="51" height="6" rx="3" />
         <circle className="equipment-weight" cx="261" cy="174" r="17" />
         <circle className="equipment-pad" cx="261" cy="174" r="5" />
       </g>
     ),
-    foreground: (
-      <g>
+    foreground: (p) => (
+      <g transform={`translate(${p.hip[0] - 168} ${p.hip[1] - 123})`}>
         <path d="M160 113L177 115L181 132L164 135Z" fill="var(--motion-weight)" />
         <path className="equipment-detail" d="M166 116L172 131" stroke="var(--motion-accent)" />
         <path className="equipment-frame" d="M152 140H181" strokeWidth="4" />
@@ -218,6 +324,15 @@ export const lowerMotions: Record<string, MotionScene> = {
     arrows: ['M176 164V144', 'M172 99V72'],
   },
   'standing-calf-raise': {
+    startLabel: '脚跟回落前脚掌踩稳',
+    endLabel: '前脚掌固定抬起脚跟',
+    startPose: {
+      head: [154, 53], neck: [154, 75], hip: [151, 126],
+      leftElbow: [181, 97], leftHand: [211, 82],
+      rightElbow: [179, 115], rightHand: [211, 100],
+      leftKnee: [146, 158], leftFoot: [148, 183], leftToe: [164, 183],
+      rightKnee: [160, 158], rightFoot: [155, 183], rightToe: [170, 183],
+    },
     view: '侧面',
     action: '脚跟缓慢抬起',
     pose: {
@@ -230,15 +345,32 @@ export const lowerMotions: Record<string, MotionScene> = {
     equipment: (
       <g>
         <path className="equipment-frame" d="M215 65V194M204 194H228" />
-        <rect className="equipment-pad" x="158" y="187" width="36" height="11" rx="3" />
+        <rect className="equipment-pad" x="136" y="187" width="58" height="11" rx="3" />
         <path className="equipment-detail" d="M135 194H149" strokeDasharray="3 4" />
       </g>
     ),
     arrows: ['M117 187V157'],
   },
   'band-lateral-walk': {
+    startLabel: '微蹲保持弹力带张力',
+    endLabel: '迈出右脚保持膝盖朝外',
+    startPose: {
+      head: [147, 55], neck: [147, 77], hip: [147, 128],
+      leftElbow: [111, 104], leftHand: [133, 116],
+      rightElbow: [179, 104], rightHand: [162, 115],
+      leftKnee: [126, 155], leftFoot: [102, 190],
+      rightKnee: [173, 159], rightFoot: [173, 190], torsoWidth: 26,
+    },
     view: '正面',
     action: '保持张力侧移',
+    samplePose: (p, progress) => {
+      const lift = Math.sin(Math.PI * progress) * 6;
+      return {
+        ...p,
+        rightFoot: [p.rightFoot[0], p.rightFoot[1] - lift],
+        ...(p.rightToe ? { rightToe: [p.rightToe[0], p.rightToe[1] - lift] as [number, number] } : {}),
+      };
+    },
     pose: {
       head: [160, 55], neck: [160, 77], hip: [160, 128],
       leftElbow: [124, 104], leftHand: [146, 116],
@@ -247,33 +379,54 @@ export const lowerMotions: Record<string, MotionScene> = {
       rightKnee: [196, 159], rightFoot: [215, 190],
       torsoWidth: 26,
     },
-    foreground: (
-      <g>
-        <path className="equipment-band" d="M132 141Q161 150 188 144L192 153Q159 160 128 150Z" />
-        <path d="M133 144Q161 153 188 147" fill="none" stroke="var(--motion-accent)" strokeWidth="2" opacity=".6" />
-      </g>
-    ),
+    foreground: (p) => {
+      const lx = p.hip[0] + (p.leftKnee[0] - p.hip[0]) * .8;
+      const ly = p.hip[1] + (p.leftKnee[1] - p.hip[1]) * .6;
+      const rx = p.hip[0] + (p.rightKnee[0] - p.hip[0]) * .8;
+      const ry = p.hip[1] + (p.rightKnee[1] - p.hip[1]) * .6;
+      const mx = (lx + rx) / 2;
+      return <g>
+        <path className="equipment-band" d={`M${lx} ${ly}Q${mx} ${Math.max(ly, ry) + 4} ${rx} ${ry}L${rx + 4} ${ry + 9}Q${mx} ${Math.max(ly, ry) + 14} ${lx - 4} ${ly + 9}Z`} />
+      </g>;
+    },
     arrows: ['M226 142H265', 'M84 177H56'],
   },
   'barbell-curl': {
-    view: '正面',
-    action: '肘部稳定弯举',
-    pose: {
-      head: [160, 45], neck: [160, 67], hip: [160, 123],
-      leftElbow: [130, 105], leftHand: [133, 80],
-      rightElbow: [190, 105], rightHand: [187, 80],
-      leftKnee: [145, 157], leftFoot: [141, 190],
-      rightKnee: [177, 157], rightFoot: [182, 190],
-      torsoWidth: 26,
+    startLabel: '上臂贴身自然下垂',
+    endLabel: '肘部稳定弯举杠铃',
+    startPose: {
+      head: [148, 44], neck: [147, 66], hip: [144, 123],
+      leftElbow: [161, 107], leftHand: [165, 141],
+      rightElbow: [173, 107], rightHand: [177, 141],
+      leftKnee: [138, 157], leftFoot: [139, 190],
+      rightKnee: [159, 157], rightFoot: [159, 190], torsoWidth: 25,
     },
-    foreground: (
-      <g>
+    view: '侧面',
+    action: '肘部稳定弯举',
+    samplePose: (p, progress) => {
+      const scene = lowerMotions['barbell-curl'];
+      return {
+        ...p,
+        leftHand: jointArc(scene.startPose.leftHand, scene.pose.leftHand, p.leftElbow, progress),
+        rightHand: jointArc(scene.startPose.rightHand, scene.pose.rightHand, p.rightElbow, progress),
+      };
+    },
+    pose: {
+      head: [148, 44], neck: [147, 66], hip: [144, 123],
+      leftElbow: [161, 107], leftHand: [185, 84],
+      rightElbow: [173, 107], rightHand: [197, 84],
+      leftKnee: [138, 157], leftFoot: [139, 190],
+      rightKnee: [159, 157], rightFoot: [159, 190],
+      torsoWidth: 25,
+    },
+    foreground: (p) => (
+      <g transform={`translate(${(p.leftHand[0] + p.rightHand[0]) / 2 - 160} ${(p.leftHand[1] + p.rightHand[1]) / 2 - 80})`}>
         <path className="equipment-frame" d="M96 80H224" strokeWidth="4" />
         <rect className="equipment-weight" x="105" y="67" width="10" height="26" rx="3" />
         <rect className="equipment-weight" x="205" y="67" width="10" height="26" rx="3" />
         <path className="equipment-detail" d="M124 80H141M180 80H197" />
       </g>
     ),
-    arrows: ['M90 130Q75 102 90 75', 'M230 130Q245 102 230 75'],
+    arrows: ['M240 137Q259 112 236 90'],
   },
 };

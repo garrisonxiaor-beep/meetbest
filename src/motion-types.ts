@@ -21,7 +21,11 @@ export type MotionScene = {
   view: '侧面' | '正面' | '斜侧' | '俯视';
   action: string;
   pose: Pose;
-  equipment?: ReactNode;
-  foreground?: ReactNode;
+  startPose: Pose;
+  startLabel?: string;
+  endLabel?: string;
+  equipment?: ReactNode | ((pose: Pose, progress: number) => ReactNode);
+  foreground?: ReactNode | ((pose: Pose, progress: number) => ReactNode);
+  samplePose?: (interpolated: Pose, progress: number) => Pose;
   arrows?: string[];
 };
