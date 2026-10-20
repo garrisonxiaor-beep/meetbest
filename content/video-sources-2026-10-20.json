@@ -1,0 +1,328 @@
+{
+  "reviewedAt": "2026-10-20",
+  "scope": "此次补充的21条外部视频。核验以公开作品页、平台元数据、作者动作清单为主，部分补充封面或画面核对，详见逐条限制；不代表完整教学审核或手机App实测。",
+  "videos": [
+    {
+      "id": "band-lateral-walk",
+      "video": {
+        "url": "https://www.douyin.com/video/7608916973682021477",
+        "platform": "抖音",
+        "title": "弹力带侧步走（训练合集第5项）",
+        "author": "Harry Liu | 海外康复硕士",
+        "appUrl": "snssdk1128://aweme/detail/7608916973682021477?refer=web",
+        "startLabel": "视频第5个动作：弹力带侧步走（需手动定位）"
+      },
+      "evidence": {
+        "url": "https://www.douyin.com/video/7608916973682021477",
+        "description": "已在浏览器读取抖音原作品页，作者栏明确为 Harry Liu | 海外康复硕士，页面显示2026-02-20发布；原作正文列出6项练习，第5项为弹力带侧步走，匹配侧向行走动作。",
+        "verificationLimit": "核验原作品页作者、正文和动作清单，未完整播放；绑带位置未逐帧确认。原视频包含康复宣称，本站仅引用侧步走演示，不采纳疗效宣称。未在手机实测App唤起。"
+      }
+    },
+    {
+      "id": "barbell-curl",
+      "video": {
+        "url": "https://www.douyin.com/video/7581532062239870242",
+        "platform": "抖音",
+        "title": "杠铃弯举的4种握法",
+        "author": "曲大朋",
+        "appUrl": "snssdk1128://aweme/detail/7581532062239870242?refer=web"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7581532062239870242",
+        "description": "已打开抖音官方精选原作品页，页面明确显示作者曲大朋、2025-12-09发布，标题为杠铃弯举的4种握法，核验目标器械为杠铃且动作是弯举。",
+        "verificationLimit": "核验范围为官方作品页标题和作者元数据，未完整播放，未核验每种握法的具体训练效果。普通抖音网页版依赖客户端渲染；作品ID取自可读官方精选原页。App唤起未在真机核验。 动作复核：作品讲解4种握法，而站内步骤为站姿反握版本；用户应对应反握段落，不能把正握/其他握法当作同一变式。尚未完整播放逐一核验握法。"
+      }
+    },
+    {
+      "id": "dumbbell-hammer-curl",
+      "video": {
+        "url": "https://www.douyin.com/video/7503552288519425306",
+        "platform": "抖音",
+        "title": "哑铃锤式弯举动作讲解",
+        "author": "氮泵豆",
+        "appUrl": "snssdk1128://aweme/detail/7503552288519425306?refer=web"
+      },
+      "evidence": {
+        "url": "https://www.douyin.com/video/7503552288519425306",
+        "description": "抖音原作品页索引明确显示作者氮泵豆、2025-05-12发布，标题明确讲解哑铃锤式弯举，匹配哑铃器械与锤式握法。",
+        "verificationLimit": "核验范围为原作品页索引标题、作者与发布时间，未完整播放；直接打开页面仅返回客户端渲染外壳，不能据此承诺当前设备的播放或App唤起情况。 动作复核：标题同时明确“哑铃”和“锤式弯举”，未发现器械或动作模式不符。"
+      }
+    },
+    {
+      "id": "overhead-cable-extension",
+      "video": {
+        "url": "https://www.douyin.com/video/7655635658580446499",
+        "platform": "抖音",
+        "title": "绳索下压与过顶臂屈伸讲解",
+        "author": "百里蜗牛健身",
+        "appUrl": "snssdk1128://aweme/detail/7655635658580446499?refer=web",
+        "startLabel": "请看过顶伸展部分（视频同时讲解下压，无已核验时间点）"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7655635658580446499",
+        "description": "已打开抖音官方精选原作品页，作者百里蜗牛健身、2026-06-26发布；标题与正文明确为龙门架绳索肱三头肌训练，包含高位滑轮下压与低位滑轮过顶伸展，后者匹配绳索过顶臂屈伸。",
+        "verificationLimit": "核验范围为官方作品页标题、作者和文字说明，未完整播放；视频同时讲解两种动作，未获得可信时间点，因此不设置时间戳。App唤起未在真机核验。 动作复核：作品同时包含普通下压与过顶伸展，应观看低位滑轮过顶伸展部分；普通下压不对应本站该动作。"
+      }
+    },
+    {
+      "id": "straight-bar-cable-triceps-extension",
+      "video": {
+        "url": "https://www.douyin.com/video/7499013087909219599",
+        "platform": "抖音",
+        "title": "直杆绳索下压实践教学",
+        "author": "PAN FITNESS",
+        "appUrl": "snssdk1128://aweme/detail/7499013087909219599?refer=web"
+      },
+      "evidence": {
+        "url": "https://www.douyin.com/video/7499013087909219599",
+        "description": "抖音原作品页索引显示标题“直杆下压（实践教学）”，标签明确为手臂与肱三头肌；作者PAN FITNESS、2025-04-30发布。标题、目标肌群和器械均匹配直杆绳索肱三头肌下压。",
+        "verificationLimit": "核验范围为原作品页索引标题、作者与说明，未完整播放；不是仅依据HTTP状态确认作品。原文另含“直臂下压”标签，采用其明确的“直杆下压实践教学”和“肱三头肌”内容判断；App唤起未在真机核验。 动作复核：标题中的直杆和肱三头肌标签共同支持匹配；未发现把背阔肌直臂下拉误配为本动作的明确证据，但未逐帧复核。"
+      }
+    },
+    {
+      "id": "crunch",
+      "video": {
+        "url": "https://www.douyin.com/video/7610743792149333989",
+        "platform": "抖音",
+        "title": "卷腹正确姿势教学",
+        "author": "阳的健身日记",
+        "appUrl": "snssdk1128://aweme/detail/7610743792149333989?refer=web"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7610743792149333989",
+        "description": "抖音官方精选作品页索引显示标题“卷腹正确姿势教学 看看你的卷腹标准吗？”，作者阳的健身日记，2026-02-25发布；对应基础卷腹动作教学。",
+        "verificationLimit": "核验范围为官方原作品页索引标题与作者，未完整播放；此次直接打开页面发生抓取错误，仍可通过原页搜索索引核验作品ID及元数据。未确认视频所有变式细节或App真机唤起。 动作复核：标题对应卷腹，但现有可读文字没有明确双脚落地、双手胸前等细节，因此只能确认动作名称匹配，不能声称逐项姿势与站内基础自重版本完全一致。"
+      }
+    },
+    {
+      "id": "hanging-leg-raise",
+      "video": {
+        "url": "https://www.douyin.com/video/7587852538176032049",
+        "platform": "抖音",
+        "title": "悬垂举腿要点与技巧",
+        "author": "人民的健身教练",
+        "appUrl": "snssdk1128://aweme/detail/7587852538176032049?refer=web"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7587852538176032049",
+        "description": "已打开抖音官方精选原作品页，作者人民的健身教练、2025-12-26发布；标题明确是悬垂举腿动作教学，并明确需使用单杠，匹配悬垂举腿。",
+        "verificationLimit": "核验范围为官方原作品页标题、作者和说明，未完整播放；不采纳标题中关于局部腹部线条的效果暗示。App唤起未在真机核验。 动作复核：标题明确悬垂举腿并提到单杠，与站内器械和动作模式一致；站内从屈膝进阶，视频标题未说明是否含屈膝版本，不能保证难度完全一致。"
+      }
+    },
+    {
+      "id": "ab-wheel-home",
+      "video": {
+        "url": "https://www.douyin.com/video/7421851103517560076",
+        "platform": "抖音",
+        "title": "跪姿健腹轮动作详解",
+        "author": "凯圣王",
+        "appUrl": "snssdk1128://aweme/detail/7421851103517560076"
+      },
+      "evidence": {
+        "url": "https://www.douyin.com/video/7421851103517560076",
+        "description": "原作品搜索索引标题明确为跪姿健腹轮详解，文字列出握法、手臂状态、发力顺序、骨盆状态和动作行程，作者凯圣王；发布于 2024-10-04。匹配双膝着地使用健腹轮的动作变式。",
+        "verificationLimit": "根据原作品搜索索引的标题、作者与文字介绍核验；网页正文依赖客户端渲染，未逐帧观看，未在手机验证唤起。"
+      }
+    },
+    {
+      "id": "worlds-greatest-stretch",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1s3411y7ef/",
+        "platform": "哔哩哔哩",
+        "title": "支撑弓步转体动作分解",
+        "author": "WIFI小小的石头",
+        "appUrl": "bilibili://video/421239968"
+      },
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1s3411y7ef/",
+        "description": "原作品页标题为支撑弓步转体动作分解，热身标签明确；官方公开视频信息 API 核验作者 WIFI小小的石头、aid 421239968、时长 107 秒。匹配本站允许的支撑弓步胸椎转体变式。已先检索抖音，发现多动作综合流而未确认更精确的独立教程，选用此精确命名的 B 站作品。",
+        "verificationLimit": "根据作品标题、作者、热身标签及官方视频信息核验，未逐帧观看；不是声称完整三阶段世界伟大拉伸，未在手机验证唤起。"
+      }
+    },
+    {
+      "id": "90-90-hip-switch",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV16k4y1T7eb/",
+        "platform": "哔哩哔哩",
+        "title": "90/90 髋部转换与变式",
+        "author": "人体科学训练讲义",
+        "appUrl": "bilibili://video/742799041"
+      },
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV16k4y1T7eb/",
+        "description": "原作品搜索索引与官方公开视频信息 API 均确认标题为90-90转换及其所有变式，作者人体科学训练讲义、aid 742799041、时长 313 秒。标题明确是两侧转换而非仅保持90/90静态姿势。已先检索抖音，候选只确认宽泛90/90灵活性标题，故选用转换主题明确的 B 站作品。",
+        "verificationLimit": "官方 API 已确认作品有效及标题、作者信息；原网页抓取返回 412，未逐帧观看，未在手机验证唤起。"
+      }
+    },
+    {
+      "id": "wall-chest-stretch",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1ja4y1a7BN/",
+        "platform": "哔哩哔哩",
+        "title": "胸部训练教学：末尾单侧扶墙拉伸",
+        "author": "万毒王在悉尼",
+        "appUrl": "bilibili://video/668840212",
+        "startLabel": "观看视频末尾的单侧扶墙胸肌拉伸"
+      },
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1ja4y1a7BN/",
+        "description": "官方公开视频信息 API 确认原作品标题为新手必看胸部训练教学、作者万毒王在悉尼、aid 668840212、时长 220 秒。作者原始简介明确列出训练最后做单侧扶墙胸肌拉伸，动作方向匹配；已先检索抖音，但候选胸大肌拉伸标题无法确认使用墙面支撑，故使用原简介明确的作品。",
+        "verificationLimit": "综合胸部训练视频，目标动作在最后的拉伸部分；未逐帧观看，不提供未经核验的具体时间点；未在手机验证唤起。"
+      }
+    },
+    {
+      "id": "supine-figure-four-glute-stretch",
+      "video": {
+        "url": "https://www.douyin.com/video/7281636664315776292",
+        "platform": "抖音",
+        "title": "拉伸教程：仰卧 4 字臀部拉伸",
+        "author": "猛哥聊健身",
+        "appUrl": "snssdk1128://aweme/detail/7281636664315776292",
+        "startLabel": "观看臀部拉伸的仰卧简单版（进入后手动定位）"
+      },
+      "evidence": {
+        "url": "https://www.douyin.com/video/7281636664315776292",
+        "description": "原作品搜索索引确认作者猛哥聊健身、发布于2023-09-22。标题为拉伸主打一个呼吸带动；智能文稿的臀部拉伸简单版明确描述仰卧、一条腿搭在另一腿上、双手穿过腿下将腿向身体拉近，对应仰卧4字臀部拉伸。作品还包含其它拉伸动作。",
+        "verificationLimit": "根据原作品搜索索引的标题、作者与自动生成文稿核验，未逐帧观看；综合拉伸视频，不提供未经核验的时间点；未在手机验证唤起。"
+      }
+    },
+    {
+      "id": "prone-y-raise",
+      "video": {
+        "url": "https://www.douyin.com/video/7622268440644786025",
+        "platform": "抖音",
+        "title": "俯卧 Y 字上举（轻哑铃示范；本站为徒手版本）",
+        "author": "泓枢研体",
+        "appUrl": "snssdk1128://aweme/detail/7622268440644786025?refer=web",
+        "startLabel": "视频为轻哑铃示范；本站条目为徒手版本"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7622268440644786025",
+        "description": "官方作品页标题明确为俯卧位 Y 字上举，作者泓枢研体，发布于 2026-03-28。已读取原页并检查原页封面，封面显示俯卧姿势、Y 形手臂及手持轻哑铃；因此将视频明确标为轻哑铃示范。",
+        "verificationLimit": "动作模式吻合，但器械与本站徒手入门版本不同；已在可见标题和提示中说明。未逐帧审核，未宣称原视频有徒手示范，也未在手机上实测唤起。"
+      }
+    },
+    {
+      "id": "squat-pattern",
+      "video": {
+        "url": "https://www.douyin.com/video/7569538765249659301",
+        "platform": "抖音",
+        "title": "徒手深蹲基础教学",
+        "author": "吕教健身教学",
+        "appUrl": "snssdk1128://aweme/detail/7569538765249659301?refer=web"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7569538765249659301",
+        "description": "抖音精选作品页标题明确为徒手深蹲；作者为吕教健身教学。原页发布于 2025-11-06，作品 ID 直接取自官方页面。",
+        "verificationLimit": "已核验抖音官方作品页的标题、作者与文字说明；未逐帧审核视频，也未在手机上实测唤起。"
+      }
+    },
+    {
+      "id": "romanian-deadlift",
+      "video": {
+        "url": "https://www.douyin.com/video/7629718942222650670",
+        "platform": "抖音",
+        "title": "腿部跟练：杠铃罗马尼亚硬拉",
+        "author": "凯圣王",
+        "appUrl": "snssdk1128://aweme/detail/7629718942222650670?refer=web",
+        "startLabel": "合集内含杠铃罗马尼亚硬拉，进入后手动定位"
+      },
+      "evidence": {
+        "url": "https://www.douyin.com/video/7629718942222650670",
+        "description": "原抖音作品页公开索引显示作者凯圣王；三分化第⑤集的发布说明明确列出杠铃罗马尼亚硬拉。发布于 2026-04-17。",
+        "verificationLimit": "已核验原作品页公开搜索索引中的标题、作者与动作清单；页面正文抓取为空，未逐帧审核，也未核验片段起始时间或手机唤起。"
+      }
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1J4421Q72d/",
+        "platform": "哔哩哔哩",
+        "title": "哑铃保加利亚分腿蹲动作示范",
+        "author": "Ariel_宇",
+        "appUrl": "bilibili://video/1755680511?page=0&start_progress=0"
+      },
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1J4421Q72d/",
+        "description": "原作品页公开索引标题为“健身小白，练臀，哑铃保加利亚分腿蹲”，直接明确动作与器械。另读取 B 站公开元数据确认标题、作者 Ariel_宇、bvid BV1J4421Q72d 与 aid 1755680511 对应，时长 27 秒。",
+        "verificationLimit": "核验范围是官方作品标题与公开元数据；未逐帧审核视频或在手机实测唤起。"
+      }
+    },
+    {
+      "id": "prone-leg-curl",
+      "video": {
+        "url": "https://www.douyin.com/video/7604102057935823033",
+        "platform": "抖音",
+        "title": "俯卧腿弯举动作教学",
+        "author": "人民的健身教练",
+        "appUrl": "snssdk1128://aweme/detail/7604102057935823033?refer=web"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7604102057935823033",
+        "description": "官方作品页标题为每天学一个健身动作：俯卧腿弯举。文字说明明确俯卧于器械、脚踝接触滚轴并屈膝，匹配器械俯卧腿弯举；作者为人民的健身教练，发布于 2026-02-07。",
+        "verificationLimit": "仅核验标题、作者与器械动作说明，未逐帧审核或实测唤起。原文的腿型改变和酸痛宣传不作为本站训练依据。"
+      }
+    },
+    {
+      "id": "hip-thrust",
+      "video": {
+        "url": "https://www.douyin.com/video/7613755287191446506",
+        "platform": "抖音",
+        "title": "臀推机使用与动作细节",
+        "author": "Ida.德德呀",
+        "appUrl": "snssdk1128://aweme/detail/7613755287191446506?refer=web"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7613755287191446506",
+        "description": "抖音精选作品页标题明确为臀推机教程，说明涉及靠背角度、脚位距离，匹配器械臀推；作者 Ida.德德呀，发布于 2026-03-05。",
+        "verificationLimit": "仅核验官方作品页标题、作者与器械动作说明，未逐帧审核或实测唤起。原文关于不粗腿等外形宣传不作为本站结论。"
+      }
+    },
+    {
+      "id": "standing-calf-raise",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1Vs421M7gV/",
+        "platform": "哔哩哔哩",
+        "title": "徒手站姿提踵动作解析",
+        "author": "跟练健身Online",
+        "appUrl": "bilibili://video/1855933022?page=0&start_progress=0"
+      },
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1Vs421M7gV/",
+        "description": "原作品页公开索引标题为“【站姿提踵】锻炼小腿、打造小腿轮廓、完善小腿线条，徒手健身动作解析”，直接明确动作与器械。另读取 B 站公开元数据确认标题、作者 跟练健身Online、bvid BV1Vs421M7gV 与 aid 1855933022 对应，时长 72 秒。",
+        "verificationLimit": "核验范围是官方作品标题与公开元数据；未逐帧审核视频或在手机实测唤起。"
+      }
+    },
+    {
+      "id": "band-pull-apart",
+      "video": {
+        "url": "https://www.douyin.com/video/7531202198231846154",
+        "platform": "抖音",
+        "title": "弹力带水平外展｜居家跟练",
+        "author": "赵鑫_iris",
+        "appUrl": "snssdk1128://aweme/detail/7531202198231846154?refer=web",
+        "startLabel": "合集第5项：弹力带水平外展（进入后手动定位）"
+      },
+      "evidence": {
+        "url": "https://jingxuan.douyin.com/m/video/7531202198231846154",
+        "description": "已读取抖音官方精选原作品页：作者赵鑫_iris，发布于2025-07-27，居家上肢跟练的动作清单明确第5项为弹力带水平外展，匹配弹力带拉开。",
+        "verificationLimit": "依据官方作品页作者与动作清单核验；为多动作合集，未完整播放，不提供未经核验的时间戳。未在手机实测App唤起。"
+      }
+    },
+    {
+      "id": "wall-back-active-stretch",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1KY4y1p7gS/",
+        "platform": "哔哩哔哩",
+        "title": "扶墙主动伸展：墙上拉肩动作讲解",
+        "author": "常迟小姐L",
+        "appUrl": "bilibili://video/640621255"
+      },
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1KY4y1p7gS/",
+        "description": "官方公开视频信息 API 已确认原题为体态大师之墙上拉肩动作了解，作者常迟小姐L，aid 640621255，时长246秒。已目视官方封面：练习者面对墙、双臂向上支撑，髋部向后、躯干向前下方倾斜，封面文字明确为墙上拉肩动作讲解，符合本站扶墙主动伸展的核心姿势。同系列练习笔记也描述腹部收紧、膝微屈、身体向后下方移动。官方封面保存于 work/wall-back-actual-cover.jpg；元数据保存于 work/wall-back-candidate.json。",
+        "verificationLimit": "已核验官方元数据及封面动作匹配，但未完整播放或逐帧观看；封面未完整显示脚部。不提供未经核验的时间点，未在手机验证唤起。"
+      }
+    }
+  ]
+}
