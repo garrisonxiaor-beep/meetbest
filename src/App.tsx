@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import type { Content, Exercise, Source, Supplement } from './types';
+import { ExerciseIllustration, exerciseMotions } from './ExerciseIllustration';
 
 type Page = 'exercises' | 'plans' | 'nutrition' | 'supplements';
 type IconName = 'arrow' | 'search' | 'bookmark' | 'close' | 'play' | 'check' | 'copy' | 'external' | 'exercise' | 'plan' | 'nutrition' | 'supplement' | 'filter' | 'chevron' | 'info' | 'refresh';
@@ -45,26 +46,6 @@ function Icon({ name, size = 20, className = '' }: { name: IconName; size?: numb
 
 function Brand() {
   return <span className="brand"><span className="brand-symbol" aria-hidden="true"><span /><span /><span /></span><span className="brand-type">练有据<span>TRAIN WITH REASON</span></span><span className="brand-dot" /></span>;
-}
-
-function MuscleDiagram({ body, small = false }: { body: string; small?: boolean }) {
-  const active = 'var(--diagram-accent)';
-  const muted = 'var(--diagram-muted)';
-  const is = (...values: string[]) => values.includes(body) || body === '全身';
-  return <svg className={`muscle-diagram ${small ? 'small' : ''}`} viewBox="0 0 210 235" fill="none" aria-hidden="true">
-    <g stroke="currentColor" strokeWidth="1" opacity=".13"><circle cx="105" cy="114" r="72" /><circle cx="105" cy="114" r="92" /><path d="M105 8v220M7 114h196" /></g>
-    <g stroke="var(--diagram-stroke)" strokeWidth="1.6" strokeLinejoin="round">
-      <path d="M91 48v9l-14 7-17 7-8 27-10 31 9 5 17-28 9-15 4 34-7 29 3 29 4 39 12 1 9-43 3-25 3 25 9 43 12-1 4-39 3-29-7-29 4-34 9 15 17 28 9-5-10-31-8-27-17-7-14-7v-9" fill="var(--diagram-base)" />
-      <path d="M90 23c2-12 28-12 30 0l-1 20-8 10H99l-8-10-1-20Z" fill="var(--diagram-base)" />
-      <path d="m41 129-4 10 3 7 6-1 6-12M169 129l4 10-3 7-6-1-6-12M81 221l-4 7h17l-1-7M117 221l-1 7h17l-4-7" fill="var(--diagram-base)" />
-    </g>
-    <g fill={is('肩部') ? active : muted}><path d="m77 65-14 7-7 23 10 1 13-20Z" /><path d="m133 65 14 7 7 23-10 1-13-20Z" /></g>
-    <g fill={is('手臂') ? active : muted}><path d="m57 98 9 2-8 16-7 10-5-2Z" /><path d="m153 98-9 2 8 16 7 10 5-2Z" /></g>
-    {body === '背部' ? <g fill={active}><path d="m83 68 19 8v35l-16 15-5-35Z" /><path d="m127 68-19 8v35l16 15 5-35Z" /><path d="m96 59 9 6 9-6 7 7-16 10-16-10Z" /></g> : <g fill={is('胸部') ? active : muted}><path d="m82 70 20 3v23l-20-5-5-10Z" /><path d="m128 70-20 3v23l20-5 5-10Z" /></g>}
-    <g fill={is('腹部') ? active : muted}><path d="M91 99h11v10H90Zm17 0h11l1 10h-12ZM90 113h12v10H91Zm18 0h12l-1 10h-11ZM92 127h10v10l-8-3Zm16 0h10l-2 7-8 3Z" /></g>
-    <g fill={is('腿臀') ? active : muted}><path d="m81 140 20 3-6 35-9 17-5-19-3-22Z" /><path d="m129 140-20 3 6 35 9 17 5-19 3-22Z" /><path d="m83 190 9 7-3 18h-5Zm44 0-9 7 3 18h5Z" /></g>
-    <g stroke="currentColor" opacity=".35"><path d="M14 171h29l14-12M157 55l13-12h26" /><circle cx="57" cy="159" r="2" /><circle cx="157" cy="55" r="2" /></g>
-  </svg>;
 }
 
 function SupplementGraphic({ index }: { index: number }) {
@@ -134,7 +115,7 @@ function ExerciseDetail({ exercise, favorite, onFavorite }: { exercise: Exercise
   };
   return <>
     <div className={`detail-top body-${bodyParts.indexOf(exercise.bodyPart)}`}>
-      <div><p className="eyebrow">{bodyEnglish[exercise.bodyPart]} / 动作讲解</p><h2>{exercise.name}</h2><p className="detail-description">{exercise.summary}</p><div className="tag-row"><span>{exercise.equipment}</span><span>{exercise.difficulty}</span><span>{exercise.category}</span></div></div><MuscleDiagram body={exercise.bodyPart} />
+      <div><p className="eyebrow">{bodyEnglish[exercise.bodyPart]} / 动作讲解</p><h2>{exercise.name}</h2><p className="detail-description">{exercise.summary}</p><div className="tag-row"><span>{exercise.equipment}</span><span>{exercise.difficulty}</span><span>{exercise.category}</span></div></div><figure className="detail-motion"><ExerciseIllustration exercise={exercise} /><figcaption>{exerciseMotions[exercise.id]?.action} · 动作示意</figcaption></figure>
     </div>
     <div className="detail-content">
       <div className="detail-facts"><div><span>主要训练部位</span><strong>{exercise.muscles.join(' · ')}</strong></div><button className={`text-button ${favorite ? 'is-favorite' : ''}`} onClick={onFavorite}><Icon name={favorite ? 'check' : 'bookmark'} size={17} />{favorite ? '已收藏动作' : '收藏动作'}</button></div>
@@ -164,8 +145,8 @@ function SupplementDetail({ item }: { item: Supplement }) {
 
 function ExerciseCard({ item, index, favorite, onFavorite, onOpen }: { item: Exercise; index: number; favorite: boolean; onFavorite: () => void; onOpen: () => void }) {
   return <article className={`exercise-card card-spotlight body-${bodyParts.indexOf(item.bodyPart)}`}>
-    <div className="exercise-art"><button className="art-open" onClick={onOpen} aria-label={`查看${item.name}动作讲解`}><span className="art-eyebrow">{bodyEnglish[item.bodyPart]}</span><MuscleDiagram body={item.bodyPart} /><span className="art-play"><Icon name="play" size={18} /><span>查看动作</span></span><span className="art-caption">肌群示意 · {item.bodyPart}</span><span className="art-index">{String(index + 1).padStart(2, '0')}</span></button><button className={`favorite-button ${favorite ? 'active' : ''}`} onClick={onFavorite} aria-label={`${favorite ? '取消收藏' : '收藏'}${item.name}`} aria-pressed={favorite}><Icon name="bookmark" size={18} /></button></div>
-    <button className="exercise-info" onClick={onOpen}><div className="card-kicker"><span>{item.bodyPart}</span><span className="difficulty"><i />{item.difficulty}</span></div><h3>{item.name}<Icon name="arrow" size={18} /></h3><p>{item.summary}</p><div className="card-meta"><span>{item.equipment}</span><span>{item.category}</span><span className="video-status">{item.video ? <><Icon name="play" size={12} />视频教程</> : '动作讲解'}</span></div></button>
+    <div className="exercise-art"><button className="art-open" onClick={onOpen} aria-label={`查看${item.name}动作讲解`}><span className="art-eyebrow"><span>{String(index + 1).padStart(2, '0')} /</span>{item.equipment}</span><ExerciseIllustration exercise={item} /><span className="art-caption"><Icon name="arrow" size={13} />{exerciseMotions[item.id]?.action ?? item.category}</span><span className="art-view">{exerciseMotions[item.id]?.view}示意</span></button><button className={`favorite-button ${favorite ? 'active' : ''}`} onClick={onFavorite} aria-label={`${favorite ? '取消收藏' : '收藏'}${item.name}`} aria-pressed={favorite}><Icon name="bookmark" size={18} /></button></div>
+    <button className="exercise-info" onClick={onOpen}><div className="card-kicker"><span className="body-part-label">{item.bodyPart}</span><span className="difficulty"><i />{item.difficulty}</span></div><h3>{item.name}<Icon name="arrow" size={18} /></h3><p>{item.summary}</p><div className="card-meta"><span>{item.equipment}</span><span>{item.category}</span><span className="video-status">{item.video ? <><Icon name="play" size={12} />视频教程</> : '动作讲解'}</span></div></button>
   </article>;
 }
 
@@ -214,7 +195,7 @@ function TrainingPlans({ data, openExercise }: { data: Content; openExercise: (i
   return <>
     <PageIntro variant="plans" index="02" statValue="03/04" statLabel="每周训练天数" statNote="适合自己的频率，更容易坚持" eyebrow="BUILD YOUR ROUTINE" title="让每一次训练，" accent="连成进步。" description="选一个可持续的频率，把动作、组数与休息安排清楚。按自己的恢复情况逐步调整。" />
     <div className="plans-layout"><aside className="plan-picker"><span className="small-label">选择训练节奏</span>{data.plans.map(item => <button key={item.id} className={`plan-option ${plan.id === item.id ? 'active' : ''}`} onClick={() => { setSelectedId(item.id); setDayIndex(0); }}><span className="plan-option-number">{item.daysPerWeek}<small>天 / 周</small></span><span><strong>{item.name}</strong><small>{item.level}</small></span><Icon name={plan.id === item.id ? 'check' : 'chevron'} size={18} /></button>)}<div className="aside-note plan-picker-note"><h3>坚持比排满更重要</h3><p>休息也是计划的一部分。根据训练经验、时间安排和恢复情况选择频率；不用把每一天都填满。</p></div></aside>
-      <div className="plan-main"><div className="plan-summary"><div><span className="small-label">YOUR TRAINING OUTLINE</span><h2>{plan.name}</h2><p>{plan.description}</p></div><span className="plan-frequency">{plan.daysPerWeek}<small>次 / 周</small></span></div><div className="day-tabs" aria-label="选择训练日">{plan.days.map((d, i) => <button key={d.title} className={dayIndex === i ? 'active' : ''} onClick={() => setDayIndex(i)} aria-pressed={dayIndex === i}><span>DAY {String(i + 1).padStart(2, '0')}</span><strong>{d.title}</strong></button>)}</div>{day && <><div className="day-heading"><h3>{day.subtitle || day.title}</h3><span>{day.exercises.length} 个动作</span></div><div className="warmup-note"><Icon name="info" size={19} /><div><strong>从热身开始</strong><p>{day.warmup}</p></div></div><div className="plan-exercises">{day.exercises.map((entry, index) => { const exercise = data.exercises.find(e => e.id === entry.exerciseId); return <article className="plan-exercise" key={`${entry.exerciseId}-${index}`}><span className="plan-order">{String(index + 1).padStart(2, '0')}</span><div className={`plan-thumb body-${bodyParts.indexOf(exercise?.bodyPart ?? '')}`}><MuscleDiagram body={exercise?.bodyPart ?? '全身'} small /></div><div className="plan-exercise-description"><h4>{exercise?.name ?? '动作资料暂未收录'}</h4><p>{entry.note || exercise?.muscles.join(' · ')}</p><span className="mobile-plan-stats">{entry.sets} 组 × {entry.reps} · 休息 {entry.rest}</span></div><div className="plan-exercise-stat"><strong>{entry.sets} <span>组</span></strong><small>{entry.reps}</small></div><div className="plan-exercise-rest"><span>组间休息</span><strong>{entry.rest}</strong></div>{exercise && <button className="icon-button" aria-label={`查看${exercise.name}动作讲解`} onClick={() => openExercise(exercise.id)}><Icon name="arrow" size={20} /></button>}</article>; })}</div><div className="plan-bottom-note"><Icon name="info" size={17} /><p>这是一般训练模板。组数和次数可按经验、动作熟练度和恢复情况调整。刚开始时减少训练量，掌握动作后再递增。</p></div>{plan.sources && <SourceList sources={plan.sources} />}</>}</div>
+      <div className="plan-main"><div className="plan-summary"><div><span className="small-label">YOUR TRAINING OUTLINE</span><h2>{plan.name}</h2><p>{plan.description}</p></div><span className="plan-frequency">{plan.daysPerWeek}<small>次 / 周</small></span></div><div className="day-tabs" aria-label="选择训练日">{plan.days.map((d, i) => <button key={d.title} className={dayIndex === i ? 'active' : ''} onClick={() => setDayIndex(i)} aria-pressed={dayIndex === i}><span>DAY {String(i + 1).padStart(2, '0')}</span><strong>{d.title}</strong></button>)}</div>{day && <><div className="day-heading"><h3>{day.subtitle || day.title}</h3><span>{day.exercises.length} 个动作</span></div><div className="warmup-note"><Icon name="info" size={19} /><div><strong>从热身开始</strong><p>{day.warmup}</p></div></div><div className="plan-exercises">{day.exercises.map((entry, index) => { const exercise = data.exercises.find(e => e.id === entry.exerciseId); return <article className="plan-exercise" key={`${entry.exerciseId}-${index}`}><span className="plan-order">{String(index + 1).padStart(2, '0')}</span><div className={`plan-thumb body-${bodyParts.indexOf(exercise?.bodyPart ?? '')}`}>{exercise && <ExerciseIllustration exercise={exercise} compact />}</div><div className="plan-exercise-description"><h4>{exercise?.name ?? '动作资料暂未收录'}</h4><p>{entry.note || exercise?.muscles.join(' · ')}</p><span className="mobile-plan-stats">{entry.sets} 组 × {entry.reps} · 休息 {entry.rest}</span></div><div className="plan-exercise-stat"><strong>{entry.sets} <span>组</span></strong><small>{entry.reps}</small></div><div className="plan-exercise-rest"><span>组间休息</span><strong>{entry.rest}</strong></div>{exercise && <button className="icon-button" aria-label={`查看${exercise.name}动作讲解`} onClick={() => openExercise(exercise.id)}><Icon name="arrow" size={20} /></button>}</article>; })}</div><div className="plan-bottom-note"><Icon name="info" size={17} /><p>这是一般训练模板。组数和次数可按经验、动作熟练度和恢复情况调整。刚开始时减少训练量，掌握动作后再递增。</p></div>{plan.sources && <SourceList sources={plan.sources} />}</>}</div>
     </div>
   </>;
 }

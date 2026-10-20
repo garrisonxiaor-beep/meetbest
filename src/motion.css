@@ -1,0 +1,109 @@
+/* A movement atlas: specific poses and equipment, rather than muscle maps. */
+.exercise-card, .detail-motion, .plan-thumb {
+  --motion-shirt: #436c59;
+  --motion-shorts: #243e36;
+  --motion-skin: #c39b78;
+  --motion-equipment: #87918a;
+  --motion-pad: #b2bbb0;
+  --motion-weight: #4b5750;
+  --motion-accent: #9b6c37;
+}
+.body-3, .body-5 { --motion-shirt: #8b7051; --motion-accent: #516e61; }
+.body-2, .body-7 { --motion-shirt: #4c7977; --motion-accent: #987741; }
+.exercise-card { border-color: #d7ded4; }
+.exercise-art {
+  aspect-ratio: 1.25;
+  background: var(--art-background);
+  border-bottom: 1px solid #d7ded466;
+}
+.art-open > .exercise-illustration {
+  position: absolute;
+  inset: 34px 0 26px;
+  width: 100%;
+  height: calc(100% - 60px);
+  transition: transform .45s var(--ease);
+}
+.art-eyebrow {
+  top: 18px; left: 19px;
+  display: flex; align-items: center; gap: 10px;
+  font-size: 11px; letter-spacing: .4px; font-weight: 550;
+  color: #3d5748;
+}
+.art-eyebrow > span { font-family: Arial, sans-serif; color: #778778; font-weight: 400; }
+.art-caption {
+  left: 19px; bottom: 15px; display: flex; gap: 7px; align-items: center;
+  color: #405d4c; opacity: 1; font-size: 11px;
+}
+.art-view { position: absolute; right: 19px; bottom: 15px; font-size: 10px; color: #657667; }
+.favorite-button { top: 7px; right: 7px; width: 42px; height: 42px; background: #fffefa9c; }
+.body-part-label { color: var(--accent); }
+.exercise-info h3 { font-size: 22px; letter-spacing: -.5px; }
+.exercise-info > p { font-size: 13px; }
+.exercise-illustration { display: block; overflow: visible; }
+.exercise-illustration path, .exercise-illustration polyline { stroke-linecap: round; stroke-linejoin: round; }
+.motion-ground { stroke: var(--motion-equipment); stroke-width: 1; opacity: .32; }
+.athlete-far { opacity: .64; }
+.athlete-leg { fill: none; stroke: var(--motion-skin); stroke-width: 13; }
+.athlete-shorts { fill: none; stroke: var(--motion-shorts); stroke-width: 17; }
+.athlete-shoe { fill: none; stroke: #f8f8ef; stroke-width: 8; }
+.athlete-torso { fill: none; stroke: var(--motion-shirt); }
+.athlete-arm { fill: none; stroke: var(--motion-skin); stroke-width: 9; }
+.athlete-sleeve { fill: none; stroke: var(--motion-shirt); stroke-width: 13; }
+.athlete-hand, .athlete-head { fill: var(--motion-skin); }
+.athlete-neck { stroke: var(--motion-skin); stroke-width: 8; }
+.athlete-hair { fill: #34463e; }
+.athlete-face { fill: var(--motion-skin); stroke: none; }
+.motion-equipment { stroke-linecap: round; stroke-linejoin: round; }
+.equipment-frame { stroke: var(--motion-equipment); stroke-width: 4; fill: none; }
+.equipment-pad { fill: var(--motion-pad); stroke: var(--motion-equipment); stroke-width: 1.2; }
+.equipment-weight { fill: var(--motion-weight); stroke: var(--motion-weight); stroke-width: 1.5; }
+.equipment-cable { fill: none; stroke: var(--motion-equipment); stroke-width: 1.8; }
+.equipment-band { fill: none; stroke: var(--motion-accent); stroke-width: 4; }
+.equipment-detail { fill: none; stroke: var(--motion-equipment); stroke-width: 1.4; }
+.motion-arrows { fill: none; stroke: var(--motion-accent); stroke-width: 2.3; stroke-dasharray: 3 4; }
+.motion-unavailable { padding: 70px 15px; font-size: 13px; text-align: center; color: var(--muted); }
+.detail-motion {
+  margin: 0; width: 250px; flex: 0 0 250px; align-self: center;
+  background: var(--art-background); border: 1px solid #cad4c233; border-radius: 16px;
+  padding: 14px 8px 12px;
+}
+.detail-motion .exercise-illustration { width: 100%; height: auto; }
+.detail-motion figcaption { font-size: 11px; text-align: center; color: #5c6c51; margin-top: 6px; }
+.plan-thumb { width: 100px; height: 78px; flex-shrink: 0; }
+.plan-thumb .exercise-illustration { width: 100%; height: 100%; }
+.compact .motion-ground { opacity: .16; }
+
+@media (hover: hover) and (pointer: fine) {
+  .exercise-card:hover .art-open > .exercise-illustration { transform: translateY(-2px) scale(1.02); }
+}
+@media (max-width: 1100px) {
+  .content-with-aside { grid-template-columns: minmax(0, 1fr); }
+  .library-aside { display: none; }
+  .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+  .exercise-art { aspect-ratio: 1.38; }
+}
+@media (max-width: 700px) {
+  .detail-top { flex-wrap: wrap; }
+  .detail-top > div { flex-basis: 100%; }
+  .detail-motion { width: 100%; flex-basis: 100%; padding: 12px; }
+  .detail-motion .exercise-illustration { height: 190px; }
+  .plan-thumb { width: 74px; height: 68px; }
+}
+@media (max-width: 600px) {
+  .exercise-grid { grid-template-columns: 1fr; gap: 22px; }
+  .exercise-art { aspect-ratio: 1.38; }
+  .art-open > .exercise-illustration { inset: 34px 0 28px; height: calc(100% - 62px); }
+  .art-eyebrow { top: 19px; left: 21px; font-size: 12px; }
+  .art-caption { left: 21px; bottom: 16px; font-size: 12px; }
+  .art-view { bottom: 16px; right: 21px; font-size: 11px; }
+  .favorite-button { top: 9px; right: 9px; width: 44px; height: 44px; }
+  .exercise-info { padding: 21px; }
+  .exercise-info h3 { font-size: 24px; }
+  .exercise-info > p { font-size: 14px; min-height: 0; }
+  .card-kicker { font-size: 12px; }
+  .card-meta, .card-meta .video-status { font-size: 12px; }
+  .card-meta > span:nth-child(2) { display: inline; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .exercise-card:hover .art-open > .exercise-illustration { transform: none; }
+}

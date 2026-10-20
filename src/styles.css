@@ -156,13 +156,8 @@ legend { padding: 0; }
 .exercise-art, .plan-thumb { background: var(--art-background, #e8edde); color: var(--art-color, #54704a); }
 .exercise-art { position: relative; aspect-ratio: 1.24; overflow: hidden; }
 .art-open { position: absolute; inset: 0; display: block; padding: 0; background: transparent; color: inherit; width: 100%; height: 100%; text-align: left; }
-.art-open > .muscle-diagram { height: 91%; width: 74%; position: absolute; left: 14%; bottom: -1%; transition: transform .65s var(--ease); }
 .art-eyebrow { position: absolute; left: 18px; top: 19px; letter-spacing: 1.4px; font-size: 9px; font-weight: 650; z-index: 1; }
 .art-caption { position: absolute; bottom: 15px; left: 18px; font-size: 10px; opacity: .8; }
-.art-index { position: absolute; bottom: 13px; right: 17px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 28px; font-weight: 350; letter-spacing: -1px; opacity: .45; }
-.art-play { position: absolute; left: 50%; top: 51%; display: flex; align-items: center; gap: 8px; white-space: nowrap; padding: 12px 16px; background: var(--accent); color: white; border-radius: 999px; font-size: 12px; transform: translate(-50%, -35%); opacity: 0; transition: transform .3s var(--ease), opacity .3s var(--ease); }
-.art-play svg { width: 17px; height: 17px; }
-.art-open:focus-visible .art-play { opacity: 1; transform: translate(-50%, -50%); }
 .favorite-button { position: absolute; top: 9px; right: 9px; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: #fffefad9; color: var(--accent); z-index: 2; }
 .favorite-button:hover { background: var(--surface); }
 .favorite-button.active { background: var(--accent); color: var(--lime); animation: saved .32s var(--ease); }
@@ -328,7 +323,6 @@ legend { padding: 0; }
 .plan-exercise { display: flex; align-items: center; padding: 24px 0; gap: 18px; border-bottom: 1px solid var(--line); }
 .plan-order { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px; color: #9aaa8c; }
 .plan-thumb { width: 72px; height: 78px; border-radius: 12px; overflow: hidden; flex-shrink: 0; }
-.plan-thumb .muscle-diagram { width: 100%; height: 100%; margin-top: 6px; }
 .plan-exercise-description { flex: 1; min-width: 0; }
 .plan-exercise-description h4 { font-size: 18px; font-weight: 550; line-height: 1.5; }
 .plan-exercise-description > p { font-size: 13px; line-height: 1.8; color: var(--muted); margin-top: 6px; }
@@ -447,7 +441,6 @@ legend { padding: 0; }
 .detail-top .eyebrow { font-size: 10px; letter-spacing: 1.2px; }
 .detail-top h2 { font-size: 36px; font-weight: 600; margin: 20px 0 17px; letter-spacing: -1px; line-height: 1.35; }
 .detail-description { color: #5c6c51; font-size: 14px; line-height: 1.9; }
-.detail-top > .muscle-diagram { width: 180px; padding: 9px 10px 0; align-self: stretch; background: var(--art-background); color: var(--art-color); border-radius: 18px; }
 .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
 .tag-row > span { border: 1px solid #c9d7bc; border-radius: 999px; padding: 7px 11px; font-size: 12px; color: #566f42; line-height: 1.3; }
 .detail-content { padding: 0 42px 40px; }
@@ -578,8 +571,6 @@ legend { padding: 0; }
 @media (hover: hover) and (pointer: fine) {
   .exercise-card:hover, .supplement-card:hover { transform: translateY(-5px); }
   .card-spotlight:hover::after, .supplement-card:hover::after { opacity: 1; }
-  .exercise-card:hover .art-open > .muscle-diagram { transform: scale(1.045); }
-  .exercise-card:hover .art-play { opacity: 1; transform: translate(-50%, -50%); }
   .exercise-card:hover .exercise-info h3 > svg { transform: translateX(4px); }
 }
 
@@ -631,7 +622,6 @@ legend { padding: 0; }
   .content-with-aside { grid-template-columns: minmax(0, 1fr) 221px; gap: 24px; }
   .exercise-grid { gap: 18px 15px; }
   .exercise-art { aspect-ratio: 1.05; }
-  .art-open > .muscle-diagram { width: 86%; left: 7%; }
   .exercise-info { padding: 18px 16px 16px; }
   .exercise-info h3 { font-size: 21px; }
   .card-meta > span:nth-child(2) { display: none; }
@@ -716,7 +706,6 @@ legend { padding: 0; }
   .favorite-filter { font-size: 12px; }
   .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 14px; }
   .exercise-art { aspect-ratio: 1.05; }
-  .art-open > .muscle-diagram { width: 88%; height: 91%; left: 6%; bottom: 0; }
   .art-eyebrow { top: 17px; left: 14px; font-size: 9px; letter-spacing: .7px; }
   .art-caption { bottom: 12px; left: 14px; font-size: 9px; }
   .art-index { right: 13px; bottom: 10px; font-size: 23px; }
@@ -869,7 +858,6 @@ legend { padding: 0; }
   .detail-modal.wide { width: 100%; }
   .modal-close { top: 14px; margin: 14px 14px -58px auto; }
   .detail-top { padding: 59px 24px 30px; gap: 20px; }
-  .detail-top > .muscle-diagram { width: 116px; min-height: 180px; margin-top: 8px; padding: 5px; border-radius: 15px; }
   .detail-top .eyebrow { font-size: 9px; letter-spacing: .7px; gap: 6px; }
   .detail-top h2 { font-size: 30px; margin: 16px 0; }
   .detail-description { font-size: 14px; line-height: 1.85; }
@@ -948,7 +936,6 @@ legend { padding: 0; }
   .body-tabs { margin-right: -18px; padding-right: 18px; }
   .exercise-grid { grid-template-columns: 1fr; gap: 22px; }
   .exercise-art { aspect-ratio: 1.6; }
-  .art-open > .muscle-diagram { width: 70%; height: 102%; left: 17%; bottom: -5%; }
   .art-eyebrow { top: 21px; left: 21px; font-size: 10px; }
   .art-caption { left: 21px; bottom: 17px; font-size: 11px; }
   .art-index { right: 21px; bottom: 13px; font-size: 34px; }
@@ -995,7 +982,6 @@ legend { padding: 0; }
   .nutrition-result { padding: 29px 24px; }
   .result-heading { flex-wrap: wrap; }
   .detail-top { gap: 15px; }
-  .detail-top > .muscle-diagram { width: 88px; min-height: 160px; }
   .detail-top h2 { font-size: 28px; }
   .detail-facts { flex-wrap: wrap; gap: 10px; }
   .site-footer { margin-left: 18px; margin-right: 18px; }
@@ -1021,13 +1007,12 @@ legend { padding: 0; }
   .numeric-fields > label > small { font-size: 10px; }
   .goal-options button strong { font-size: 12px; }
   .goal-options button small { font-size: 9px; }
-  .detail-top > .muscle-diagram { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
-  .exercise-card:hover, .supplement-card:hover, .exercise-card:hover .art-open > .muscle-diagram { transform: none; }
+  .exercise-card:hover, .supplement-card:hover { transform: none; }
   .supplement-flip-inner, .supplement-card[data-flipped="true"] .supplement-flip-inner, .supplement-back { transform: none; }
   .supplement-front { visibility: visible; }
   .supplement-back { visibility: hidden; }
