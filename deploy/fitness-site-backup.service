@@ -1,0 +1,20 @@
+# Managed by fitness-site deploy/install.sh
+[Unit]
+Description=Consistent SQLite backup for fitness-site
+After=fitness-site.service
+ConditionPathExists=/var/lib/fitness-site/fitness.db
+
+[Service]
+Type=oneshot
+User=fitness-site
+Group=fitness-site
+WorkingDirectory=/opt/fitness-site/current
+EnvironmentFile=/opt/fitness-site/shared/fitness.env
+Environment=NODE_BIN=@NODE_BIN@
+ExecStart=/bin/bash /opt/fitness-site/current/deploy/backup.sh
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/fitness-site

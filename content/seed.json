@@ -1,0 +1,1993 @@
+{
+  "exercises": [
+    {
+      "id": "barbell-bench-press",
+      "name": "杠铃卧推",
+      "bodyPart": "胸部",
+      "equipment": "杠铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌",
+        "三角肌前束"
+      ],
+      "summary": "用稳定的全身支撑练习水平推举。",
+      "steps": [
+        "双脚踩实，头、上背和臀部稳定贴凳，全握杠铃。",
+        "出杠后控制下放，让手腕与前臂维持稳定。",
+        "在肩部舒适的幅度内推回，完成后稳妥归架。"
+      ],
+      "tips": [
+        "使用安全架或保护者。",
+        "先掌握轻重量，不用杠铃弹胸。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1S8ArzREru/?t=307",
+        "platform": "哔哩哔哩",
+        "title": "新手爱好者可以长期使用的一套训练计划，对形体的刻画，肌肉量以及功能性的提升效率都很高，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "05:07–12:04",
+        "appUrl": "bilibili://video/116136050103658?page=0&start_progress=307000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 杠铃卧推教程",
+          "url": "https://www.bilibili.com/video/BV1S8ArzREru/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=barbell-bench-press"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-bench-press",
+      "name": "哑铃卧推",
+      "bodyPart": "胸部",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌"
+      ],
+      "summary": "两侧独立推举，练习左右协调。",
+      "steps": [
+        "仰卧训练凳，双脚踩稳，将哑铃置于胸部两侧。",
+        "手腕保持中立，缓慢屈肘下放。",
+        "平稳向上推举，双侧同时回到起始位置。"
+      ],
+      "tips": [
+        "上臂与躯干角度以肩部舒适为准。",
+        "结束时收回哑铃再起身，避免直接抛落。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1MvwxzGEio/?t=486",
+        "platform": "哔哩哔哩",
+        "title": "居家跟练系列第一期，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "08:06–12:43",
+        "appUrl": "bilibili://video/116226864979390?page=0&start_progress=486000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 哑铃卧推教程",
+          "url": "https://www.bilibili.com/video/BV1MvwxzGEio/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=dumbbell-bench-press"
+        }
+      ]
+    },
+    {
+      "id": "incline-dumbbell-chest-press",
+      "name": "上斜哑铃卧推",
+      "bodyPart": "胸部",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "胸大肌锁骨部",
+        "三角肌前束",
+        "肱三头肌"
+      ],
+      "summary": "通过上斜角度练习胸部推举。",
+      "steps": [
+        "将凳背调至适度上斜，脚和背部保持稳定。",
+        "哑铃从胸部两侧沿可控轨迹向上推。",
+        "缓慢下放到肩部舒适的位置，再重复。"
+      ],
+      "tips": [
+        "凳背过陡会增加肩部参与。",
+        "动作幅度先于重量，避免腰部过度后仰。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1TdxDzME5G/?t=217",
+        "platform": "哔哩哔哩",
+        "title": "胸部教学视频（下），希望大家能明确自己想要什么样的形体，再去安排训练",
+        "author": "谭成义",
+        "startLabel": "03:37–06:19",
+        "appUrl": "bilibili://video/115331011976815?page=0&start_progress=217000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 上斜哑铃卧推教程",
+          "url": "https://www.bilibili.com/video/BV1TdxDzME5G/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=incline-dumbbell-chest-press"
+        }
+      ]
+    },
+    {
+      "id": "seated-machine-chest-press",
+      "name": "坐姿器械推胸",
+      "bodyPart": "胸部",
+      "equipment": "固定器械",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌"
+      ],
+      "summary": "固定轨迹帮助建立推举的基础控制。",
+      "steps": [
+        "调节座椅，让握把大致位于胸部高度。",
+        "背部靠稳，握住把手并平稳向前推。",
+        "控制回程，不让配重片猛烈相撞。"
+      ],
+      "tips": [
+        "先空载熟悉机器轨迹。",
+        "肘部和肩部始终在可控范围内。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1ZxEk6cEv1/?t=877",
+        "platform": "哔哩哔哩",
+        "title": "第三期私教系列之胸部教学来喽，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "14:37–17:47",
+        "appUrl": "bilibili://video/116734493333443?page=0&start_progress=877000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 坐姿器械推胸教程",
+          "url": "https://www.bilibili.com/video/BV1ZxEk6cEv1/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=seated-machine-chest-press"
+        }
+      ]
+    },
+    {
+      "id": "cable-chest-fly",
+      "name": "绳索夹胸",
+      "bodyPart": "胸部",
+      "equipment": "绳索",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "胸大肌"
+      ],
+      "summary": "用持续阻力练习上臂向身体中线靠拢。",
+      "steps": [
+        "将滑轮调到合适高度，前后站立保持平衡。",
+        "肘部微屈，沿弧线将手臂带向身体前方。",
+        "控制打开到胸肩舒适的幅度。"
+      ],
+      "tips": [
+        "肘角度保持相对稳定。",
+        "减少躯干前后摆动，避免用肩部硬顶。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7610712695184852603",
+        "platform": "抖音",
+        "title": "这是一套很棒的基础训练，对形体刻画，肌肉量以及功能性提升效率都很高的训练计划！！希望能对大家#有所帮助！！#训练计划 #跟练系列",
+        "author": "谭成义",
+        "startLabel": "03:01–04:08（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7610712695184852603?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 谭成义 · 绳索夹胸教程",
+          "url": "https://www.douyin.com/video/7610712695184852603"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=cable-chest-fly"
+        }
+      ]
+    },
+    {
+      "id": "push-up-home",
+      "name": "俯卧撑",
+      "bodyPart": "胸部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌",
+        "腹部"
+      ],
+      "summary": "随时可练的水平推举，能用手撑高台降低难度。",
+      "steps": [
+        "双手撑地，收紧腹部，让头、躯干和腿保持整体。",
+        "屈肘下降，胸部向地面靠近。",
+        "推地回到起点，保持髋部不下沉。"
+      ],
+      "tips": [
+        "做不到标准动作时先抬高手部支撑。",
+        "组末姿势失控时停止，保留可控次数。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1L2cazNELf/?t=16",
+        "platform": "哔哩哔哩",
+        "title": "居家训练动作来啦，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "00:16–02:13",
+        "appUrl": "bilibili://video/116054713962536?page=0&start_progress=16000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 俯卧撑教程",
+          "url": "https://www.bilibili.com/video/BV1L2cazNELf/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=push-up-home"
+        }
+      ]
+    },
+    {
+      "id": "pull-up",
+      "name": "引体向上",
+      "bodyPart": "背部",
+      "equipment": "单杠",
+      "difficulty": "进阶",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "肱二头肌",
+        "上背部"
+      ],
+      "summary": "用身体重量练习垂直拉，可选择辅助版本。",
+      "steps": [
+        "全握单杠，身体稳定悬垂。",
+        "将肘部向下拉，带动身体向单杠靠近。",
+        "缓慢下降，保持肩部在可控范围。"
+      ],
+      "tips": [
+        "避免甩腿和强行伸颈。",
+        "先用辅助器械或高位下拉建立能力。"
+      ],
+      "prescription": "起步参考：2组×4–8次；能力不足时使用文中退阶方式。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7611481791380257969",
+        "platform": "抖音",
+        "title": "这一期内容比较长，干货比较多，希望大家能仔细看，对大家有所帮助！！#背部训练 #增肌",
+        "author": "谭成义",
+        "startLabel": "17:31–21:42（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7611481791380257969?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 谭成义 · 引体向上教程",
+          "url": "https://www.douyin.com/video/7611481791380257969"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=pull-up"
+        }
+      ]
+    },
+    {
+      "id": "narrow-seated-row",
+      "name": "窄距坐姿划船",
+      "bodyPart": "背部",
+      "equipment": "绳索",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "菱形肌",
+        "肱二头肌"
+      ],
+      "summary": "练习水平拉与肩胛协调。",
+      "steps": [
+        "坐稳并踩好支撑，保持躯干稳定。",
+        "将把手拉向腹部附近，让肘部向后移动。",
+        "控制手臂前伸，肩胛自然随动作移动。"
+      ],
+      "tips": [
+        "避免用腰部大幅后仰。",
+        "拉到能保持姿势的位置即可。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/?t=754",
+        "platform": "哔哩哔哩",
+        "title": "三分化之拉日来啦，希望对大家有所帮助，谢谢大家的喜欢和支持！！",
+        "author": "谭成义",
+        "startLabel": "12:34–15:10",
+        "appUrl": "bilibili://video/115892411241568?page=0&start_progress=754000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 窄距坐姿划船教程",
+          "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=narrow-seated-row"
+        }
+      ]
+    },
+    {
+      "id": "angled-handle-lat-pulldown",
+      "name": "高位下拉",
+      "bodyPart": "背部",
+      "equipment": "绳索",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "肱二头肌"
+      ],
+      "summary": "容易调节负重的垂直拉动作。",
+      "steps": [
+        "压稳腿垫，全握把手，躯干轻微后倾。",
+        "肘部向下移动，将把手拉向上胸前方。",
+        "缓慢回程，保持全程控制。"
+      ],
+      "tips": [
+        "将杆拉在身体前方。",
+        "减少身体摆动，握距按肩部舒适度调整。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/?t=476",
+        "platform": "哔哩哔哩",
+        "title": "三分化之拉日来啦，希望对大家有所帮助，谢谢大家的喜欢和支持！！",
+        "author": "谭成义",
+        "startLabel": "07:56–12:34",
+        "appUrl": "bilibili://video/115892411241568?page=0&start_progress=476000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 高位下拉教程",
+          "url": "https://www.bilibili.com/video/BV1hnrWBHEu7/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=angled-handle-lat-pulldown"
+        }
+      ]
+    },
+    {
+      "id": "single-arm-dumbbell-row",
+      "name": "单臂哑铃划船",
+      "bodyPart": "背部",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "菱形肌",
+        "肱二头肌"
+      ],
+      "summary": "借助稳定支撑练习单侧水平拉。",
+      "steps": [
+        "一手扶凳，双脚站稳，髋部向后折叠。",
+        "另一手持铃，让肘部朝髋部方向移动。",
+        "缓慢放回，完成一侧后换边。"
+      ],
+      "tips": [
+        "躯干保持稳定，避免随着哑铃转动。",
+        "左右用相同的可控重量。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1E8un61EVg/?t=104",
+        "platform": "哔哩哔哩",
+        "title": "哑铃划船，哑铃反飞鸟动作教学，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "01:44–02:40",
+        "appUrl": "bilibili://video/117047623160239?page=0&start_progress=104000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 单臂哑铃划船教程",
+          "url": "https://www.bilibili.com/video/BV1E8un61EVg/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=single-arm-dumbbell-row"
+        }
+      ]
+    },
+    {
+      "id": "straight-arm-pulldown",
+      "name": "直臂下压",
+      "bodyPart": "背部",
+      "equipment": "绳索",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "大圆肌"
+      ],
+      "summary": "用较小负重练习肩关节伸展。",
+      "steps": [
+        "面对高位滑轮站立，膝微屈、髋稍后移。",
+        "肘微屈并保持，将把手拉向大腿前方。",
+        "缓慢回到起点，保持腹部稳定。"
+      ],
+      "tips": [
+        "不要把动作做成反复屈肘。",
+        "不靠腰部后仰增加行程。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1mwPMzZEg8/?t=533",
+        "platform": "哔哩哔哩",
+        "title": "干货比较多，讲的比较细，希望大家观看有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "08:53–12:26",
+        "appUrl": "bilibili://video/116153380836450?page=0&start_progress=533000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 直臂下压教程",
+          "url": "https://www.bilibili.com/video/BV1mwPMzZEg8/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=straight-arm-pulldown"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "name": "哑铃侧平举",
+      "bodyPart": "肩部",
+      "equipment": "哑铃",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "三角肌中束"
+      ],
+      "summary": "以轻重量练习肩部外展。",
+      "steps": [
+        "双手持铃自然垂放，肘部略弯。",
+        "沿身体侧前方抬高手臂至舒适高度。",
+        "控制下放，保持躯干稳定。"
+      ],
+      "tips": [
+        "肩部疼痛时减小幅度或停止。",
+        "不用甩动和过度耸肩完成次数。"
+      ],
+      "prescription": "起步参考：2组×10–15次，轻重量、完整控制。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV128bX6eExV/?t=27",
+        "platform": "哔哩哔哩",
+        "title": "哑铃侧平举动作讲解，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "00:27–06:02",
+        "appUrl": "bilibili://video/117105185854648?page=0&start_progress=27000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 哑铃侧平举教程",
+          "url": "https://www.bilibili.com/video/BV128bX6eExV/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=dumbbell-lateral-raise"
+        }
+      ]
+    },
+    {
+      "id": "seated-dumbbell-shoulder-press",
+      "name": "坐姿哑铃推肩",
+      "bodyPart": "肩部",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "三角肌",
+        "肱三头肌"
+      ],
+      "summary": "在有支撑的坐姿中练习过顶推举。",
+      "steps": [
+        "坐在带靠背的凳上，双脚踩稳，哑铃置于肩部两侧。",
+        "维持躯干稳定，向上推到可控位置。",
+        "缓慢下放，肘部停在肩部舒适的范围内。"
+      ],
+      "tips": [
+        "避免为了推高而过度挺腰。",
+        "从轻重量开始熟悉轨迹。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1csj36CEf9/?t=1267",
+        "platform": "哔哩哔哩",
+        "title": "私教系列之肩部教学，希望对大家有所帮助！！",
+        "author": "谭成义",
+        "startLabel": "21:07–25:47",
+        "appUrl": "bilibili://video/116759457699689?page=0&start_progress=1267000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 坐姿哑铃推肩教程",
+          "url": "https://www.bilibili.com/video/BV1csj36CEf9/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=seated-dumbbell-shoulder-press"
+        }
+      ]
+    },
+    {
+      "id": "reverse-pec-deck",
+      "name": "反向蝴蝶机",
+      "bodyPart": "肩部",
+      "equipment": "固定器械",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "三角肌后束",
+        "菱形肌"
+      ],
+      "summary": "利用固定器械练习手臂向后打开。",
+      "steps": [
+        "面向靠垫坐好，调节座椅使手臂高度合适。",
+        "肘微屈，将手臂向两侧后方打开。",
+        "控制回到起点，胸部保持有支撑。"
+      ],
+      "tips": [
+        "不要为了拉得更远而抬胸离开靠垫。",
+        "采用能缓慢回程的轻重量。"
+      ],
+      "prescription": "起步参考：2组×10–15次，轻重量、完整控制。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7613586950141907450",
+        "platform": "抖音",
+        "title": "最后一期来喽，肩加手臂的训练，希望对大家有所帮助！！下一期居家训练的具体计划#健身教学 #肩部训练",
+        "author": "谭成义",
+        "startLabel": "06:45–10:13（进入视频后需手动定位）",
+        "appUrl": "snssdk1128://aweme/detail/7613586950141907450?refer=web"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 谭成义 · 反向蝴蝶机教程",
+          "url": "https://www.douyin.com/video/7613586950141907450"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=reverse-pec-deck"
+        }
+      ]
+    },
+    {
+      "id": "seated-cable-face-pull",
+      "name": "坐姿绳索面拉",
+      "bodyPart": "肩部",
+      "equipment": "绳索",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "三角肌后束",
+        "肩袖肌群",
+        "上背部"
+      ],
+      "summary": "练习上背部与肩部的协调控制。",
+      "steps": [
+        "将滑轮置于面部附近高度，坐稳握住绳端。",
+        "把绳拉向面部两侧，让手和肘协调移动。",
+        "缓慢前伸还原，保持颈部自然。"
+      ],
+      "tips": [
+        "肩部活动范围因人而异，不强拧手臂。",
+        "轻重量练控制，避免躯干后倒。"
+      ],
+      "prescription": "起步参考：2组×10–15次，轻重量、完整控制。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1utntzhE9a/?t=52",
+        "platform": "哔哩哔哩",
+        "title": "非常详细的肩部教学视频来喽，赶紧去练习吧",
+        "author": "谭成义",
+        "startLabel": "00:52–02:53",
+        "appUrl": "bilibili://video/115263366370736?page=0&start_progress=52000"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 谭成义 · 坐姿绳索面拉教程",
+          "url": "https://www.bilibili.com/video/BV1utntzhE9a/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=seated-cable-face-pull"
+        }
+      ]
+    },
+    {
+      "id": "prone-y-raise",
+      "name": "俯卧Y形举臂",
+      "bodyPart": "肩部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "热身",
+      "muscles": [
+        "斜方肌下部",
+        "肩胛稳定肌"
+      ],
+      "summary": "用小幅度举臂唤醒肩胛控制。",
+      "steps": [
+        "俯卧或胸部靠斜凳，手臂呈Y形、拇指朝上。",
+        "保持颈部放松，轻轻抬高手臂。",
+        "缓慢落下，在无痛范围重复。"
+      ],
+      "tips": [
+        "从徒手开始，不追求抬得很高。",
+        "避免通过挺腰完成动作。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "热身参考：1–2组，每侧或每组6–10次，轻松且可控。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=prone-y-raise"
+        }
+      ]
+    },
+    {
+      "id": "squat-pattern",
+      "name": "深蹲",
+      "bodyPart": "腿臀",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "股四头肌",
+        "臀大肌",
+        "内收肌群"
+      ],
+      "summary": "从徒手开始建立下蹲与起身的基本模式。",
+      "steps": [
+        "双脚按舒适宽度站稳，脚尖自然略向外。",
+        "髋膝一起弯曲，保持脚掌受力与躯干控制。",
+        "蹲至能稳定控制的深度，踩地站起。"
+      ],
+      "tips": [
+        "膝盖可自然前移，保持与脚尖方向协调。",
+        "先用箱式深蹲或扶物辅助找到平衡。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "ACE动作库：Bodyweight Squat",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=squat-pattern"
+        }
+      ]
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "罗马尼亚硬拉",
+      "bodyPart": "腿臀",
+      "equipment": "杠铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "腘绳肌群",
+        "臀大肌",
+        "竖脊肌"
+      ],
+      "summary": "以髋部折叠为核心的下肢后侧训练。",
+      "steps": [
+        "站稳持杠，膝部微屈，腹部保持稳定。",
+        "将臀部向后推，负重贴近腿部下降。",
+        "在背部姿势可控的范围停止，再伸髋站直。"
+      ],
+      "tips": [
+        "不必为了碰地而弯腰。",
+        "感觉腰部疼痛时立即停止并调整。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "ACE动作库：Hip Hinge（髋部折叠基础）",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/33/hip-hinge/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=romanian-deadlift"
+        }
+      ]
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "name": "保加利亚分腿蹲",
+      "bodyPart": "腿臀",
+      "equipment": "哑铃",
+      "difficulty": "进阶",
+      "category": "力量",
+      "muscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "summary": "用单侧发力提升下肢控制与力量。",
+      "steps": [
+        "后脚轻放在低凳上，前脚踩稳并找到平衡。",
+        "弯曲前腿，让身体受控下降。",
+        "通过前脚蹬地站起，完成后换侧。"
+      ],
+      "tips": [
+        "先徒手练习，可扶固定物保持平衡。",
+        "后脚垫高程度按活动度调整。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=bulgarian-split-squat"
+        }
+      ]
+    },
+    {
+      "id": "prone-leg-curl",
+      "name": "俯卧腿弯举",
+      "bodyPart": "腿臀",
+      "equipment": "固定器械",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "腘绳肌群"
+      ],
+      "summary": "通过屈膝练习大腿后侧肌群。",
+      "steps": [
+        "调整器械转轴与膝关节大致对齐，腿垫贴近踝后。",
+        "保持髋部贴稳，屈膝带动腿垫。",
+        "缓慢伸膝还原，避免配重撞击。"
+      ],
+      "tips": [
+        "腰腹保持稳定，避免抬起骨盆借力。",
+        "先熟悉机器调节方式。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=prone-leg-curl"
+        }
+      ]
+    },
+    {
+      "id": "hip-thrust",
+      "name": "器械臀推",
+      "bodyPart": "腿臀",
+      "equipment": "固定器械",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "臀大肌",
+        "腘绳肌群"
+      ],
+      "summary": "借助稳定支撑练习伸髋。",
+      "steps": [
+        "按器械说明调整靠垫和腰带，双脚踩稳。",
+        "保持肋骨与骨盆稳定，通过伸髋向上推。",
+        "到身体舒展的位置后控制回落。"
+      ],
+      "tips": [
+        "顶端避免过度挺腰。",
+        "先使用轻重量确认腰带和靠垫位置。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=hip-thrust"
+        }
+      ]
+    },
+    {
+      "id": "standing-calf-raise",
+      "name": "站姿提踵",
+      "bodyPart": "腿臀",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "腓肠肌",
+        "比目鱼肌"
+      ],
+      "summary": "通过踝关节运动练习小腿。",
+      "steps": [
+        "扶稳支撑，双脚站在平地或稳定台面。",
+        "缓慢抬起脚跟，让前脚掌保持受力。",
+        "控制脚跟下降，再重复。"
+      ],
+      "tips": [
+        "不要快速弹动。",
+        "保持脚踝稳定，不向外翻倒。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×10–15次，轻重量、完整控制。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=standing-calf-raise"
+        }
+      ]
+    },
+    {
+      "id": "band-lateral-walk",
+      "name": "弹力带侧向走",
+      "bodyPart": "腿臀",
+      "equipment": "弹力带",
+      "difficulty": "入门",
+      "category": "热身",
+      "muscles": [
+        "臀中肌",
+        "臀小肌"
+      ],
+      "summary": "在横向移动中练习髋部稳定。",
+      "steps": [
+        "把轻阻力弹力带套在膝上，膝髋稍弯。",
+        "向侧方迈小步，另一脚跟进。",
+        "保持带子有轻微张力，向两侧交替移动。"
+      ],
+      "tips": [
+        "膝盖随脚尖方向移动。",
+        "保持骨盆平稳，避免左右晃动。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "热身参考：1–2组，每侧或每组6–10次，轻松且可控。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=band-lateral-walk"
+        }
+      ]
+    },
+    {
+      "id": "barbell-curl",
+      "name": "杠铃弯举",
+      "bodyPart": "手臂",
+      "equipment": "杠铃",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "肱二头肌",
+        "肱肌"
+      ],
+      "summary": "通过屈肘练习上臂前侧。",
+      "steps": [
+        "站稳反握杠铃，肘部自然位于身体两侧。",
+        "弯曲肘部抬起杠铃，保持手腕稳定。",
+        "缓慢伸肘回程，保留负重控制。"
+      ],
+      "tips": [
+        "避免用髋部前顶借力。",
+        "直杆不适时可改曲杆或哑铃。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=barbell-curl"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-hammer-curl",
+      "name": "哑铃锤式弯举",
+      "bodyPart": "手臂",
+      "equipment": "哑铃",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "肱肌",
+        "肱桡肌",
+        "肱二头肌"
+      ],
+      "summary": "使用对握姿势练习屈肘。",
+      "steps": [
+        "双手持铃、掌心相对，躯干站稳。",
+        "保持手腕中立，弯曲肘部抬起哑铃。",
+        "缓慢下放，左右侧保持相近节奏。"
+      ],
+      "tips": [
+        "肘部不必死夹，但不要大幅前后摆动。",
+        "握紧哑铃，避免折腕。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "ACE动作库：Hammer Curl",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/10/hammer-curl/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=dumbbell-hammer-curl"
+        }
+      ]
+    },
+    {
+      "id": "overhead-cable-extension",
+      "name": "绳索过顶臂屈伸",
+      "bodyPart": "手臂",
+      "equipment": "绳索",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "肱三头肌"
+      ],
+      "summary": "在上臂抬起的位置练习伸肘。",
+      "steps": [
+        "背对滑轮站稳，持绳并将上臂举到舒适角度。",
+        "保持躯干稳定，伸直肘部带动绳索。",
+        "控制屈肘还原，不强求极深幅度。"
+      ],
+      "tips": [
+        "无法舒适过顶时改做绳索下压。",
+        "避免挺腰与头部前伸。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=overhead-cable-extension"
+        }
+      ]
+    },
+    {
+      "id": "straight-bar-cable-triceps-extension",
+      "name": "直杆绳索下压",
+      "bodyPart": "手臂",
+      "equipment": "绳索",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "肱三头肌"
+      ],
+      "summary": "用稳定姿势练习肘部伸展。",
+      "steps": [
+        "面对高位滑轮，正握直杆，双脚站稳。",
+        "保持上臂位置相对稳定，伸肘向下压。",
+        "缓慢屈肘还原，不让负重把身体拉起。"
+      ],
+      "tips": [
+        "保持手腕中立。",
+        "减少耸肩和整个人向下压的借力。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=straight-bar-cable-triceps-extension"
+        }
+      ]
+    },
+    {
+      "id": "crunch",
+      "name": "卷腹",
+      "bodyPart": "腹部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "腹直肌"
+      ],
+      "summary": "用小幅躯干卷起练习腹部控制。",
+      "steps": [
+        "仰卧屈膝，双脚落地，双手轻放胸前。",
+        "呼气并轻轻卷起上背，让肋骨向骨盆靠近。",
+        "缓慢回到垫面，保持颈部自然。"
+      ],
+      "tips": [
+        "双手不要用力拉头。",
+        "幅度以腹部能控制为准。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；熟练后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "ACE动作库：Crunch",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/52/crunch/"
+        },
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=crunch"
+        }
+      ]
+    },
+    {
+      "id": "hanging-leg-raise",
+      "name": "悬垂举腿",
+      "bodyPart": "腹部",
+      "equipment": "单杠",
+      "difficulty": "进阶",
+      "category": "力量",
+      "muscles": [
+        "腹直肌",
+        "髋屈肌群"
+      ],
+      "summary": "在悬垂状态下练习骨盆与躯干控制。",
+      "steps": [
+        "握稳单杠，先让身体停止摆动。",
+        "从屈膝抬腿开始，带动骨盆轻轻向后卷。",
+        "缓慢放低，保持身体不大幅摆荡。"
+      ],
+      "tips": [
+        "握力或肩部不适时改用支撑式抬膝。",
+        "先掌握屈膝版本，再增加难度。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×4–8次；能力不足时使用文中退阶方式。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=hanging-leg-raise"
+        }
+      ]
+    },
+    {
+      "id": "ab-wheel-home",
+      "name": "跪姿健腹轮",
+      "bodyPart": "腹部",
+      "equipment": "健腹轮",
+      "difficulty": "进阶",
+      "category": "力量",
+      "muscles": [
+        "腹部",
+        "背阔肌",
+        "肩部稳定肌"
+      ],
+      "summary": "练习抵抗腰部过度伸展的能力。",
+      "steps": [
+        "跪在软垫上握稳轮柄，腹部收紧。",
+        "缓慢向前滚动，保持躯干整体稳定。",
+        "在腰部仍可控制时停止，再拉回起点。"
+      ],
+      "tips": [
+        "先用短距离或面对墙壁限制行程。",
+        "不要塌腰硬撑，出现腰痛立即停止。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "起步参考：2组×4–8次；能力不足时使用文中退阶方式。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=ab-wheel-home"
+        }
+      ]
+    },
+    {
+      "id": "worlds-greatest-stretch",
+      "name": "弓步转体动态热身",
+      "bodyPart": "全身",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "热身",
+      "muscles": [
+        "髋屈肌群",
+        "臀肌群",
+        "胸椎周围肌"
+      ],
+      "summary": "把弓步、支撑与转体结合，逐步进入训练状态。",
+      "steps": [
+        "前脚迈大步，后膝可落在软垫上，双手支撑。",
+        "保持骨盆相对稳定，将一侧手臂随胸部转向上方。",
+        "缓慢回正并换侧，在舒适范围内重复。"
+      ],
+      "tips": [
+        "不要用手臂硬拽身体旋转。",
+        "关节不适时缩小幅度并增加支撑。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "热身参考：1–2组，每侧或每组6–10次，轻松且可控。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=worlds-greatest-stretch"
+        }
+      ]
+    },
+    {
+      "id": "90-90-hip-switch",
+      "name": "90/90髋部转换",
+      "bodyPart": "腿臀",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "热身",
+      "muscles": [
+        "髋内外旋肌群"
+      ],
+      "summary": "在坐姿中练习髋部旋转控制。",
+      "steps": [
+        "坐在垫上，双膝弯曲并分别放到身体一侧。",
+        "双手可撑地，缓慢把双膝转向另一侧。",
+        "在新位置保持片刻后继续转换。"
+      ],
+      "tips": [
+        "不必强压双膝贴地。",
+        "膝关节疼痛时减小范围或更换动作。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "热身参考：1–2组，每侧或每组6–10次，轻松且可控。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=90-90-hip-switch"
+        }
+      ]
+    },
+    {
+      "id": "band-pull-apart",
+      "name": "弹力带拉开",
+      "bodyPart": "肩部",
+      "equipment": "弹力带",
+      "difficulty": "入门",
+      "category": "热身",
+      "muscles": [
+        "三角肌后束",
+        "菱形肌"
+      ],
+      "summary": "轻阻力练习上背部与肩胛运动。",
+      "steps": [
+        "双手握带，手臂在胸前抬起，肘微屈。",
+        "向两侧打开双手，使弹力带靠近胸前。",
+        "控制回程，保持颈部放松。"
+      ],
+      "tips": [
+        "选轻阻力，不用后仰身体借力。",
+        "在肩部舒适高度进行。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "热身参考：1–2组，每侧或每组6–10次，轻松且可控。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=band-pull-apart"
+        }
+      ]
+    },
+    {
+      "id": "wall-chest-stretch",
+      "name": "扶墙胸部拉伸",
+      "bodyPart": "胸部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "拉伸",
+      "muscles": [
+        "胸大肌",
+        "肩前部"
+      ],
+      "summary": "通过轻柔转身感受胸部拉伸。",
+      "steps": [
+        "将一侧前臂轻贴墙面，身体站稳。",
+        "缓慢转动躯干远离墙面，停在轻微牵拉的位置。",
+        "自然呼吸，结束后换侧。"
+      ],
+      "tips": [
+        "不追求疼痛或麻木感。",
+        "手臂高度可按个人舒适度调整。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "放松参考：轻柔保持15–30秒，1–2轮，不压到疼痛。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=wall-chest-stretch"
+        }
+      ]
+    },
+    {
+      "id": "supine-figure-four-glute-stretch",
+      "name": "仰卧臀部拉伸",
+      "bodyPart": "腿臀",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "拉伸",
+      "muscles": [
+        "臀大肌",
+        "髋外旋肌群"
+      ],
+      "summary": "用仰卧姿势轻柔拉伸臀部。",
+      "steps": [
+        "仰卧屈膝，一侧踝部搭在另一侧大腿上。",
+        "双手抱住下方大腿，缓慢向身体靠近。",
+        "保持舒适牵拉与自然呼吸，再换侧。"
+      ],
+      "tips": [
+        "不要用手强压搭起的膝盖。",
+        "出现膝痛或放射痛时停止。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "放松参考：轻柔保持15–30秒，1–2轮，不压到疼痛。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=supine-figure-four-glute-stretch"
+        }
+      ]
+    },
+    {
+      "id": "wall-back-active-stretch",
+      "name": "扶墙背部主动伸展",
+      "bodyPart": "背部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "拉伸",
+      "muscles": [
+        "背阔肌",
+        "肩部周围肌"
+      ],
+      "summary": "利用支撑轻柔活动肩部和背部。",
+      "steps": [
+        "双手扶墙或稳固台面，双脚向后站开。",
+        "将髋部缓慢向后移，躯干向下靠近。",
+        "在舒适范围停留，自然呼吸后还原。"
+      ],
+      "tips": [
+        "保持腰腹控制，避免刻意压腰。",
+        "肩部不适时抬高手部支撑位置。",
+        "本文为本站基础动作整理；对应视频教程尚待补充核验。"
+      ],
+      "prescription": "放松参考：轻柔保持15–30秒，1–2轮，不压到疼痛。 本站通用安排，与视频原计划可能不同。",
+      "video": null,
+      "sources": [
+        {
+          "title": "动作分类参考：原站公开动作目录",
+          "url": "https://fitness.j1exanderspace.cn/fitness/#action=wall-back-active-stretch"
+        }
+      ]
+    }
+  ],
+  "supplements": [
+    {
+      "id": "protein",
+      "name": "蛋白粉",
+      "englishName": "Protein",
+      "category": "营养补足",
+      "goals": [
+        "增肌",
+        "饮食补足"
+      ],
+      "evidence": "证据较充分",
+      "summary": "当日常食物难以满足蛋白质需求时，蛋白粉是方便的补充方式；吃够蛋白质的人未必需要额外购买。",
+      "benefits": [
+        "为肌肉修复和训练适应提供必需氨基酸。",
+        "便于携带和计算摄入量，价值主要来自补足饮食缺口。"
+      ],
+      "suitableFor": [
+        "规律力量训练、但食物蛋白质摄入不足的成年人。",
+        "因时间或食欲限制，难以从正餐获得足够蛋白质的人；蛋白粉不能单独替代完整一餐。"
+      ],
+      "cautions": [
+        "乳蛋白过敏者需避免相关原料；乳糖不耐受者关注乳糖含量。",
+        "已有肾脏疾病或需要限制蛋白质时，先咨询负责诊疗的专业人员。"
+      ],
+      "usage": "先估算日常食物中的蛋白质，再决定是否补充。比较的是每份蛋白质克数，而不是每勺粉末重量；全天饮食和持续训练更值得优先安排。",
+      "selectionTips": [
+        "看每份蛋白质、原料、过敏原与添加糖。",
+        "比较每克蛋白质成本，按乳糖耐受和饮食偏好选乳清、大豆等来源。"
+      ],
+      "myths": [
+        {
+          "question": "练后不马上喝，就白练了吗？",
+          "answer": "不需要把某一个时间点当成成败标准。先稳定全天蛋白质摄入，再结合正餐安排。"
+        },
+        {
+          "question": "蛋白粉比肉蛋奶更能长肌肉？",
+          "answer": "它主要提供方便；普通食物同样可以满足蛋白质需求，还能带来其他营养。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIH ODS：运动表现补剂 · Protein",
+          "url": "https://ods.od.nih.gov/factsheets/exerciseandathleticperformance-healthprofessional/"
+        },
+        {
+          "title": "AIS：A类 · Isolated Protein Supplement",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "id": "creatine",
+      "name": "一水肌酸",
+      "englishName": "Creatine Monohydrate",
+      "category": "运动表现",
+      "goals": [
+        "力量",
+        "增肌"
+      ],
+      "evidence": "证据较充分",
+      "summary": "对重复的短时高强度运动，肌酸有较充分证据；效果依赖训练，也存在个体差异。",
+      "benefits": [
+        "可能提升高强度重复训练的工作量与力量表现。",
+        "结合长期抗阻训练，可帮助训练适应。"
+      ],
+      "suitableFor": [
+        "有规律力量训练或重复冲刺需求的健康成年人。"
+      ],
+      "cautions": [
+        "可能出现体重上升或胃肠不适，早期增重可与水分增加有关。",
+        "有肾脏疾病、正在用药或处于孕哺期时，先进行个体评估。"
+      ],
+      "usage": "研究最充分的是一水肌酸。它需要规律使用来增加肌肉储备，不是训练前喝一次就立刻起效的刺激剂；具体用量按产品说明并结合专业建议确定。",
+      "selectionTips": [
+        "优先选择成分和每份含量明确的一水肌酸。",
+        "不必仅因“升级形态”或复合配方支付溢价。"
+      ],
+      "myths": [
+        {
+          "question": "肌酸就是激素吗？",
+          "answer": "不是。肌酸参与肌肉能量供应，人体也会合成，部分动物性食物中也含有。"
+        },
+        {
+          "question": "体重增加等于长脂肪吗？",
+          "answer": "不一定，肌酸引起的早期体重变化常包含水分。结合围度和长期趋势判断。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIH ODS：运动表现补剂 · Creatine",
+          "url": "https://ods.od.nih.gov/factsheets/exerciseandathleticperformance-healthprofessional/"
+        },
+        {
+          "title": "AIS：A类 · Creatine Monohydrate",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "id": "caffeine",
+      "name": "咖啡因",
+      "englishName": "Caffeine",
+      "category": "运动表现",
+      "goals": [
+        "耐力",
+        "运动表现"
+      ],
+      "evidence": "证据较充分",
+      "summary": "咖啡因可能降低疲劳感、改善部分运动表现，但睡眠、耐受与总摄入量决定它是否值得用。",
+      "benefits": [
+        "部分人耐力运动表现可得到改善。",
+        "可能降低主观用力感，个体反应差异较大。"
+      ],
+      "suitableFor": [
+        "能耐受咖啡因，且有明确运动表现需求的成年人。"
+      ],
+      "cautions": [
+        "可能引起失眠、心悸、焦虑和胃肠不适。",
+        "未成年人、孕哺期人群及有心律问题者不应照搬运动补剂方案。",
+        "避免纯咖啡因粉末，以及多种兴奋成分叠加。"
+      ],
+      "usage": "把咖啡、茶、能量饮料和训练前产品中的咖啡因合计考虑。首次尝试选择较低摄入，观察反应；会影响睡眠时优先减少或不用，不靠加量补偿熬夜。",
+      "selectionTips": [
+        "选明确标注每份咖啡因毫克数的产品。",
+        "留意瓜拉纳等原料也可能贡献咖啡因。"
+      ],
+      "myths": [
+        {
+          "question": "越提神，运动效果越好吗？",
+          "answer": "不是。更高摄入未必带来更好表现，却可能增加不适与睡眠损失。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIH ODS：运动表现补剂 · Caffeine",
+          "url": "https://ods.od.nih.gov/factsheets/exerciseandathleticperformance-healthprofessional/"
+        },
+        {
+          "title": "AIS：A类 · Caffeine",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "id": "electrolytes",
+      "name": "电解质补充",
+      "englishName": "Electrolytes",
+      "category": "补水与耐力",
+      "goals": [
+        "耐力",
+        "补水"
+      ],
+      "evidence": "特定情境",
+      "summary": "长时间运动、炎热环境或大量出汗时更值得考虑；日常短时训练通常可以从饮水和饮食开始。",
+      "benefits": [
+        "补充随汗液损失的部分电解质，尤其是钠。",
+        "可用于有计划的运动补水；含糖运动饮料还能提供碳水。"
+      ],
+      "suitableFor": [
+        "长时间耐力活动或高温、大汗量的运动情境。"
+      ],
+      "cautions": [
+        "肾脏、心脏疾病或需限制钠钾摄入者要先做个体评估。",
+        "不能把电解质饮料当作无限喝水的保障；补水量也需适合实际需求。"
+      ],
+      "usage": "根据运动时长、气温、汗量和后续进餐条件决定是否使用。按标签正确稀释；无糖电解质不能替代长时间运动所需的能量补给。",
+      "selectionTips": [
+        "看每份钠含量、建议稀释水量和碳水含量。",
+        "区分电解质片与含碳水运动饮料，两者用途有差别。"
+      ],
+      "myths": [
+        {
+          "question": "任何一次出汗都必须喝电解质吗？",
+          "answer": "不是。需求取决于运动环境和汗液损失，普通饮水加正常饮食往往已经够用。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AIS：A类 · Electrolyte Supplement 与 Sports Drink",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        },
+        {
+          "title": "NIH ODS：运动饮食与补水基础",
+          "url": "https://ods.od.nih.gov/factsheets/exerciseandathleticperformance-healthprofessional/"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "id": "omega3",
+      "name": "鱼油 / Omega-3",
+      "englishName": "Omega-3 Fatty Acids",
+      "category": "营养补足",
+      "goals": [
+        "饮食补足"
+      ],
+      "evidence": "特定情境",
+      "summary": "先看是否经常吃鱼，再判断是否需要补充。鱼油不能被当作人人必需的增肌或减脂产品。",
+      "benefits": [
+        "可补充EPA和DHA，帮助弥补相应膳食来源不足。",
+        "某些临床用途有特定证据，但医疗剂量与日常保健产品不能混同。"
+      ],
+      "suitableFor": [
+        "很少摄入鱼类，并经饮食评估有补充需求的人。"
+      ],
+      "cautions": [
+        "可能出现反酸、鱼腥味或胃肠不适。",
+        "服用抗凝药或有心律问题者需先咨询医生；不要自行使用高剂量。"
+      ],
+      "usage": "优先检查一周饮食中的鱼类来源。若考虑补充，应按EPA与DHA实际含量核算；不依据“鱼油总重量”推断有效成分。",
+      "selectionTips": [
+        "看清每份EPA、DHA各有多少。",
+        "关注有效期、储存方式和批次质量信息；素食者可了解藻油来源。"
+      ],
+      "myths": [
+        {
+          "question": "1000毫克鱼油等于1000毫克Omega-3吗？",
+          "answer": "不等于。总油量与EPA、DHA含量是不同数字，需要查看营养或成分标签。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIH ODS：Omega-3脂肪酸专业资料",
+          "url": "https://ods.od.nih.gov/factsheets/omega3fattyacids-healthprofessional/"
+        },
+        {
+          "title": "AIS：B类补剂的证据与适用范围",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "维生素D",
+      "englishName": "Vitamin D",
+      "category": "营养补足",
+      "goals": [
+        "饮食补足",
+        "骨骼健康"
+      ],
+      "evidence": "特定情境",
+      "summary": "维生素D与骨骼和钙代谢有关；补充的意义在于满足需求或纠正不足，不能默认人人越多越好。",
+      "benefits": [
+        "支持正常钙吸收与骨骼健康。",
+        "存在不足时，在专业评估下补充有明确用途。"
+      ],
+      "suitableFor": [
+        "饮食、日照或健康状况提示可能不足，经过评估有需求的人。"
+      ],
+      "cautions": [
+        "长期过量补充可引起高钙血症及肾脏问题。",
+        "要合计复合维生素、钙片和单独维生素D中的含量。"
+      ],
+      "usage": "是否检查和补充应结合个人情况，不把单一症状当作缺乏诊断。避免自行使用大剂量“冲击疗法”；已确诊缺乏者按医生方案执行。",
+      "selectionTips": [
+        "核对每粒含量与单位：1微克维生素D等于40 IU。",
+        "常规维护量与治疗缺乏的方案用途不同，勿自行互换。"
+      ],
+      "myths": [
+        {
+          "question": "维生素D能直接帮助减脂吗？",
+          "answer": "目前不能把它作为减脂工具。满足营养需求与改变体脂是不同问题。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIH ODS：维生素D专业资料",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+        },
+        {
+          "title": "AIS：A类 · Medical Supplements / Vitamin D",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "id": "bcaa",
+      "name": "BCAA 支链氨基酸",
+      "englishName": "Branched-Chain Amino Acids",
+      "category": "先了解再购买",
+      "goals": [
+        "增肌",
+        "恢复"
+      ],
+      "evidence": "证据有限",
+      "summary": "当完整蛋白质已经充足时，额外BCAA带来更多增肌收益的证据不一致，通常不应成为首要支出。",
+      "benefits": [
+        "提供亮氨酸、异亮氨酸和缬氨酸三种必需氨基酸。",
+        "部分研究观察到恢复相关指标变化，但不能据此承诺更多肌肉增长。"
+      ],
+      "suitableFor": [
+        "想理解氨基酸产品区别的人；一般健身者应先评估完整蛋白质摄入。"
+      ],
+      "cautions": [
+        "BCAA没有包含全部必需氨基酸，不能替代完整蛋白质。",
+        "研究结果存在局限，不能把短期指标变化当成长期训练效果。"
+      ],
+      "usage": "如果预算有限，先安排普通食物和足量蛋白质。已有充足蛋白质摄入时，可以选择不额外购买BCAA。",
+      "selectionTips": [
+        "与完整蛋白质来源比较实际营养价值及成本。",
+        "不要仅凭比例更高、口味或“防分解”宣传判断效果。"
+      ],
+      "myths": [
+        {
+          "question": "训练中喝BCAA就能保证不掉肌肉？",
+          "answer": "不能保证。总能量、蛋白质、训练安排和恢复共同影响肌肉维持。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIH ODS：运动表现补剂 · Branched-chain amino acids",
+          "url": "https://ods.od.nih.gov/factsheets/exerciseandathleticperformance-healthprofessional/"
+        },
+        {
+          "title": "AIS：C类补剂证据框架",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "id": "pre-workout",
+      "name": "复合氮泵 / 训练前补剂",
+      "englishName": "Pre-workout Blends",
+      "category": "先了解再购买",
+      "goals": [
+        "运动表现"
+      ],
+      "evidence": "证据有限",
+      "summary": "“氮泵”不是单一成分。不同配方和含量差异很大，不能把某种成分的研究结论套到整罐产品。",
+      "benefits": [
+        "部分配方含咖啡因等有特定用途的成分。",
+        "整款产品是否有效，需要看实际配方、用量与对应研究。"
+      ],
+      "suitableFor": [
+        "已明确训练需求，能够核算全部成分和每日总摄入的成年人。"
+      ],
+      "cautions": [
+        "多种刺激成分叠加可能增加心悸、失眠和胃肠不适。",
+        "“专有混合物”若不公开单项含量，很难判断摄入量。",
+        "刺痒或强烈兴奋感不等于训练效果更好。"
+      ],
+      "usage": "先把标签拆成单一成分逐项判断。不与能量饮料、额外咖啡因或其他刺激类产品叠加；信息不透明时选择不使用。",
+      "selectionTips": [
+        "要求每项成分及每份含量明确。",
+        "避免把宣传词、短暂泵感或网红体验当成效果证明。"
+      ],
+      "myths": [
+        {
+          "question": "喝完刺痒说明产品更有效？",
+          "answer": "某些成分会引起刺痒，但这种感觉不能证明整款产品提升力量或增肌。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NIH ODS：复合成分产品的效果与安全局限",
+          "url": "https://ods.od.nih.gov/factsheets/exerciseandathleticperformance-healthprofessional/"
+        },
+        {
+          "title": "AIS：补剂框架与应用原则",
+          "url": "https://www.ausport.gov.au/ais/nutrition/supplements"
+        }
+      ],
+      "reviewedAt": "2026-10-20"
+    }
+  ],
+  "plans": [
+    {
+      "id": "three-day-foundation",
+      "name": "每周3练 · 全身基础",
+      "daysPerWeek": 3,
+      "level": "入门 / 重返训练",
+      "description": "本站通用起步模板，可安排在周一、三、五。每次覆盖下肢、推、拉与核心；先从2组开始，动作稳定且恢复良好后再调整。出现关节疼痛时停止相应动作并评估。",
+      "sources": [
+        {
+          "title": "ACSM 2026抗阻训练指南：规律参与与个体调整",
+          "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 建立基础",
+          "subtitle": "蹲 + 水平推拉",
+          "warmup": "先轻松走动或骑车约5分钟，再做相关动态活动；第一个负重动作从轻重量逐步热身。热身组不计入正式组。",
+          "exercises": [
+            {
+              "exerciseId": "squat-pattern",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "90–120秒",
+              "note": "先徒手；稳定后再考虑抱铃。"
+            },
+            {
+              "exerciseId": "seated-machine-chest-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "narrow-seated-row",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "crunch",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "60秒",
+              "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 后侧发力",
+          "subtitle": "髋部折叠 + 垂直拉",
+          "warmup": "先轻松走动或骑车约5分钟，再做相关动态活动；第一个负重动作从轻重量逐步热身。热身组不计入正式组。",
+          "exercises": [
+            {
+              "exerciseId": "romanian-deadlift",
+              "sets": "2",
+              "reps": "8–10",
+              "rest": "90–120秒",
+              "note": "轻重量练习髋部折叠，不追求触地。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "push-up-home",
+              "sets": "2",
+              "reps": "6–12",
+              "rest": "90–120秒",
+              "note": "按能力抬高手部支撑。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "2",
+              "reps": "12–15",
+              "rest": "60秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "crunch",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "60秒",
+              "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        },
+        {
+          "title": "第3天 · 重复与巩固",
+          "subtitle": "基础模式 + 手臂",
+          "warmup": "先轻松走动或骑车约5分钟，再做相关动态活动；第一个负重动作从轻重量逐步热身。热身组不计入正式组。",
+          "exercises": [
+            {
+              "exerciseId": "squat-pattern",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "dumbbell-bench-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "single-arm-dumbbell-row",
+              "sets": "2",
+              "reps": "每侧8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "dumbbell-hammer-curl",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "four-day-upper-lower",
+      "name": "每周4练 · 上下肢分化",
+      "daysPerWeek": 4,
+      "level": "基础 / 已规律训练",
+      "description": "本站通用模板，可安排为上肢、下肢、休息、上肢、下肢。适合已掌握基础动作的人；每次先完成主要动作，组末保持控制。下列组数为起点，按恢复和进步逐步调整。",
+      "sources": [
+        {
+          "title": "ACSM 2026抗阻训练指南：规律参与与个体调整",
+          "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 上肢A",
+          "subtitle": "水平推拉优先",
+          "warmup": "先轻松走动或骑车约5分钟，再做相关动态活动；第一个负重动作从轻重量逐步热身。热身组不计入正式组。",
+          "exercises": [
+            {
+              "exerciseId": "barbell-bench-press",
+              "sets": "3",
+              "reps": "8–10",
+              "rest": "2–3分钟",
+              "note": "使用安全架或保护者；保留2次左右余力。"
+            },
+            {
+              "exerciseId": "narrow-seated-row",
+              "sets": "3",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "straight-bar-cable-triceps-extension",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 下肢A",
+          "subtitle": "蹲 + 腿后侧",
+          "warmup": "先轻松走动或骑车约5分钟，再做相关动态活动；第一个负重动作从轻重量逐步热身。热身组不计入正式组。",
+          "exercises": [
+            {
+              "exerciseId": "squat-pattern",
+              "sets": "3",
+              "reps": "10–12",
+              "rest": "2分钟",
+              "note": "可从徒手或抱铃开始。"
+            },
+            {
+              "exerciseId": "romanian-deadlift",
+              "sets": "3",
+              "reps": "8–10",
+              "rest": "2–3分钟",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "3",
+              "reps": "12–15",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "crunch",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "60秒",
+              "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        },
+        {
+          "title": "第3天 · 上肢B",
+          "subtitle": "上斜推举 + 单侧拉",
+          "warmup": "先轻松走动或骑车约5分钟，再做相关动态活动；第一个负重动作从轻重量逐步热身。热身组不计入正式组。",
+          "exercises": [
+            {
+              "exerciseId": "incline-dumbbell-chest-press",
+              "sets": "3",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "single-arm-dumbbell-row",
+              "sets": "3",
+              "reps": "每侧8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "seated-dumbbell-shoulder-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "reverse-pec-deck",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "barbell-curl",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        },
+        {
+          "title": "第4天 · 下肢B",
+          "subtitle": "单侧控制 + 伸髋",
+          "warmup": "先轻松走动或骑车约5分钟，再做相关动态活动；第一个负重动作从轻重量逐步热身。热身组不计入正式组。",
+          "exercises": [
+            {
+              "exerciseId": "bulgarian-split-squat",
+              "sets": "2",
+              "reps": "每侧8–10",
+              "rest": "2分钟",
+              "note": "先徒手或扶物，掌握平衡后再负重。"
+            },
+            {
+              "exerciseId": "hip-thrust",
+              "sets": "3",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "3",
+              "reps": "12–15",
+              "rest": "60–90秒",
+              "note": "选择能保留2–3次余力的重量。"
+            },
+            {
+              "exerciseId": "crunch",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "60秒",
+              "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "name": "练有据",
+    "updatedAt": "2026-10-20",
+    "description": "查动作、安排训练、读懂补剂。面向成年健身爱好者的公开知识与工具站。动作说明为本站整理，视频链接保留原作者；内容用于一般教育，不替代个体诊疗。"
+  }
+}

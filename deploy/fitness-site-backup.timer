@@ -1,0 +1,12 @@
+# Managed by fitness-site deploy/install.sh
+[Unit]
+Description=Daily fitness-site SQLite backup
+
+[Timer]
+OnCalendar=*-*-* 03:30:00 Asia/Shanghai
+RandomizedDelaySec=300
+Persistent=true
+Unit=fitness-site-backup.service
+
+[Install]
+WantedBy=timers.target
