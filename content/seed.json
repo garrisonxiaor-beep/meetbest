@@ -1902,6 +1902,986 @@
           "url": "https://fitness.j1exanderspace.cn/fitness/#action=side-plank-rotation-warmup"
         }
       ]
+    },
+    {
+      "id": "incline-push-up",
+      "name": "上斜俯卧撑",
+      "bodyPart": "胸部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌",
+        "三角肌前束"
+      ],
+      "summary": "双手垫高的俯卧撑，便于从较轻负荷开始练习推起身体。",
+      "steps": [
+        "双手撑在稳固台面或训练凳上，脚向后走，让头、躯干和腿保持一线。",
+        "屈肘慢慢靠近台面，肘部朝身体斜后方，在可控制的幅度内下放。",
+        "双手压稳台面，将身体整体推回，维持腹部收紧。"
+      ],
+      "tips": [
+        "台面越高通常越容易；先选能稳定完成的高度。",
+        "避免使用会滑动、折叠或倾倒的桌椅，腰部不要下塌。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；控制稳定后再逐步增加。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7641649247431102662",
+        "appUrl": "snssdk1128://aweme/detail/7641649247431102662",
+        "platform": "抖音",
+        "title": "俯卧撑的进阶顺序，一条视频让你看懂：纯新手先从上斜俯卧撑开始，循序渐进，你会越练越强！🔥",
+        "author": "意志(健身教学)"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 意志(健身教学) · 上斜俯卧撑",
+          "url": "https://www.douyin.com/video/7641649247431102662"
+        },
+        {
+          "title": "NASM · Incline Push-Up",
+          "url": "https://www.nasm.org/resource-center/exercise-library/incline-push-up"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-chest-fly",
+      "name": "平板哑铃飞鸟",
+      "bodyPart": "胸部",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "胸大肌",
+        "三角肌前束"
+      ],
+      "summary": "在平凳上用轻哑铃完成弧形开合，练习胸部的水平内收。",
+      "steps": [
+        "仰卧平凳，双脚踩稳，双手将轻哑铃举在胸部上方，掌心相对。",
+        "肘部保持微屈，沿弧线缓慢打开双臂，到肩部舒适且能控制的位置。",
+        "保持肘部角度相近，沿原弧线合拢到胸部上方。"
+      ],
+      "tips": [
+        "从轻重量开始，不追求把哑铃放得很低。",
+        "手腕保持自然，避免把飞鸟变成屈肘很大的卧推。"
+      ],
+      "prescription": "起步参考：2组×10–15次，使用轻阻力并保留约2–3次余力。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7529460927792942382",
+        "appUrl": "snssdk1128://aweme/detail/7529460927792942382",
+        "platform": "抖音",
+        "title": "平板哑铃飞鸟防伤指南",
+        "author": "邢阿龙-赛普健身"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 邢阿龙-赛普健身 · 平板哑铃飞鸟",
+          "url": "https://www.douyin.com/video/7529460927792942382"
+        },
+        {
+          "title": "ACE · Lying Chest Fly",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/21/lying-chest-fly/"
+        }
+      ]
+    },
+    {
+      "id": "band-row",
+      "name": "弹力带划船",
+      "bodyPart": "背部",
+      "equipment": "弹力带",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "菱形肌",
+        "斜方肌中束",
+        "肱二头肌"
+      ],
+      "summary": "用弹力带完成水平拉动，在家也能练习背部划船。",
+      "steps": [
+        "坐在垫上，双腿向前伸、膝盖可微屈，将完好的弹力带绕在双脚脚底中部，握住两端并保持腰背自然伸展。",
+        "双肘向后拉，让双手靠近腰侧，躯干维持稳定。",
+        "缓慢伸臂还原，持续控制弹力带，不让它突然弹回。"
+      ],
+      "tips": [
+        "先检查带体与固定位置，避免从脚部滑脱弹向脸。",
+        "用较轻阻力起步，减少身体前后摆动。"
+      ],
+      "prescription": "起步参考：2组×10–15次，使用轻阻力并保留约2–3次余力。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7248534984061947151",
+        "appUrl": "snssdk1128://aweme/detail/7248534984061947151",
+        "platform": "抖音",
+        "title": "用一根弹力带在家就能练习划船动作！还在等什么，一起动起来",
+        "author": "CCTV生活圈"
+      },
+      "sources": [
+        {
+          "title": "抖音 · CCTV生活圈 · 弹力带划船",
+          "url": "https://www.douyin.com/video/7248534984061947151"
+        },
+        {
+          "title": "Gloucestershire Hospitals NHS · 弹力带划船",
+          "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/simple-exercises-encourage-weight-loss/"
+        },
+        {
+          "title": "University of Illinois Extension · Seated Row",
+          "url": "https://eat-move-save.extension.illinois.edu/move/exercise/seated-row"
+        }
+      ]
+    },
+    {
+      "id": "barbell-bent-over-row",
+      "name": "俯身杠铃划船",
+      "bodyPart": "背部",
+      "equipment": "杠铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "菱形肌",
+        "斜方肌中束",
+        "肱二头肌",
+        "竖脊肌"
+      ],
+      "summary": "在髋部折叠的支撑姿势下拉动杠铃，同时练习背部与躯干稳定。",
+      "steps": [
+        "双脚站稳，轻屈膝并从髋部向前折叠，双手全握杠铃，脊柱保持自然。",
+        "固定躯干角度，将杠铃拉向下胸至上腹附近，双肘向后移动。",
+        "控制杠铃下放到手臂自然伸展，整个过程中保持腹部支撑。"
+      ],
+      "tips": [
+        "先用空杆或轻重量掌握俯身支撑，避免靠起身甩动拉起杠铃。",
+        "腰背无法稳定时先减重，或选择胸托、坐姿划船。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；控制稳定后再逐步增加。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7521972896475843849",
+        "appUrl": "snssdk1128://aweme/detail/7521972896475843849",
+        "platform": "抖音",
+        "title": "俯身杠铃划船教学。",
+        "author": "大业健身"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 大业健身 · 俯身杠铃划船",
+          "url": "https://www.douyin.com/video/7521972896475843849"
+        },
+        {
+          "title": "ACE · Bent-Over Row",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/12/bent-over-row/"
+        }
+      ]
+    },
+    {
+      "id": "inverted-row",
+      "name": "反向划船",
+      "bodyPart": "背部",
+      "equipment": "单杠",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "背阔肌",
+        "菱形肌",
+        "斜方肌中束",
+        "肱二头肌"
+      ],
+      "summary": "在低杠下拉起身体，利用脚位调整难度的自重划船。",
+      "steps": [
+        "确认低杠稳固，位于杠下全握杠铃，脚跟支撑地面，身体保持一线。",
+        "腹部和臀部收紧，屈肘将胸部拉向杠，肩部保持自然。",
+        "缓慢伸臂落回，躯干整体移动；需要减轻难度时弯曲膝盖。"
+      ],
+      "tips": [
+        "只用可承重的固定杠或器械，不用不稳的桌缘替代。",
+        "避免挺腰甩髋或突然下坠，脚越往前通常越难。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；控制稳定后再逐步增加。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1yK4y1h7cF/",
+        "appUrl": "bilibili://video/884947821",
+        "platform": "哔哩哔哩",
+        "title": "反向划船动作教学",
+        "author": "教练陈小超"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 教练陈小超 · 反向划船",
+          "url": "https://www.bilibili.com/video/BV1yK4y1h7cF/"
+        },
+        {
+          "title": "ACE · 背部动作与划船变式",
+          "url": "https://www.acefitness.org/resources/pros/expert-articles/8944/a-back-to-school-program-an-evidence-based-approach-to-training-the-back/"
+        }
+      ]
+    },
+    {
+      "id": "single-arm-cable-lateral-raise",
+      "name": "单臂绳索侧平举",
+      "bodyPart": "肩部",
+      "equipment": "绳索",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "三角肌中束"
+      ],
+      "summary": "用低位绳索单侧抬臂，练习肩部外展与控制。",
+      "steps": [
+        "侧身站在低位滑轮旁，用远离滑轮的一侧手握把，双脚踩稳。",
+        "肘部微屈，手臂向侧前方平稳抬起，到接近肩高或更低的舒适位置。",
+        "沿原轨迹慢慢下放，控制配重片，完成后换边。"
+      ],
+      "tips": [
+        "选能控制的轻重量，不靠侧倾身体甩起握把。",
+        "保持颈部放松，不刻意将拇指向下倒，也不追求超过肩高。"
+      ],
+      "prescription": "起步参考：2组×10–15次，使用轻阻力并保留约2–3次余力。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7597820420867334331",
+        "appUrl": "snssdk1128://aweme/detail/7597820420867334331",
+        "platform": "抖音",
+        "title": "绳索侧平举，一个关键发力细节",
+        "author": "Win Life Gym"
+      },
+      "sources": [
+        {
+          "title": "抖音 · Win Life Gym · 单臂绳索侧平举",
+          "url": "https://www.douyin.com/video/7597820420867334331"
+        },
+        {
+          "title": "ACE Certified News · 单臂绳索侧平举",
+          "url": "https://www.acefitness.org/cp/pdfs/CertifiedNews/AugSept09Cert.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-front-raise",
+      "name": "哑铃前平举",
+      "bodyPart": "肩部",
+      "equipment": "哑铃",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "三角肌前束"
+      ],
+      "summary": "用轻哑铃向前抬臂，练习肩前侧的主动控制。",
+      "steps": [
+        "坐在有靠背的稳固凳上或站稳，双手持轻哑铃于大腿前，手腕自然。",
+        "腹部收紧、肘部微屈，将一只或两只哑铃向前抬至接近肩高。",
+        "不摆动躯干，缓慢回到起点，再进行下一次。"
+      ],
+      "tips": [
+        "已有较多卧推或推肩训练时，可减少这个动作的组数。",
+        "若必须后仰或耸肩才能举起，先减轻重量和幅度。"
+      ],
+      "prescription": "起步参考：2组×10–15次，使用轻阻力并保留约2–3次余力。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7613427816890495865",
+        "appUrl": "snssdk1128://aweme/detail/7613427816890495865",
+        "platform": "抖音",
+        "title": "每天学一个健身动作｜坐姿哑铃前平举",
+        "author": "人民的健身教练",
+        "startLabel": "视频为坐姿示范，本站示意为站姿"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 人民的健身教练 · 哑铃前平举",
+          "url": "https://www.douyin.com/video/7613427816890495865"
+        },
+        {
+          "title": "ACE · Front Raise",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/54/front-raise/"
+        }
+      ]
+    },
+    {
+      "id": "prone-t-raise",
+      "name": "俯卧T形举臂",
+      "bodyPart": "肩部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "热身",
+      "muscles": [
+        "三角肌后束",
+        "斜方肌中束",
+        "菱形肌"
+      ],
+      "summary": "俯卧后将双臂向两侧轻抬，感受肩胛周围肌群的配合。",
+      "steps": [
+        "俯卧垫上，额头可垫小毛巾，双臂向两侧展开成T形。",
+        "保持颈部自然、腹部轻收，双手和手臂缓慢抬离地面少许。",
+        "短暂停留后放回，动作主要来自肩部，躯干保持稳定。"
+      ],
+      "tips": [
+        "从徒手小幅度开始，抬高手臂时不要靠抬头或拱腰。",
+        "只在舒适范围内活动，不用追求离地高度。"
+      ],
+      "prescription": "起步参考：1–2组×6–8次，每次轻停1–2秒，保持轻松可控。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7530190260307873081",
+        "appUrl": "snssdk1128://aweme/detail/7530190260307873081",
+        "platform": "抖音",
+        "title": "TYW背部激活组合训练动作讲解",
+        "author": "人民的健身教练",
+        "startLabel": "组合教程中的T形动作，需手动查找"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 人民的健身教练 · 俯卧T形举臂",
+          "url": "https://www.douyin.com/video/7530190260307873081"
+        },
+        {
+          "title": "ACE · Prone Scapular Stabilization Series",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/249/prone-scapular-shoulder-stabilization-series-i-y-t-w-o-formation/"
+        }
+      ]
+    },
+    {
+      "id": "concentration-curl",
+      "name": "哑铃集中弯举",
+      "bodyPart": "手臂",
+      "equipment": "哑铃",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "肱二头肌",
+        "肱肌"
+      ],
+      "summary": "坐姿用大腿支撑上臂，减少躯干借力的单臂弯举。",
+      "steps": [
+        "坐在稳固凳上，双脚分开，将工作侧上臂靠在大腿内侧，掌心朝上握哑铃。",
+        "保持上臂位置，屈肘将哑铃举向肩前，不用身体晃动带起重量。",
+        "缓慢伸肘下放到舒适幅度，完成一侧后换边。"
+      ],
+      "tips": [
+        "上臂靠大腿支撑，不把肘尖用力顶在膝关节上。",
+        "手腕保持自然，不追求把重量甩到最高。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；控制稳定后再逐步增加。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1aJ411P7qk/",
+        "appUrl": "bilibili://video/67450278",
+        "platform": "哔哩哔哩",
+        "title": "哑铃集中弯举，肱二头肌动作讲解",
+        "author": "零基础学健身教练"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 零基础学健身教练 · 哑铃集中弯举",
+          "url": "https://www.bilibili.com/video/BV1aJ411P7qk/"
+        },
+        {
+          "title": "ACE · Build Your Biceps Workout",
+          "url": "https://www.acefitness.org/resources/everyone/blog/5694/build-your-biceps-workout/"
+        }
+      ]
+    },
+    {
+      "id": "cable-biceps-curl",
+      "name": "绳索弯举",
+      "bodyPart": "手臂",
+      "equipment": "绳索",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "肱二头肌",
+        "肱肌"
+      ],
+      "summary": "利用低位滑轮练习屈肘，在持续拉力下控制弯举。",
+      "steps": [
+        "将滑轮调至低位，双手掌心朝上握合适把手，站稳并让手臂自然伸展。",
+        "保持躯干稳定、上臂靠近身体，屈肘将握把拉向肩前。",
+        "慢慢伸肘还原，在配重片即将相碰前保持控制。"
+      ],
+      "tips": [
+        "选择手腕舒适的把手，避免过度折腕。",
+        "不要后仰甩起重量，也不要用肩部大幅前抬代替屈肘。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；控制稳定后再逐步增加。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1sw4m1k7JV/",
+        "appUrl": "bilibili://video/1106403928",
+        "platform": "哔哩哔哩",
+        "title": "龙门绳索弯举详解",
+        "author": "凯圣王"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 凯圣王 · 绳索弯举",
+          "url": "https://www.bilibili.com/video/BV1sw4m1k7JV/"
+        },
+        {
+          "title": "ACE · 肱二头肌动作与功能",
+          "url": "https://www.acefitness.org/resources/pros/expert-articles/9033/building-better-biceps-evidence-based-exercises-for-strength-and-function/"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-triceps-kickback",
+      "name": "哑铃俯身臂屈伸",
+      "bodyPart": "手臂",
+      "equipment": "哑铃",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "肱三头肌"
+      ],
+      "summary": "俯身固定上臂后伸直肘部，用轻重量练习手臂后侧。",
+      "steps": [
+        "前后脚站稳，一手可扶大腿或凳面，髋部折叠并保持背部自然。",
+        "持铃侧上臂靠近躯干并大致与躯干平行，小臂自然垂下。",
+        "保持上臂位置，向后伸肘，再缓慢屈肘回到起点，完成后换边。"
+      ],
+      "tips": [
+        "哑铃较轻也能形成足够挑战，避免用甩臂替代伸肘。",
+        "不转动躯干或抬高上臂，腰部不塌陷。"
+      ],
+      "prescription": "起步参考：2组×10–15次，使用轻阻力并保留约2–3次余力。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7531792205749734714",
+        "appUrl": "snssdk1128://aweme/detail/7531792205749734714",
+        "platform": "抖音",
+        "title": "哑铃俯身臂屈伸动作讲解",
+        "author": "人民的健身教练"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 人民的健身教练 · 哑铃俯身臂屈伸",
+          "url": "https://www.douyin.com/video/7531792205749734714"
+        },
+        {
+          "title": "ACE · Triceps Kickback",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/55/triceps-kickback/"
+        }
+      ]
+    },
+    {
+      "id": "cross-body-shoulder-stretch",
+      "name": "肩后侧拉伸",
+      "bodyPart": "肩部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "拉伸",
+      "muscles": [
+        "三角肌后束",
+        "肩后侧肌群"
+      ],
+      "summary": "将上臂轻带过胸前，做温和的肩后侧静态拉伸。",
+      "steps": [
+        "坐直或站稳，一侧手臂横过胸前，肩部保持放松。",
+        "另一手扶在上臂靠近肘部的位置，轻轻向胸前带近。",
+        "到肩后侧出现轻微牵拉感后保持自然呼吸，缓慢放松并换边。"
+      ],
+      "tips": [
+        "轻扶上臂，不用力压肘关节，也不耸肩扭身。",
+        "不弹震、不追求疼痛；出现刺痛或夹挤感时停止。"
+      ],
+      "prescription": "起步参考：每侧保持20–30秒，做1–2轮，以温和牵拉感为准。本站通用起步安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV177421R7Nv/",
+        "appUrl": "bilibili://video/1655454587",
+        "platform": "哔哩哔哩",
+        "title": "今天练臀腿，分享一个拉伸动作，站姿肩后侧拉伸，继续加油哦！",
+        "author": "泠翊丶"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 泠翊丶 · 肩后侧拉伸",
+          "url": "https://www.bilibili.com/video/BV177421R7Nv/"
+        },
+        {
+          "title": "University of Illinois Extension · Shoulder Stretch",
+          "url": "https://eat-move-save.extension.illinois.edu/move/exercise/shoulder-stretch"
+        }
+      ]
+    },
+    {
+      "id": "goblet-squat",
+      "name": "高脚杯深蹲",
+      "bodyPart": "腿臀",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "股四头肌",
+        "臀大肌",
+        "核心肌群"
+      ],
+      "summary": "把哑铃抱在胸前，练习稳定下蹲和起身。",
+      "steps": [
+        "双脚约与肩同宽，双手托住哑铃一端，贴近胸前。",
+        "保持全脚掌踩稳，髋膝一起弯曲，蹲到能稳定控制的深度。",
+        "膝盖朝脚尖方向，平稳推地站起，哑铃始终靠近身体。"
+      ],
+      "tips": [
+        "先用轻哑铃；不要为了蹲深而让脚跟抬起。",
+        "保持躯干稳定，避免起身时先抬臀、再甩直上身。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；动作稳定后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7563996008011582766",
+        "appUrl": "snssdk1128://aweme/detail/7563996008011582766?refer=web",
+        "platform": "抖音",
+        "title": "一个视频教会你高脚杯深蹲",
+        "author": "FitMen六六"
+      },
+      "sources": [
+        {
+          "title": "抖音 · FitMen六六 · 高脚杯深蹲视频",
+          "url": "https://www.douyin.com/video/7563996008011582766"
+        },
+        {
+          "title": "ACE · Goblet Squat",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/362/goblet-squat/"
+        }
+      ]
+    },
+    {
+      "id": "reverse-lunge",
+      "name": "反向箭步蹲",
+      "bodyPart": "腿臀",
+      "equipment": "自重",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "股四头肌",
+        "臀大肌",
+        "腘绳肌"
+      ],
+      "summary": "向后迈步，练习单侧腿部力量与重心控制。",
+      "steps": [
+        "站稳并让双脚保持约髋宽，双手放髋部或自然下垂。",
+        "一脚向后迈步，前脚踩实，屈髋屈膝将身体缓慢降低。",
+        "前腿平稳发力站起，后脚收回；站稳后换侧。"
+      ],
+      "tips": [
+        "脚的落点保持左右间距，避免踩成一条直线。",
+        "可扶固定支撑练习；后膝接近地面即可，不必撞地。"
+      ],
+      "prescription": "起步参考：2组×每侧6–10次，保留约2–3次余力；先练稳定，再增加次数。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7603705097977177083",
+        "appUrl": "snssdk1128://aweme/detail/7603705097977177083?refer=web",
+        "platform": "抖音",
+        "title": "后撤箭步蹲",
+        "author": "牛二"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 牛二 · 反向箭步蹲视频",
+          "url": "https://www.douyin.com/video/7603705097977177083"
+        },
+        {
+          "title": "ACE · Backwards Lunge",
+          "url": "https://www.acefitness.org/resources/pros/expert-articles/5818/5-lunge-variations-you-need-to-try/"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-step-up",
+      "name": "哑铃登阶",
+      "bodyPart": "腿臀",
+      "equipment": "哑铃",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "股四头肌",
+        "臀大肌",
+        "臀中肌"
+      ],
+      "summary": "手持哑铃登上低台阶，练习单腿支撑与缓慢下阶。",
+      "steps": [
+        "选择牢固防滑的低台阶，双手持轻哑铃垂于体侧。",
+        "一只脚完整踩上台面，膝盖朝脚尖方向，平稳登上台阶。",
+        "控制重心，先把另一脚缓慢放回地面，再回到起点并换侧。"
+      ],
+      "tips": [
+        "先用自重熟悉动作，台阶高度以骨盆能保持平稳为准。",
+        "不要跳下台阶，也不要依靠大幅蹬地冲上去。"
+      ],
+      "prescription": "起步参考：2组×每侧6–10次，保留约2–3次余力；先降低台阶和重量来保证控制。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1ms421T7de/",
+        "appUrl": "bilibili://video/1855816918?page=0",
+        "platform": "哔哩哔哩",
+        "title": "如何正确执行哑铃登台阶（针对臀肌）",
+        "author": "maorong008"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · maorong008 · 哑铃登阶视频",
+          "url": "https://www.bilibili.com/video/BV1ms421T7de/"
+        },
+        {
+          "title": "ACE · Step-up",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/28/step-up/"
+        }
+      ]
+    },
+    {
+      "id": "leg-press",
+      "name": "器械腿举",
+      "bodyPart": "腿臀",
+      "equipment": "固定器械",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "股四头肌",
+        "臀大肌",
+        "腘绳肌"
+      ],
+      "summary": "利用腿举机，在稳定支撑下练习髋膝伸展。",
+      "steps": [
+        "先确认安全挡位和归架方式，再让背部、骨盆贴稳靠垫。",
+        "双脚完整踩在踏板上，脚距以膝盖能顺脚尖方向移动为准。",
+        "缓慢屈膝下放到骨盆仍贴垫的位置，再平稳蹬起；结束后锁好安全挡位。"
+      ],
+      "tips": [
+        "从空机或轻重量熟悉；器械空载本身也有重量。",
+        "不弹震、不猛顶膝盖；下放时臀部若离垫，应减小幅度。",
+        "图示为斜轨器械，使用时按实际机型调整座椅、限位和解锁方式。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；动作稳定后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7493480337943629114",
+        "appUrl": "snssdk1128://aweme/detail/7493480337943629114?refer=web",
+        "platform": "抖音",
+        "title": "倒蹬保姆级教程",
+        "author": "吕教健身教学"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 吕教健身教学 · 器械腿举视频",
+          "url": "https://www.douyin.com/video/7493480337943629114"
+        },
+        {
+          "title": "NASM · Leg Press",
+          "url": "https://www.nasm.org/resource-center/exercise-library/leg-press"
+        }
+      ]
+    },
+    {
+      "id": "seated-leg-extension",
+      "name": "坐姿腿屈伸",
+      "bodyPart": "腿臀",
+      "equipment": "固定器械",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "股四头肌"
+      ],
+      "summary": "在座椅支撑下伸直膝关节，训练大腿前侧。",
+      "steps": [
+        "调整靠背，使膝关节与器械转轴大致对齐，滚垫位于小腿下端。",
+        "背部与臀部贴稳座椅，握住把手，缓慢将小腿抬起。",
+        "在膝部舒适范围内接近伸直，再有控制地屈膝回落。"
+      ],
+      "tips": [
+        "不要甩腿起重或抬臀借力。",
+        "脚尖保持自然朝前，膝部不适时减轻重量和幅度。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；动作稳定后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1DT421a7Lq/",
+        "appUrl": "bilibili://video/1705873549?page=0",
+        "platform": "哔哩哔哩",
+        "title": "坐姿腿屈伸详解",
+        "author": "凯圣王"
+      },
+      "sources": [
+        {
+          "title": "哔哩哔哩 · 凯圣王 · 坐姿腿屈伸视频",
+          "url": "https://www.bilibili.com/video/BV1DT421a7Lq/"
+        },
+        {
+          "title": "Life Fitness · Circuit Series Leg Extension 使用手册",
+          "url": "https://www.lifefitness.com.au/wp-content/uploads/2015/02/Circuit_Manual_11_081a_1_27.pdf"
+        }
+      ]
+    },
+    {
+      "id": "glute-bridge",
+      "name": "臀桥",
+      "bodyPart": "腿臀",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "臀大肌",
+        "腘绳肌",
+        "核心肌群"
+      ],
+      "summary": "仰卧屈膝抬髋，练习用臀部完成髋伸展。",
+      "steps": [
+        "仰卧在垫上，屈膝并让双脚平放，约与髋同宽。",
+        "轻收腹部、保持肩背着地，缓慢抬起臀部。",
+        "抬到肩、髋和膝大致连成直线，短暂停留后缓慢落下。"
+      ],
+      "tips": [
+        "不要追求顶得更高而过度拱腰。",
+        "双膝保持稳定，不要向内夹或大幅向外散开。"
+      ],
+      "prescription": "起步参考：2组×8–12次，保留约2–3次余力；动作稳定后再逐步增加。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7623015954990343665",
+        "appUrl": "snssdk1128://aweme/detail/7623015954990343665?refer=web",
+        "platform": "抖音",
+        "title": "臀桥做对才有效，标准动作教科书！",
+        "author": "游鱼Smile生活"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 游鱼Smile生活 · 臀桥视频",
+          "url": "https://www.douyin.com/video/7623015954990343665"
+        },
+        {
+          "title": "ACE · Glute Bridge Exercise",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/49/glute-bridge/"
+        }
+      ]
+    },
+    {
+      "id": "seated-hip-abduction",
+      "name": "坐姿器械髋外展",
+      "bodyPart": "腿臀",
+      "equipment": "固定器械",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "臀中肌",
+        "臀小肌",
+        "臀大肌"
+      ],
+      "summary": "坐姿向外打开双腿，练习髋外展肌群发力。",
+      "steps": [
+        "坐稳器械，脚踩支撑踏板，让腿垫贴在膝部外侧。",
+        "选择轻重量，背部贴靠垫、双手握把手，缓慢向外打开双腿。",
+        "在躯干不晃动的幅度内短暂停留，再缓慢收回。"
+      ],
+      "tips": [
+        "外展是向外打开，注意不要把器械调成向内夹腿。",
+        "不要猛弹到最大幅度，也不要让配重片撞击。"
+      ],
+      "prescription": "起步参考：2组×10–15次，保留约2–3次余力；先掌握匀速控制。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7691263111520595305",
+        "appUrl": "snssdk1128://aweme/detail/7691263111520595305?refer=web",
+        "platform": "抖音",
+        "title": "坐姿髋外展｜臀肌训练",
+        "author": "佰特密健身官方号"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 佰特密健身官方号 · 坐姿器械髋外展视频",
+          "url": "https://www.douyin.com/video/7691263111520595305"
+        },
+        {
+          "title": "Life Fitness · Insignia Series 使用手册（髋外展）",
+          "url": "https://kb.cybexintl.com/Owners_Manuals/Strength/Life_Fitness_Insignia_Series_Owners_Manual_9481201_Rev_BE.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dead-bug",
+      "name": "死虫式",
+      "bodyPart": "腹部",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "力量",
+      "muscles": [
+        "腹横肌",
+        "腹直肌",
+        "腹斜肌"
+      ],
+      "summary": "仰卧交替伸展对侧手脚，练习腰腹保持稳定。",
+      "steps": [
+        "仰卧并举起双臂，髋膝约弯曲90度，轻收腹部。",
+        "缓慢将一侧手臂向头顶方向伸展，同时伸出对侧腿。",
+        "在腰背仍能稳定贴近垫面的幅度内停住，再收回并换侧。"
+      ],
+      "tips": [
+        "伸得远不等于做得好，腰部开始拱起就缩小幅度。",
+        "可以先只动手或只动腿，全程自然呼吸。"
+      ],
+      "prescription": "起步参考：2组×每侧6–8次，慢速完成并保留余力；能稳定控制后再加长伸展幅度。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7640444102115848121",
+        "appUrl": "snssdk1128://aweme/detail/7640444102115848121?refer=web",
+        "platform": "抖音",
+        "title": "死虫式——【保姆级教学】📗 核心温和训练，大基数也不用担心～",
+        "author": "咖男_运动生活"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 咖男_运动生活 · 死虫式视频",
+          "url": "https://www.douyin.com/video/7640444102115848121"
+        },
+        {
+          "title": "NASM · Dead Bug",
+          "url": "https://www.nasm.org/resource-center/exercise-library/dead-bug"
+        }
+      ]
+    },
+    {
+      "id": "bird-dog",
+      "name": "鸟狗式",
+      "bodyPart": "腹部",
+      "equipment": "自重",
+      "difficulty": "基础",
+      "category": "热身",
+      "muscles": [
+        "核心肌群",
+        "竖脊肌",
+        "臀大肌"
+      ],
+      "summary": "四足支撑时伸出对侧手脚，练习躯干抗旋转控制。",
+      "steps": [
+        "双手位于肩下、双膝位于髋下，脊柱保持自然平直。",
+        "轻收腹部，同时把一只手向前、一条对侧腿向后伸。",
+        "保持骨盆朝向地面，短暂停留后缓慢收回，再换另一侧。"
+      ],
+      "tips": [
+        "手脚不必抬高，背部和骨盆不扭转更重要。",
+        "不稳定时先只抬一只手或一条腿。"
+      ],
+      "prescription": "起步参考：1–2组×每侧5–8次，每次平稳停留2秒，保留余力且不憋气。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7627110050942815528",
+        "appUrl": "snssdk1128://aweme/detail/7627110050942815528?refer=web",
+        "platform": "抖音",
+        "title": "你的鸟狗式做对了吗？快进来自检一下！（内含退阶和进阶做法）",
+        "author": "番茄小薯🍅"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 番茄小薯🍅 · 鸟狗式视频",
+          "url": "https://www.douyin.com/video/7627110050942815528"
+        },
+        {
+          "title": "ACE · Bird-dog",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/14/bird-dog/"
+        }
+      ]
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "反向卷腹",
+      "bodyPart": "腹部",
+      "equipment": "自重",
+      "difficulty": "基础",
+      "category": "力量",
+      "muscles": [
+        "腹直肌",
+        "腹斜肌"
+      ],
+      "summary": "通过轻卷骨盆，让下腹部参与受控的卷起与还原。",
+      "steps": [
+        "仰卧垫上，双手放身体两侧，抬腿并保持膝盖弯曲。",
+        "呼气收腹，让骨盆缓慢向胸廓方向卷起，臀部只需轻离垫。",
+        "吸气并缓慢把骨盆落回，膝盖回到髋上方后再重复。"
+      ],
+      "tips": [
+        "避免甩腿或用脚蹬地制造惯性。",
+        "不要把动作变成大幅向后翻滚；出现腰部不适就停止。"
+      ],
+      "prescription": "起步参考：2组×6–10次，慢速完成并保留约2–3次余力。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7683868076873370926",
+        "appUrl": "snssdk1128://aweme/detail/7683868076873370926?refer=web",
+        "platform": "抖音",
+        "title": "想要小腹更紧致？这3个动作在家也能练🔥",
+        "author": "Selina XU"
+      },
+      "sources": [
+        {
+          "title": "抖音 · Selina XU · 反向卷腹视频",
+          "url": "https://www.douyin.com/video/7683868076873370926"
+        },
+        {
+          "title": "ACE · Reverse Ab Crunch",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/76/reverse-crunch/"
+        }
+      ]
+    },
+    {
+      "id": "half-kneeling-hip-flexor-stretch",
+      "name": "半跪姿髋屈肌拉伸",
+      "bodyPart": "腿臀",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "拉伸",
+      "muscles": [
+        "髂腰肌",
+        "股直肌"
+      ],
+      "summary": "在半跪姿势中轻微前移骨盆，感受后腿髋部前侧拉伸。",
+      "steps": [
+        "一膝跪在软垫上，另一脚踩在前方，保持左右适当间距。",
+        "轻收腹部和后腿侧臀部，让骨盆朝正前方。",
+        "保持躯干直立，将髋部向前平移少许，出现温和牵拉感后停留。"
+      ],
+      "tips": [
+        "不要通过向后折腰来追求更深的拉伸。",
+        "跪膝不适时加厚软垫，或改成有支撑的站姿弓步。"
+      ],
+      "prescription": "起步参考：每侧1–2轮，每轮15–20秒，保持自然呼吸与轻柔牵拉。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7618772930948142308",
+        "appUrl": "snssdk1128://aweme/detail/7618772930948142308?refer=web",
+        "platform": "抖音",
+        "title": "你的髋关节有6个功能方向，任何一个不够，腰和膝盖就替你扛。",
+        "author": "大衛David"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 大衛David · 半跪姿髋屈肌拉伸视频",
+          "url": "https://www.douyin.com/video/7618772930948142308"
+        },
+        {
+          "title": "ACE · Half-kneeling Hip-flexor Stretch",
+          "url": "https://www.acefitness.org/resources/everyone/blog/5681/3-stretches-for-opening-up-tight-hips/"
+        }
+      ]
+    },
+    {
+      "id": "cat-cow",
+      "name": "猫牛式",
+      "bodyPart": "全身",
+      "equipment": "自重",
+      "difficulty": "入门",
+      "category": "热身",
+      "muscles": [
+        "脊柱周围肌群",
+        "腹部肌群"
+      ],
+      "summary": "在四足支撑中温和交替拱背和伸展，活动脊柱。",
+      "steps": [
+        "双手撑在肩下、双膝跪在髋下，先找到自然平直的背部位置。",
+        "缓慢呼气并轻轻拱背，头部随脊柱自然低下。",
+        "配合呼吸回到中间位置，再轻柔抬胸、让脊柱向反方向活动。"
+      ],
+      "tips": [
+        "把它当作温和活动，不在动作尽头用力挤压。",
+        "脖子自然随动，不猛甩头；始终在舒适范围内练习。"
+      ],
+      "prescription": "起步参考：1–2轮×5–8个缓慢循环，保留舒适幅度，不屏气。 本站通用安排，与视频原计划可能不同。",
+      "video": {
+        "url": "https://www.douyin.com/video/7595832968591106483",
+        "appUrl": "snssdk1128://aweme/detail/7595832968591106483?refer=web",
+        "platform": "抖音",
+        "title": "猫牛式伸展新的体验，对动作和身体有了新的认知和感受！",
+        "author": "大强·力量原点"
+      },
+      "sources": [
+        {
+          "title": "抖音 · 大强·力量原点 · 猫牛式视频",
+          "url": "https://www.douyin.com/video/7595832968591106483"
+        },
+        {
+          "title": "CCOHS · Cat-Camel",
+          "url": "https://www.ccohs.ca/oshanswers/psychosocial/back/backexercises.html"
+        }
+      ]
     }
   ],
   "supplements": [
@@ -2603,7 +3583,7 @@
   ],
   "meta": {
     "name": "练有据",
-    "updatedAt": "2026-10-20",
+    "updatedAt": "2026-10-22",
     "description": "查动作、安排训练、读懂补剂。面向成年健身爱好者的公开知识与工具站。动作说明为本站整理，视频链接保留原作者；内容用于一般教育，不替代个体诊疗。"
   }
 }

@@ -1,0 +1,587 @@
+{
+  "reviewedAt": "2026-10-22",
+  "addedCount": 24,
+  "totalCount": 72,
+  "videoPlatforms": {
+    "抖音": 18,
+    "哔哩哔哩": 6
+  },
+  "editorial": "动作说明、步骤和起步安排为本站独立简写；保留原作者视频链接，不托管或搬运视频。示意图用于辨识动作路径，不代替完整教学。",
+  "verificationBoundary": "核验公开作品题名、作者、编号、可获得的动作清单与权威技术来源；未完整观看全部视频，未做实体手机App唤起验收。对组合视频、器械变式和作者改名逐项记录限制。",
+  "upperBody": [
+    {
+      "exerciseId": "incline-push-up",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7641649247431102662",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7641649247431102662",
+      "videoId": "7641649247431102662",
+      "title": "俯卧撑的进阶顺序，一条视频让你看懂：纯新手先从上斜俯卧撑开始，循序渐进，你会越练越强！🔥",
+      "author": "意志(健身教学)",
+      "publishedAt": "2026-05-20",
+      "actionMatchEvidence": "标题明确指出上斜俯卧撑是新手起步动作；NASM条目确认手部垫高、身体成线及逐步降低支撑高度。",
+      "instructionSources": [
+        {
+          "title": "NASM · Incline Push-Up",
+          "url": "https://www.nasm.org/resource-center/exercise-library/incline-push-up"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "dumbbell-chest-fly",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7529460927792942382",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7529460927792942382",
+      "videoId": "7529460927792942382",
+      "title": "平板哑铃飞鸟防伤指南",
+      "author": "邢阿龙-赛普健身",
+      "publishedAt": "2025-07-21",
+      "actionMatchEvidence": "标题精确匹配平板哑铃飞鸟；ACE动作库核对平凳仰卧、微屈肘与弧形开合。",
+      "instructionSources": [
+        {
+          "title": "ACE · Lying Chest Fly",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/21/lying-chest-fly/"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "band-row",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7248534984061947151",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7248534984061947151",
+      "videoId": "7248534984061947151",
+      "title": "用一根弹力带在家就能练习划船动作！还在等什么，一起动起来",
+      "author": "CCTV生活圈",
+      "publishedAt": "2023-06-25",
+      "actionMatchEvidence": "视频标题明确弹力带与划船；NHS公开说明确认弹力带置于脚部并拉向腰部；Illinois Extension Seated Row页面明确垫上坐姿、双腿前伸及弹力带绕双脚，与站内正文和动画变式对齐。",
+      "instructionSources": [
+        {
+          "title": "Gloucestershire Hospitals NHS · 弹力带划船",
+          "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/simple-exercises-encourage-weight-loss/"
+        },
+        {
+          "title": "University of Illinois Extension · Seated Row",
+          "url": "https://eat-move-save.extension.illinois.edu/move/exercise/seated-row"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。",
+        "视频标题确认弹力带划船主题，未逐帧确认具体固定方式；本站采用垫上坐姿、双脚固定变式，以Illinois Extension说明为准。"
+      ]
+    },
+    {
+      "exerciseId": "barbell-bent-over-row",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7521972896475843849",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7521972896475843849",
+      "videoId": "7521972896475843849",
+      "title": "俯身杠铃划船教学。",
+      "author": "大业健身",
+      "publishedAt": "2025-07-01",
+      "actionMatchEvidence": "视频标题精确匹配俯身杠铃划船；ACE动作库与官方背部训练文章确认划船类别及主要训练方向。",
+      "instructionSources": [
+        {
+          "title": "ACE · Bent-Over Row",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/12/bent-over-row/"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "inverted-row",
+      "verifiedAt": "2026-10-22",
+      "platform": "哔哩哔哩",
+      "videoUrl": "https://www.bilibili.com/video/BV1yK4y1h7cF/",
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1yK4y1h7cF",
+      "videoId": "BV1yK4y1h7cF",
+      "title": "反向划船动作教学",
+      "author": "教练陈小超",
+      "publishedAt": null,
+      "actionMatchEvidence": "B站官方公开API确认标题为反向划船动作教学，作者教练陈小超、aid 884947821，时长25秒；ACE背部训练文章将inverted row列为划船变式。",
+      "instructionSources": [
+        {
+          "title": "ACE · 背部动作与划船变式",
+          "url": "https://www.acefitness.org/resources/pros/expert-articles/8944/a-back-to-school-program-an-evidence-based-approach-to-training-the-back/"
+        }
+      ],
+      "method": "哔哩哔哩官方公开view API核验bvid、aid、title、owner、duration",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "single-arm-cable-lateral-raise",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7597820420867334331",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7597820420867334331",
+      "videoId": "7597820420867334331",
+      "title": "绳索侧平举，一个关键发力细节",
+      "author": "Win Life Gym",
+      "publishedAt": "2026-01-21",
+      "actionMatchEvidence": "抖音作者页相关作品和作品自身页面均显示绳索侧平举标题；ACE官方PDF第9页给出单手握低位绳索、肘微屈侧抬至肩高的示范说明。",
+      "instructionSources": [
+        {
+          "title": "ACE Certified News · 单臂绳索侧平举",
+          "url": "https://www.acefitness.org/cp/pdfs/CertifiedNews/AugSept09Cert.pdf"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "dumbbell-front-raise",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7613427816890495865",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7613427816890495865",
+      "videoId": "7613427816890495865",
+      "title": "每天学一个健身动作｜坐姿哑铃前平举",
+      "author": "人民的健身教练",
+      "publishedAt": "2026-03-04",
+      "actionMatchEvidence": "公开标题及说明明确坐姿哑铃前平举、目标三角肌前束、抬至肩高、缓慢下放；ACE Front Raise条目交叉核对动作。",
+      "instructionSources": [
+        {
+          "title": "ACE · Front Raise",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/54/front-raise/"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。",
+        "视频为坐姿版本，本站动态示意为站姿版本；已在video.startLabel标明此变式差异，正文允许坐姿或站姿。"
+      ]
+    },
+    {
+      "exerciseId": "prone-t-raise",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7530190260307873081",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7530190260307873081",
+      "videoId": "7530190260307873081",
+      "title": "TYW背部激活组合训练动作讲解",
+      "author": "人民的健身教练",
+      "publishedAt": "2025-07-23",
+      "actionMatchEvidence": "公开标题明确TYW背部激活组合，说明提及俯卧姿势与躯干稳定；ACE I-Y-T-W-O系列Step 4明确T形双臂90度展开并小幅抬离地面。",
+      "instructionSources": [
+        {
+          "title": "ACE · Prone Scapular Stabilization Series",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/249/prone-scapular-shoulder-stabilization-series-i-y-t-w-o-formation/"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。",
+        "教程为TYW组合，未核定T形动作所在秒数；video.startLabel仅提示组合教程中需手动查找T形动作，不设时间跳转。"
+      ]
+    },
+    {
+      "exerciseId": "concentration-curl",
+      "verifiedAt": "2026-10-22",
+      "platform": "哔哩哔哩",
+      "videoUrl": "https://www.bilibili.com/video/BV1aJ411P7qk/",
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1aJ411P7qk",
+      "videoId": "BV1aJ411P7qk",
+      "title": "哑铃集中弯举，肱二头肌动作讲解",
+      "author": "零基础学健身教练",
+      "publishedAt": null,
+      "actionMatchEvidence": "B站官方公开API确认标题为哑铃集中弯举，肱二头肌动作讲解，作者零基础学健身教练、aid 67450278，时长143秒；ACE资料确认上臂靠腿的集中弯举模式。",
+      "instructionSources": [
+        {
+          "title": "ACE · Build Your Biceps Workout",
+          "url": "https://www.acefitness.org/resources/everyone/blog/5694/build-your-biceps-workout/"
+        }
+      ],
+      "method": "哔哩哔哩官方公开view API核验bvid、aid、title、owner、duration",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "cable-biceps-curl",
+      "verifiedAt": "2026-10-22",
+      "platform": "哔哩哔哩",
+      "videoUrl": "https://www.bilibili.com/video/BV1sw4m1k7JV/",
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV1sw4m1k7JV",
+      "videoId": "BV1sw4m1k7JV",
+      "title": "龙门绳索弯举详解",
+      "author": "凯圣王",
+      "publishedAt": null,
+      "actionMatchEvidence": "B站官方公开API确认作品龙门绳索弯举详解，作者凯圣王、aid 1106403928，时长512秒；ACE肱二头肌动作资料包含cable curl，明确屈肘功能。",
+      "instructionSources": [
+        {
+          "title": "ACE · 肱二头肌动作与功能",
+          "url": "https://www.acefitness.org/resources/pros/expert-articles/9033/building-better-biceps-evidence-based-exercises-for-strength-and-function/"
+        }
+      ],
+      "method": "哔哩哔哩官方公开view API核验bvid、aid、title、owner、duration",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "dumbbell-triceps-kickback",
+      "verifiedAt": "2026-10-22",
+      "platform": "抖音",
+      "videoUrl": "https://www.douyin.com/video/7531792205749734714",
+      "verificationUrl": "https://jingxuan.douyin.com/m/video/7531792205749734714",
+      "videoId": "7531792205749734714",
+      "title": "哑铃俯身臂屈伸动作讲解",
+      "author": "人民的健身教练",
+      "publishedAt": "2025-07-28",
+      "actionMatchEvidence": "公开标题和正文明确哑铃俯身臂屈伸，且提示固定肘部、躯干稳定与轻重量；ACE动作库核对固定上臂后伸肘。",
+      "instructionSources": [
+        {
+          "title": "ACE · Triceps Kickback",
+          "url": "https://www.acefitness.org/resources/everyone/exercise-library/55/triceps-kickback/"
+        }
+      ],
+      "method": "官方公开作品页HTML/JSON-LD与标题核验；部分经搜索索引发现",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。"
+      ]
+    },
+    {
+      "exerciseId": "cross-body-shoulder-stretch",
+      "verifiedAt": "2026-10-22",
+      "platform": "哔哩哔哩",
+      "videoUrl": "https://www.bilibili.com/video/BV177421R7Nv/",
+      "verificationUrl": "https://api.bilibili.com/x/web-interface/view?bvid=BV177421R7Nv",
+      "videoId": "BV177421R7Nv",
+      "title": "今天练臀腿，分享一个拉伸动作，站姿肩后侧拉伸，继续加油哦！",
+      "author": "泠翊丶",
+      "publishedAt": null,
+      "actionMatchEvidence": "B站官方公开API确认作品标题含站姿肩后侧拉伸，作者泠翊丶、aid 1655454587，时长58秒；Illinois Extension明确横臂过胸的肩部拉伸步骤与20–30秒保持。",
+      "instructionSources": [
+        {
+          "title": "University of Illinois Extension · Shoulder Stretch",
+          "url": "https://eat-move-save.extension.illinois.edu/move/exercise/shoulder-stretch"
+        }
+      ],
+      "method": "哔哩哔哩官方公开view API核验bvid、aid、title、owner、duration",
+      "limitations": [
+        "本次核验公开作品页面和元数据，未完整观看视频，未逐帧审查全部教学细节。",
+        "未做抖音/哔哩哔哩真机唤起验证；视频可用性与平台登录策略可能变化。",
+        "未添加未经核实的起止时间；站内说明和起步安排为独立编写，未照抄视频计划。",
+        "视频元数据仅能确认站姿肩后侧拉伸主题，未逐帧确认是否全程采用横臂过胸变式；本站步骤以大学推广部门的横臂拉伸示范为准。"
+      ]
+    }
+  ],
+  "lowerAndCore": [
+    {
+      "id": "goblet-squat",
+      "name": "高脚杯深蹲",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7563996008011582766",
+        "appUrl": "snssdk1128://aweme/detail/7563996008011582766?refer=web",
+        "platform": "抖音",
+        "title": "一个视频教会你高脚杯深蹲",
+        "author": "FitMen六六"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选页标题为高脚杯深蹲，作者 FitMen六六，作品编号 7563996008011582766；ACE 动作库明确为胸前竖持哑铃的深蹲。",
+      "techniqueSource": {
+        "title": "ACE · Goblet Squat",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/362/goblet-squat/"
+      },
+      "limits": [
+        "已核验公开页/索引元数据与动作名称，未完整观看视频，未逐帧确认全部示范及口播。",
+        "未在实体手机验证 App 唤起；App scheme 依已有项目格式构造，保留网页回退。",
+        "未添加未经核对的起止时间；外部视频中的训练安排、营销或治疗表述不代表本站建议。"
+      ]
+    },
+    {
+      "id": "reverse-lunge",
+      "name": "反向箭步蹲",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7603705097977177083",
+        "appUrl": "snssdk1128://aweme/detail/7603705097977177083?refer=web",
+        "platform": "抖音",
+        "title": "后撤箭步蹲",
+        "author": "牛二"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选作品标题“后撤箭步蹲”，作者牛二，编号 7603705097977177083；ACE Backwards Lunge 段说明后撤步屈膝并建议先从自重练习。",
+      "techniqueSource": {
+        "title": "ACE · Backwards Lunge",
+        "url": "https://www.acefitness.org/resources/pros/expert-articles/5818/5-lunge-variations-you-need-to-try/"
+      },
+      "limits": [
+        "已核验公开页/索引元数据与动作名称，未完整观看视频，未逐帧确认全部示范及口播。",
+        "未在实体手机验证 App 唤起；App scheme 依已有项目格式构造，保留网页回退。",
+        "未添加未经核对的起止时间；外部视频中的训练安排、营销或治疗表述不代表本站建议。"
+      ]
+    },
+    {
+      "id": "dumbbell-step-up",
+      "name": "哑铃登阶",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1ms421T7de/",
+        "appUrl": "bilibili://video/1855816918?page=0",
+        "platform": "哔哩哔哩",
+        "title": "如何正确执行哑铃登台阶（针对臀肌）",
+        "author": "maorong008"
+      },
+      "verificationMethod": "搜索公开视频页并读取 B 站官方 x/web-interface/view 元数据；核对题名、作者、aid/bvid。",
+      "matchingEvidence": "B站公开页/索引标题精确匹配哑铃登台阶；官方 view API 返回 code=0、aid=1855816918、bvid=BV1ms421T7de、作者 maorong008；ACE 明确器械为哑铃与台阶。",
+      "techniqueSource": {
+        "title": "ACE · Step-up",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/28/step-up/"
+      },
+      "limits": [
+        "抖音精确动作检索未找到作者与动作均足以核对的候选，因此采用真实B站作品。",
+        "B站页面通过工具直读触发412，搜索索引与官方API均可核验；未完整观看或核对原YouTube来源授权。",
+        "未在实体手机验证 App 唤起；无未经核验的起止时间。"
+      ]
+    },
+    {
+      "id": "leg-press",
+      "name": "器械腿举",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7493480337943629114",
+        "appUrl": "snssdk1128://aweme/detail/7493480337943629114?refer=web",
+        "platform": "抖音",
+        "title": "倒蹬保姆级教程",
+        "author": "吕教健身教学"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选页明确标题为“倒蹬或腿举”教程，作者吕教健身教学，编号7493480337943629114；NASM核对贴靠垫、手握把手、控制屈伸及避免膝超伸。",
+      "techniqueSource": {
+        "title": "NASM · Leg Press",
+        "url": "https://www.nasm.org/resource-center/exercise-library/leg-press"
+      },
+      "limits": [
+        "腿举动作主题已确认；公开文字未明确器械为45度斜轨，封面签名链接失效、无签名封面403。因此名称采用通用“器械腿举”，不声明视频为45度机型。",
+        "未完整观看视频；媒体标题中“膝盖千万不能伸直”等绝对化表述未原样采纳，本站提示为避免猛顶/超伸。",
+        "未在实体手机验证 App 唤起；无未经核验的起止时间。"
+      ]
+    },
+    {
+      "id": "seated-leg-extension",
+      "name": "坐姿腿屈伸",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.bilibili.com/video/BV1DT421a7Lq/",
+        "appUrl": "bilibili://video/1705873549?page=0",
+        "platform": "哔哩哔哩",
+        "title": "坐姿腿屈伸详解",
+        "author": "凯圣王"
+      },
+      "verificationMethod": "B站公开页搜索索引与官方 x/web-interface/view 元数据核对；器械厂商手册核对主要要点。",
+      "matchingEvidence": "B站搜索页和官方view API均确认标题坐姿腿屈伸详解、作者凯圣王、aid1705873549、bvidBV1DT421a7Lq、时长462秒；Life Fitness说明膝关节对齐转轴、接近完整伸展和受控返回。",
+      "techniqueSource": {
+        "title": "Life Fitness · Circuit Series Leg Extension 使用手册",
+        "url": "https://www.lifefitness.com.au/wp-content/uploads/2015/02/Circuit_Manual_11_081a_1_27.pdf"
+      },
+      "limits": [
+        "找到同题抖音7383679428594765090，但当前公开页未稳定返回作者信息，未把未经确认的作者写入。",
+        "另一个抖音“器械N种练法”候选可能含髋屈等变式，故未用于普通腿屈伸。",
+        "未完整观看该B站视频，未核对所有口播；未实体手机验证App唤起，无未经核验的起止时间。"
+      ]
+    },
+    {
+      "id": "glute-bridge",
+      "name": "臀桥",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7623015954990343665",
+        "appUrl": "snssdk1128://aweme/detail/7623015954990343665?refer=web",
+        "platform": "抖音",
+        "title": "臀桥做对才有效，标准动作教科书！",
+        "author": "游鱼Smile生活"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选正文明确为上背贴地的臀桥：屈膝踩地、抬髋并保持躯干直线，作者游鱼Smile生活；ACE核对自重臀桥设置与避免过度拱腰。",
+      "techniqueSource": {
+        "title": "ACE · Glute Bridge Exercise",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/49/glute-bridge/"
+      },
+      "limits": [
+        "已根据公开题名、作者与动作步骤核对为地面臀桥，未完整观看视频。",
+        "未采纳媒体“练臀不粗腿”“90%做错”“不要用大腿发力”等营销或绝对化说法，臀桥允许腘绳肌协同。",
+        "未在实体手机验证 App 唤起；无未经核验的起止时间。"
+      ]
+    },
+    {
+      "id": "seated-hip-abduction",
+      "name": "坐姿器械髋外展",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7691263111520595305",
+        "appUrl": "snssdk1128://aweme/detail/7691263111520595305?refer=web",
+        "platform": "抖音",
+        "title": "坐姿髋外展｜臀肌训练",
+        "author": "佰特密健身官方号"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音作品题名“坐姿髋外展｜臀肌训练”、作者佰特密健身官方号、编号7691263111520595305；厂商手册 Hip Abduction段核对外侧膝垫、手握把手、向外打开与缓慢回位。",
+      "techniqueSource": {
+        "title": "Life Fitness · Insignia Series 使用手册（髋外展）",
+        "url": "https://kb.cybexintl.com/Owners_Manuals/Strength/Life_Fitness_Insignia_Series_Owners_Manual_9481201_Rev_BE.pdf"
+      },
+      "limits": [
+        "抖音主站搜索索引返回精确题名与作者；精选镜像未稳定返回内容，未完整观看视频。",
+        "厂商手册说明用于核对通用运动模式；不同品牌的解锁杆和起始位调整应按现场器械说明。",
+        "未在实体手机验证 App 唤起；无未经核验的起止时间。"
+      ]
+    },
+    {
+      "id": "dead-bug",
+      "name": "死虫式",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7640444102115848121",
+        "appUrl": "snssdk1128://aweme/detail/7640444102115848121?refer=web",
+        "platform": "抖音",
+        "title": "死虫式——【保姆级教学】📗 核心温和训练，大基数也不用担心～",
+        "author": "咖男_运动生活"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选页标题明确为死虫式教学，作者咖男_运动生活；NASM说明仰卧髋膝90度、对侧手脚交替伸展并控制腰部。",
+      "techniqueSource": {
+        "title": "NASM · Dead Bug",
+        "url": "https://www.nasm.org/resource-center/exercise-library/dead-bug"
+      },
+      "limits": [
+        "已核验公开页/索引元数据与动作名称，未完整观看视频，未逐帧确认全部示范及口播。",
+        "未在实体手机验证 App 唤起；App scheme 依已有项目格式构造，保留网页回退。",
+        "未添加未经核对的起止时间；外部视频中的训练安排、营销或治疗表述不代表本站建议。"
+      ]
+    },
+    {
+      "id": "bird-dog",
+      "name": "鸟狗式",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7627110050942815528",
+        "appUrl": "snssdk1128://aweme/detail/7627110050942815528?refer=web",
+        "platform": "抖音",
+        "title": "你的鸟狗式做对了吗？快进来自检一下！（内含退阶和进阶做法）",
+        "author": "番茄小薯🍅"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选页标题与正文明确为鸟狗式及退阶、进阶做法，作者番茄小薯🍅；ACE核对四足支撑、对侧手脚伸展和髋部保持水平。",
+      "techniqueSource": {
+        "title": "ACE · Bird-dog",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/14/bird-dog/"
+      },
+      "limits": [
+        "已核验公开页/索引元数据与动作名称，未完整观看视频，未逐帧确认全部示范及口播。",
+        "未在实体手机验证 App 唤起；App scheme 依已有项目格式构造，保留网页回退。",
+        "未添加未经核对的起止时间；外部视频中的训练安排、营销或治疗表述不代表本站建议。"
+      ]
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "反向卷腹",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7683868076873370926",
+        "appUrl": "snssdk1128://aweme/detail/7683868076873370926?refer=web",
+        "platform": "抖音",
+        "title": "想要小腹更紧致？这3个动作在家也能练🔥",
+        "author": "Selina XU"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选页明确列出第3个动作为反向卷腹，并写明“卷起时带动骨盆，避免单纯甩腿”，作者Selina XU；ACE核对屈膝、骨盆向胸廓卷动与受控还原。",
+      "techniqueSource": {
+        "title": "ACE · Reverse Ab Crunch",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/76/reverse-crunch/"
+      },
+      "limits": [
+        "这是包含3个动作的合集，公开文字可确认反向卷腹出现，但未逐帧核对出现时段，故不标起始时间。",
+        "未完整观看；本站不承诺局部减脂，通用说明与训练量独立编写。",
+        "未在实体手机验证 App 唤起。"
+      ]
+    },
+    {
+      "id": "half-kneeling-hip-flexor-stretch",
+      "name": "半跪姿髋屈肌拉伸",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7618772930948142308",
+        "appUrl": "snssdk1128://aweme/detail/7618772930948142308?refer=web",
+        "platform": "抖音",
+        "title": "你的髋关节有6个功能方向，任何一个不够，腰和膝盖就替你扛。",
+        "author": "大衛David"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选页动作清单明确第2项为“半跪姿髋屈肌拉伸”，作者大衛David；ACE同名半跪髋屈肌段强调软垫支撑、收骨盆和脊柱中立。",
+      "techniqueSource": {
+        "title": "ACE · Half-kneeling Hip-flexor Stretch",
+        "url": "https://www.acefitness.org/resources/everyone/blog/5681/3-stretches-for-opening-up-tight-hips/"
+      },
+      "limits": [
+        "视频为6个方向的髋部活动合集，文字能确认包含本动作；未完整观看、未核对单动作时间。",
+        "未采纳“某方向不足就一定腰膝代偿”等泛化结论，不提供诊断或治疗承诺。",
+        "未在实体手机验证 App 唤起；无未经核验的起止时间。"
+      ]
+    },
+    {
+      "id": "cat-cow",
+      "name": "猫牛式",
+      "verifiedAt": "2026-10-22",
+      "video": {
+        "url": "https://www.douyin.com/video/7595832968591106483",
+        "appUrl": "snssdk1128://aweme/detail/7595832968591106483?refer=web",
+        "platform": "抖音",
+        "title": "猫牛式伸展新的体验，对动作和身体有了新的认知和感受！",
+        "author": "大强·力量原点"
+      },
+      "verificationMethod": "联网读取公开视频页/抖音精选页及搜索索引，核对标题、作者、作品编号和动作主题",
+      "matchingEvidence": "抖音精选作品标题明确为猫牛式，编号7595832968591106483；CCOHS原始公共健康资料给出四足支撑、交替拱背和反向活动流程。",
+      "techniqueSource": {
+        "title": "CCOHS · Cat-Camel",
+        "url": "https://www.ccohs.ca/oshanswers/psychosocial/back/backexercises.html"
+      },
+      "limits": [
+        "搜索索引作者当前为“大强·力量原点”，部分旧缓存页面显示“大强的训练哲学”，可能为改名；作品编号与题名一致。",
+        "未完整观看；猫牛仅作为活动示意，未承诺缓解或治疗腰背疾病。",
+        "未在实体手机验证 App 唤起；无未经核验的起止时间。"
+      ]
+    }
+  ]
+}

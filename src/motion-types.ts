@@ -16,6 +16,7 @@ export type Pose = {
   leftToe?: Point;
   rightToe?: Point;
   torsoWidth?: number;
+  torsoControl?: Point;
 };
 export type MotionScene = {
   view: '侧面' | '正面' | '斜侧' | '俯视';

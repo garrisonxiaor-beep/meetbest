@@ -6,8 +6,10 @@ import { lowerMotions } from './motion-lower';
 import { coreMotions } from './motion-core';
 import { extraUpperMotions } from './motion-extra-upper';
 import { extraLowerMotions } from './motion-extra-lower';
+import { expansionLowerMotions } from './motion-expansion-lower';
+import { expansionUpperMotions } from './motion-expansion-upper';
 
-export const exerciseMotions = { ...upperMotions, ...lowerMotions, ...coreMotions, ...extraUpperMotions, ...extraLowerMotions };
+export const exerciseMotions = { ...upperMotions, ...lowerMotions, ...coreMotions, ...extraUpperMotions, ...extraLowerMotions, ...expansionLowerMotions, ...expansionUpperMotions };
 
 const line = (...points: Point[]) => points.map((p, i) => `${i ? 'L' : 'M'}${p[0]} ${p[1]}`).join(' ');
 
@@ -27,7 +29,7 @@ function Athlete({ pose: p, topView }: { pose: Pose; topView: boolean }) {
   return <g className="athlete">
     {leg(p.leftKnee, p.leftFoot, true, p.leftToe)}
     {arm(p.leftElbow, p.leftHand, true)}
-    <path d={line(p.hip, p.neck)} className="athlete-torso" strokeWidth={p.torsoWidth ?? 24} />
+    <path d={p.torsoControl ? `M${p.hip.join(' ')}Q${p.torsoControl.join(' ')} ${p.neck.join(' ')}` : line(p.hip, p.neck)} className="athlete-torso" strokeWidth={p.torsoWidth ?? 24} />
     <path d={line(p.neck, midpoint(p.neck, p.head, .67))} className="athlete-neck" />
     {leg(p.rightKnee, p.rightFoot, false, p.rightToe)}
     {arm(p.rightElbow, p.rightHand)}
@@ -62,6 +64,10 @@ export function interpolatePose(start: Pose, end: Pose, progress: number): Pose 
   const result = {} as Pose;
   const joints = ['head', 'neck', 'hip', 'leftElbow', 'leftHand', 'rightElbow', 'rightHand', 'leftKnee', 'leftFoot', 'rightKnee', 'rightFoot'] as const;
   for (const joint of joints) result[joint] = mix(start[joint], end[joint]);
+  if (start.torsoControl || end.torsoControl) {
+    const center = (p: Pose): Point => [(p.hip[0] + p.neck[0]) / 2, (p.hip[1] + p.neck[1]) / 2];
+    result.torsoControl = mix(start.torsoControl ?? center(start), end.torsoControl ?? center(end));
+  }
   for (const side of ['left', 'right'] as const) {
     const toe = `${side}Toe` as const;
     const foot = `${side}Foot` as const;
