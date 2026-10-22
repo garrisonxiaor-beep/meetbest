@@ -1,0 +1,338 @@
+{
+  "reviewedAt": "2026-10-22",
+  "addedPlans": 6,
+  "totalPlans": 8,
+  "audience": "已成年、可进行一般抗阻训练的健身爱好者；通用模板不替代个人评估或康复处方。",
+  "editorial": "具体排课、动作组合和组次为本站原创编排；权威来源支持规律抗阻、个体化、训练量和活动建议等原则，不表示这些模板是官方处方。原有两套动作、组次与训练日保持不变，补充选用和进阶信息。",
+  "foundation": {
+    "verifiedAt": "2026-10-22",
+    "authorship": "MeetBest原创通用排课；引用资料支持训练原则，不是ACSM、CDC或WHO发布/背书的逐日计划。组次、RIR、动作顺序和渐进阈值为本站可调整的保守起点。",
+    "scope": "健康成年人通用训练模板；非康复、竞技或特殊人群个体处方。",
+    "principles": [
+      {
+        "principle": "规律抗阻和按目标、器械、可坚持程度调整；自重和居家训练可用，一般健康训练无需每组力竭。",
+        "source": {
+          "title": "ACSM 2026抗阻训练原则：规律训练与个体调整",
+          "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+        },
+        "verifiedAt": "2026-10-22"
+      },
+      {
+        "principle": "主要肌群每周至少两天抗阻；有氧活动另作安排，可分短段累积。",
+        "source": {
+          "title": "CDC成人活动建议：抗阻与有氧相配合",
+          "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
+        },
+        "verifiedAt": "2026-10-22"
+      },
+      {
+        "principle": "体重管理结合饮食与身体活动，不将抗阻模板宣称为减脂保证。",
+        "source": {
+          "title": "CDC体重管理：饮食与身体活动共同作用",
+          "url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/"
+        },
+        "verifiedAt": "2026-10-22"
+      },
+      {
+        "principle": "体重下降期间肌力活动可帮助维持肌肉量；不作个体结果承诺。",
+        "source": {
+          "title": "美国成人身体活动指南：肌力训练与体重下降期肌肉维持",
+          "url": "https://www.cdc.gov/physical-activity/media/pdfs/Physical_Activity_Guidelines_2nd_edition.pdf"
+        },
+        "verifiedAt": "2026-10-22"
+      },
+      {
+        "principle": "训练日隔开、逐步加负重、保留余力、疲劳时减组，为本站保守排课选择；并非声称所有组必须遵守统一RIR或固定恢复时长。",
+        "source": {
+          "title": "ACSM 2026抗阻训练原则：规律训练与个体调整",
+          "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+        },
+        "verifiedAt": "2026-10-22"
+      }
+    ],
+    "planAudits": [
+      {
+        "planId": "two-day-gym-foundation",
+        "purpose": "给每周只有两次时间的初学/重返者建立全身训练习惯。",
+        "weeklyVolume": "每次12个工作组，每周24组。股四头主练4组、胸部推4组、背部拉4组；另有腿后侧2组、伸髋2组、肩部直接4组、躯干4组。复合动作的间接刺激不重复相加，周组数是分类估算而非精确肌肉剂量。",
+        "frequency": "蹲/膝主导、推、拉、核心每周两次；上下肢均覆盖。",
+        "recovery": "周一/周四，间隔两或三天；每日主要动作休息90秒至2分钟，不设置力竭。",
+        "durationAudit": "6动作×2组，含5分钟一般热身、轻重量热身、休息及器械转换，估计35–50分钟；不通过压缩规定休息来赶时长。",
+        "equipmentAudit": "固定器械、绳索、哑铃与自重均与seed字段一致。"
+      },
+      {
+        "planId": "two-day-home-dumbbell",
+        "purpose": "仅有哑铃和可靠支撑的居家全身训练。",
+        "weeklyVolume": "每次12个工作组，每周24组。膝主导4组、伸髋/腿后侧4组、胸部推4组、背部拉4组、肩部直接4组、躯干4组；单侧组数按每侧完成2组计，不按左右翻倍为4组。",
+        "frequency": "两天均含腿部、推、拉、肩部和核心；动作平衡优先。",
+        "recovery": "周二/周五，两次之间至少1个完整恢复日。",
+        "durationAudit": "6动作×2组，单侧动作两侧完成再休息，含热身约35–45分钟；换位可短休，不牺牲动作控制。",
+        "equipmentAudit": "所有exerciseId器械仅自重/哑铃。推肩采用稳固靠背座椅；划船和单腿硬拉要求可靠支撑。未使用杠铃罗马尼亚硬拉、固定器械、绳索、未入库地板卧推。"
+      },
+      {
+        "planId": "three-day-fat-loss-support",
+        "purpose": "体重管理期保留抗阻表现与规律性，减脂效果由整体生活安排决定。",
+        "weeklyVolume": "每次14个工作组，每周42组。膝主导8组、髋主导5组、腿弯举2组、胸推6组、背拉9组、肩部直接4组、小腿2组、躯干6组。臀部和手臂也受到复合动作间接训练，不将所有交叉刺激直接相加。",
+        "frequency": "三个全身日均含下肢、推、拉和核心；不承诺局部减脂或固定减重速度。",
+        "recovery": "周一/周三/周五，抗阻之间至少1个完整恢复日；疲劳时每动作先减1组，避免额外高强度补偿。",
+        "durationAudit": "6动作、14工作组，主要动作休息2分钟或2–3分钟，含热身与转换估计45–60分钟；活动建议是额外安排，不包含在抗阻时长。",
+        "equipmentAudit": "杠铃罗马尼亚硬拉标明杠铃；臀推标明器械；其余与seed一致。",
+        "activityAudit": "有氧从当前体能渐进，每周约150分钟中等强度，可分段；不把150分钟当作个体减重剂量。配合可持续饮食。"
+      }
+    ],
+    "validation": {
+      "exerciseReferencesExist": true,
+      "homeEquipmentOnlyDumbbellOrBodyweight": true,
+      "singleSideMarked": true,
+      "allPrescriptionFieldsStrings": true,
+      "foundationEachDaySixExercisesTwoSets": true,
+      "warmupsExcludedFromWorkingSets": true,
+      "noMandatoryFailureOrMaxTesting": true
+    },
+    "exerciseReferences": [
+      {
+        "exerciseId": "angled-handle-lat-pulldown",
+        "name": "高位下拉",
+        "equipment": "绳索"
+      },
+      {
+        "exerciseId": "dead-bug",
+        "name": "死虫式",
+        "equipment": "自重"
+      },
+      {
+        "exerciseId": "dumbbell-bench-press",
+        "name": "哑铃卧推",
+        "equipment": "哑铃"
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "name": "哑铃侧平举",
+        "equipment": "哑铃"
+      },
+      {
+        "exerciseId": "dumbbell-reverse-fly",
+        "name": "俯身哑铃反飞鸟",
+        "equipment": "哑铃"
+      },
+      {
+        "exerciseId": "glute-bridge",
+        "name": "臀桥",
+        "equipment": "自重"
+      },
+      {
+        "exerciseId": "goblet-squat",
+        "name": "高脚杯深蹲",
+        "equipment": "哑铃"
+      },
+      {
+        "exerciseId": "hip-thrust",
+        "name": "器械臀推",
+        "equipment": "固定器械"
+      },
+      {
+        "exerciseId": "incline-push-up",
+        "name": "上斜俯卧撑",
+        "equipment": "自重"
+      },
+      {
+        "exerciseId": "leg-press",
+        "name": "器械腿举",
+        "equipment": "固定器械"
+      },
+      {
+        "exerciseId": "narrow-seated-row",
+        "name": "窄距坐姿划船",
+        "equipment": "绳索"
+      },
+      {
+        "exerciseId": "prone-leg-curl",
+        "name": "俯卧腿弯举",
+        "equipment": "固定器械"
+      },
+      {
+        "exerciseId": "reverse-crunch",
+        "name": "反向卷腹",
+        "equipment": "自重"
+      },
+      {
+        "exerciseId": "reverse-lunge",
+        "name": "反向箭步蹲",
+        "equipment": "自重"
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "name": "罗马尼亚硬拉",
+        "equipment": "杠铃"
+      },
+      {
+        "exerciseId": "seated-dumbbell-shoulder-press",
+        "name": "坐姿哑铃推肩",
+        "equipment": "哑铃"
+      },
+      {
+        "exerciseId": "seated-machine-chest-press",
+        "name": "坐姿器械推胸",
+        "equipment": "固定器械"
+      },
+      {
+        "exerciseId": "single-arm-dumbbell-row",
+        "name": "单臂哑铃划船",
+        "equipment": "哑铃"
+      },
+      {
+        "exerciseId": "single-leg-dumbbell-romanian-deadlift",
+        "name": "单腿哑铃硬拉",
+        "equipment": "哑铃"
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "name": "站姿提踵",
+        "equipment": "自重"
+      }
+    ]
+  },
+  "focused": {
+    "reviewedAt": "2026-10-22",
+    "scope": "三套本站原创的健康成年人通用模板，不是ACSM官方处方；不适用于个体疾病康复处方。",
+    "sources": [
+      {
+        "title": "ACSM 2026 原始立场文件",
+        "url": "https://doi.org/10.1249/MSS.0000000000003897",
+        "publishedAt": "2026-03-05 在线 / 2026-04 期刊",
+        "verifiedAt": "2026-10-22",
+        "principles": [
+          "保持渐进抗阻训练；同一主要肌群规律训练。",
+          "力量目标可偏重较大负重、每动作2–3组，并把重点动作放在训练前段。",
+          "增肌可受益于较高周组数，约每肌群10组是可参考的群体层面方向，不是每人必须达成的最低门槛。",
+          "总量相同时，更多训练日不必然带来更多增肌；力竭、设备种类和复杂周期化未显示稳定额外优势。"
+        ]
+      },
+      {
+        "title": "ACSM 2026 官方训练要点",
+        "url": "https://www.acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf",
+        "verifiedAt": "2026-10-22",
+        "principles": [
+          "优先保持可持续的训练习惯，覆盖主要肌群并逐渐增加负荷。",
+          "训练安排应与目标、时间和个人接受程度相匹配。"
+        ]
+      }
+    ],
+    "implementationJudgment": [
+      "具体动作配对、频率排布、1–3 RIR、休息时长、双进阶阈值及减量办法，是根据证据原则制定的本站编排选择，不宣称由文献逐项验证。",
+      "不要求测试1RM，4–8次不被直接等同为固定百分比；以标准动作和余力估计控制负重。",
+      "工作组统计仅用于模板审核，复合动作协同肌刺激不作为可精确相加的独立等效组数；单侧每侧完成规定次数记1组。",
+      "主动作3组的力量模板优先练习负重技术；增肌模板周量是起点，恢复差应减量而非强行补量。"
+    ],
+    "plans": [
+      {
+        "id": "four-day-strength-base",
+        "weeklyWorkingSets": 48,
+        "dailyWorkingSets": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "frequencyAudit": "上肢2次、下肢2次；卧推与腿举/RDL均在两天出现。",
+        "directOrPrimarySets": {
+          "胸部水平推": 5,
+          "背部水平加垂直拉": 10,
+          "肩部垂直推": 3,
+          "侧平举": 2,
+          "股四头肌腿举与腿伸": 8,
+          "腿后侧RDL与腿弯举": 8,
+          "小腿": 4,
+          "核心": 4,
+          "肱二头肌孤立": 2,
+          "肱三头肌孤立": 2
+        },
+        "recoveryAudit": "周一/周四上肢、周二/周五下肢，两个主要刺激相隔约72小时；周末休息。每个主要动作3组4–8次区间，辅助2组8–15次；核心和自重提踵按动作目标调整。",
+        "equipmentAudit": "杠铃卧推、站姿杠铃推举、杠铃RDL；器械腿举与胸托T杆划船；没有把徒手深蹲当杠铃深蹲。",
+        "computedDailyWorkingSets": [
+          12,
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "id": "four-day-glute-priority",
+        "weeklyWorkingSets": 46,
+        "dailyWorkingSets": [
+          11,
+          12,
+          11,
+          12
+        ],
+        "frequencyAudit": "下肢2次、上肢2次，绝非每周4次臀腿。",
+        "directOrPrimarySets": {
+          "臀大肌重点臀推": 3,
+          "RDL": 3,
+          "分腿蹲": 2,
+          "高脚杯深蹲": 2,
+          "腿举": 2,
+          "髋外展": 2,
+          "腿弯举": 2,
+          "胸部推": 6,
+          "背部拉": 10,
+          "侧平举": 2,
+          "反向蝴蝶机": 2,
+          "小腿": 2,
+          "核心": 4,
+          "手臂孤立": 4
+        },
+        "gluteExposureAudit": "臀推3组，加RDL3、分腿蹲2、高脚杯蹲2、腿举2组可涉及臀大肌，合计12个相关动作组；髋外展另2组，不能把这些当作完全等效的14组臀部孤立量。股四头肌6组主练，腿后侧5组主练，均为可恢复的起步量。",
+        "recoveryAudit": "周一/周四下肢相隔约72小时，周二/周五上肢相隔约72小时；无额外臀腿日；有明确减组条件。",
+        "claimAudit": "明确不能决定局部减脂；未按性别预设训练需求。",
+        "computedDailyWorkingSets": [
+          11,
+          12,
+          11,
+          12
+        ]
+      },
+      {
+        "id": "five-day-hypertrophy",
+        "weeklyWorkingSets": 63,
+        "dailyWorkingSets": [
+          11,
+          12,
+          14,
+          13,
+          13
+        ],
+        "frequencyAudit": "推/拉/腿/休/上肢/下肢/休；胸、背、股四头肌和腿后侧约每周2次。",
+        "directOrPrimarySets": {
+          "胸部推与夹胸": 10,
+          "背部水平加垂直拉": 10,
+          "股四头肌腿举蹲与分腿蹲": 10,
+          "腿后侧RDL与腿弯举": 9,
+          "肩部垂直推": 2,
+          "侧平举": 4,
+          "后束孤立": 2,
+          "肱二头肌孤立": 4,
+          "肱三头肌孤立": 4,
+          "器械臀推": 2,
+          "小腿": 4,
+          "核心": 2
+        },
+        "recoveryAudit": "推周一与上肢周五相隔约96小时；拉周二与上肢周五约72小时；腿周三与下肢周六约72小时。每次5–6动作、11–14工作组；只适合已持续规律训练且恢复足够的人。",
+        "differenceAudit": "相较4练上下肢模板，把胸背与下肢周量分散到推拉腿/上下肢5天，不宣称更多训练日天然更优。",
+        "computedDailyWorkingSets": [
+          11,
+          12,
+          14,
+          13,
+          13
+        ]
+      }
+    ],
+    "validation": {
+      "exerciseIds": "已验证全部引用在当前72动作seed内。",
+      "unilateral": "死虫式与分腿蹲明确每侧；分腿蹲明确换侧及两侧完成后的休息。",
+      "sets": "全部字符串，热身不计正式组。"
+    }
+  },
+  "finalReview": "逐项核对8套/27个训练日，原有动作组次保留；4–5练分化的同一区域恢复间隔按周内与跨周准确写为约72–96小时。减脂方案的抗阻恢复日可有轻至中等有氧，并按疲劳降低活动强度。"
+}

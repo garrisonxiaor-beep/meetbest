@@ -190,14 +190,48 @@ function ExerciseLibrary({ data, favorites, toggleFavorite, openExercise, goPage
 function TrainingPlans({ data, openExercise }: { data: Content; openExercise: (id: string) => void }) {
   const [selectedId, setSelectedId] = useState(data.plans[0]?.id ?? '');
   const [dayIndex, setDayIndex] = useState(0);
-  const plan = data.plans.find(item => item.id === selectedId) ?? data.plans[0];
-  if (!plan) return <EmptyState title="训练计划正在整理" detail="可以先从动作库中了解常用动作。" />;
-  const day = plan.days[Math.min(dayIndex, plan.days.length - 1)];
+  const [frequency, setFrequency] = useState(0);
+  const [goal, setGoal] = useState('全部目标');
+  const planOptionsRef = useRef<HTMLDivElement>(null);
+  const frequencies = [...new Set(data.plans.map(item => item.daysPerWeek))].sort((a, b) => a - b);
+  const goals = [...new Set(data.plans.map(item => item.goal || '综合训练'))];
+  const filteredPlans = useMemo(() => data.plans.filter(item =>
+    (!frequency || item.daysPerWeek === frequency) &&
+    (goal === '全部目标' || (item.goal || '综合训练') === goal),
+  ), [data.plans, frequency, goal]);
+  const plan = filteredPlans.find(item => item.id === selectedId) ?? filteredPlans[0];
+  const activeDayIndex = plan?.id === selectedId ? Math.min(dayIndex, plan.days.length - 1) : 0;
+  const day = plan?.days[activeDayIndex];
+  const visibleSelectedId = plan?.id ?? '';
+  useEffect(() => {
+    if (visibleSelectedId !== selectedId) { setSelectedId(visibleSelectedId); setDayIndex(0); }
+  }, [visibleSelectedId, selectedId]);
+  useEffect(() => {
+    const list = planOptionsRef.current;
+    const active = list?.querySelector<HTMLElement>('.plan-option.active');
+    if (!list || !active || list.scrollWidth <= list.clientWidth) return;
+    const left = active.offsetLeft;
+    const right = left + active.offsetWidth;
+    if (left < list.scrollLeft) list.scrollLeft = left;
+    else if (right > list.scrollLeft + list.clientWidth) list.scrollLeft = right - list.clientWidth;
+  }, [visibleSelectedId, filteredPlans]);
+  const clearFilters = () => { setFrequency(0); setGoal('全部目标'); };
+  const frequencyRange = frequencies.length === 1 ? String(frequencies[0]) : `${frequencies[0]}–${frequencies.at(-1)}`;
+  const equipment = plan?.equipment || [...new Set(plan?.days.flatMap(d => d.exercises).map(entry => data.exercises.find(item => item.id === entry.exerciseId)?.equipment).filter(Boolean))].join(' / ') || '按动作所需器械';
+  if (!data.plans.length) return <EmptyState title="训练计划正在整理" detail="可以先从动作库中了解常用动作。" />;
   return <>
-    <PageIntro variant="plans" index="02" statValue="03/04" statLabel="每周训练天数" statNote="适合自己的频率，更容易坚持" eyebrow="BUILD YOUR ROUTINE" title="让每一次训练，" accent="连成进步。" description="选一个可持续的频率，把动作、组数与休息安排清楚。按自己的恢复情况逐步调整。" />
-    <div className="plans-layout"><aside className="plan-picker"><span className="small-label">选择训练节奏</span>{data.plans.map(item => <button key={item.id} className={`plan-option ${plan.id === item.id ? 'active' : ''}`} onClick={() => { setSelectedId(item.id); setDayIndex(0); }}><span className="plan-option-number">{item.daysPerWeek}<small>天 / 周</small></span><span><strong>{item.name}</strong><small>{item.level}</small></span><Icon name={plan.id === item.id ? 'check' : 'chevron'} size={18} /></button>)}<div className="aside-note plan-picker-note"><h3>坚持比排满更重要</h3><p>休息也是计划的一部分。根据训练经验、时间安排和恢复情况选择频率；不用把每一天都填满。</p></div></aside>
-      <div className="plan-main"><div className="plan-summary"><div><span className="small-label">YOUR TRAINING OUTLINE</span><h2>{plan.name}</h2><p>{plan.description}</p></div><span className="plan-frequency">{plan.daysPerWeek}<small>次 / 周</small></span></div><div className="day-tabs" aria-label="选择训练日">{plan.days.map((d, i) => <button key={d.title} className={dayIndex === i ? 'active' : ''} onClick={() => setDayIndex(i)} aria-pressed={dayIndex === i}><span>DAY {String(i + 1).padStart(2, '0')}</span><strong>{d.title}</strong></button>)}</div>{day && <><div className="day-heading"><h3>{day.subtitle || day.title}</h3><span>{day.exercises.length} 个动作</span></div><div className="warmup-note"><Icon name="info" size={19} /><div><strong>从热身开始</strong><p>{day.warmup}</p></div></div><div className="plan-exercises">{day.exercises.map((entry, index) => { const exercise = data.exercises.find(e => e.id === entry.exerciseId); return <article className="plan-exercise" key={`${entry.exerciseId}-${index}`}><span className="plan-order">{String(index + 1).padStart(2, '0')}</span><div className={`plan-thumb body-${bodyParts.indexOf(exercise?.bodyPart ?? '')}`}>{exercise && <ExerciseIllustration exercise={exercise} compact />}</div><div className="plan-exercise-description"><h4>{exercise?.name ?? '动作资料暂未收录'}</h4><p>{entry.note || exercise?.muscles.join(' · ')}</p><span className="mobile-plan-stats">{entry.sets} 组 × {entry.reps} · 休息 {entry.rest}</span></div><div className="plan-exercise-stat"><strong>{entry.sets} <span>组</span></strong><small>{entry.reps}</small></div><div className="plan-exercise-rest"><span>组间休息</span><strong>{entry.rest}</strong></div>{exercise && <button className="icon-button" aria-label={`查看${exercise.name}动作讲解`} onClick={() => openExercise(exercise.id)}><Icon name="arrow" size={20} /></button>}</article>; })}</div><div className="plan-bottom-note"><Icon name="info" size={17} /><p>这是一般训练模板。组数和次数可按经验、动作熟练度和恢复情况调整。刚开始时减少训练量，掌握动作后再递增。</p></div>{plan.sources && <SourceList sources={plan.sources} />}</>}</div>
+    <PageIntro variant="plans" index="02" statValue={String(data.plans.length).padStart(2, '0')} statLabel="套可选训练计划" statNote={`每周 ${frequencyRange} 天 · 找到自己的节奏`} eyebrow="BUILD YOUR ROUTINE" title="让每一次训练，" accent="连成进步。" description="选一个可持续的频率，把动作、组数与休息安排清楚。按自己的恢复情况逐步调整。" />
+    <div className="plan-filters">
+      <div className="plan-frequency-filters" role="group" aria-label="按每周训练天数筛选"><button className={!frequency ? 'active' : ''} onClick={() => setFrequency(0)} aria-pressed={!frequency}>全部频率</button>{frequencies.map(value => <button key={value} className={frequency === value ? 'active' : ''} onClick={() => setFrequency(value)} aria-pressed={frequency === value}>每周 {value} 天</button>)}</div>
+      <label className="select-field plan-goal-filter"><span className="sr-only">按训练目标筛选</span><select value={goal} onChange={event => setGoal(event.target.value)}><option>全部目标</option>{goals.map(value => <option key={value}>{value}</option>)}</select></label>
+      <span className="plan-filter-count" aria-live="polite">{filteredPlans.length} 套计划</span>{(frequency !== 0 || goal !== '全部目标') && <button className="text-button plan-filter-reset" onClick={clearFilters}><Icon name="refresh" size={13} />清除</button>}
     </div>
+    {plan ? <div className="plans-layout"><aside className="plan-picker" aria-label="选择训练计划"><span className="small-label">选择训练节奏</span><div className="plan-options" ref={planOptionsRef}>{filteredPlans.map(item => <button key={item.id} className={`plan-option ${plan.id === item.id ? 'active' : ''}`} onClick={() => { setSelectedId(item.id); setDayIndex(0); }} aria-pressed={plan.id === item.id}><span className="plan-option-number">{item.daysPerWeek}<small>天 / 周</small></span><span><strong>{item.name}</strong><small>{item.goal || '综合训练'} · {item.level}</small></span><Icon name={plan.id === item.id ? 'check' : 'chevron'} size={18} /></button>)}</div><div className="aside-note plan-picker-note"><h3>坚持比排满更重要</h3><p>休息也是计划的一部分。根据训练经验、时间安排和恢复情况选择频率；不用把每一天都填满。</p></div></aside>
+      <div className="plan-main"><div className="plan-summary"><div><span className="small-label">YOUR TRAINING OUTLINE</span><h2>{plan.name}</h2><p>{plan.description}</p><dl className="plan-facts"><div><dt>训练目标</dt><dd>{plan.goal || '综合训练'}</dd></div><div><dt>所需器械</dt><dd>{equipment}</dd></div><div><dt>单次时长</dt><dd>{plan.duration || '依训练节奏调整'}</dd></div></dl></div><span className="plan-frequency">{plan.daysPerWeek}<small>天 / 周</small></span></div>
+        <div className="plan-week"><span className="small-label">一周怎么排</span><p>{plan.schedule || '将训练日分散在一周，按自己的时间与恢复情况调整。'}</p></div>
+        {(plan.progression || plan.recovery || plan.activity) && <details className="plan-guidance" key={plan.id}><summary>进阶与恢复<Icon name="chevron" size={16} /></summary><div className="plan-guidance-content">{plan.progression && <section><h3>逐步进阶</h3><p>{plan.progression}</p></section>}{plan.recovery && <section><h3>休息与恢复</h3><p>{plan.recovery}</p></section>}{plan.activity && <section><h3>日常活动</h3><p>{plan.activity}</p></section>}</div></details>}
+        <div className="day-tabs" aria-label="选择训练日">{plan.days.map((d, i) => <button key={d.title} className={activeDayIndex === i ? 'active' : ''} onClick={() => setDayIndex(i)} aria-pressed={activeDayIndex === i}><span>DAY {String(i + 1).padStart(2, '0')}</span><strong>{d.title}</strong></button>)}</div>{day && <><div className="day-heading"><h3>{day.subtitle || day.title}</h3><span>{day.exercises.length} 个动作</span></div><div className="warmup-note"><Icon name="info" size={19} /><div><strong>从热身开始</strong><p>{day.warmup}</p></div></div><div className="plan-exercises">{day.exercises.map((entry, index) => { const exercise = data.exercises.find(e => e.id === entry.exerciseId); return <article className="plan-exercise" key={`${entry.exerciseId}-${index}`}><span className="plan-order">{String(index + 1).padStart(2, '0')}</span><div className={`plan-thumb body-${bodyParts.indexOf(exercise?.bodyPart ?? '')}`}>{exercise && <ExerciseIllustration exercise={exercise} compact />}</div><div className="plan-exercise-description"><h4>{exercise?.name ?? '动作资料暂未收录'}</h4><p>{entry.note || exercise?.muscles.join(' · ')}</p><span className="mobile-plan-stats">{entry.sets} 组 × {entry.reps} · 休息 {entry.rest}</span></div><div className="plan-exercise-stat"><strong>{entry.sets} <span>组</span></strong><small>{entry.reps}</small></div><div className="plan-exercise-rest"><span>组间休息</span><strong>{entry.rest}</strong></div>{exercise && <button className="icon-button" aria-label={`查看${exercise.name}动作讲解`} onClick={() => openExercise(exercise.id)}><Icon name="arrow" size={20} /></button>}</article>; })}</div><div className="plan-bottom-note"><Icon name="info" size={17} /><p>这是一般训练模板。组数和次数可按经验、动作熟练度和恢复情况调整。刚开始时减少训练量，掌握动作后再递增。</p></div>{plan.sources && <SourceList sources={plan.sources} />}</>}</div>
+    </div> : <EmptyState title="还没有这个组合的计划" detail="可以调整训练频率或目标，看看其他训练节奏。" action={<button className="secondary-button" onClick={clearFilters}>查看全部计划<Icon name="arrow" size={16} /></button>} />}
   </>;
 }
 

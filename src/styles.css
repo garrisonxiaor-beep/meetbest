@@ -284,9 +284,18 @@ legend { padding: 0; }
 .comparison-bar .primary-button { background: var(--lime); color: var(--accent); white-space: nowrap; border-radius: 999px; }
 
 /* Training schedule */
+.plan-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; padding-bottom: 23px; margin-bottom: 27px; border-bottom: 1px solid var(--line); }
+.plan-frequency-filters { display: flex; flex-wrap: wrap; gap: 7px; }
+.plan-frequency-filters button { min-height: 40px; padding: 10px 14px; border-radius: 999px; background: transparent; color: #5d6d53; font-size: 13px; white-space: nowrap; }
+.plan-frequency-filters button.active { background: var(--accent); color: #fffefa; }
+.plan-goal-filter { margin-left: auto; min-width: 136px; }
+.plan-filter-count { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.plan-filter-reset { font-size: 12px; }
 .plans-layout { display: grid; grid-template-columns: 284px minmax(0, 1fr); gap: 38px; }
+.plan-picker, .plan-main { min-width: 0; }
 .plan-picker > .small-label { display: block; margin: 4px 0 19px; }
-.plan-option { display: flex; align-items: center; width: 100%; padding: 23px 19px; border: 1px solid var(--line); border-radius: 17px; margin-bottom: 14px; background: var(--surface); text-align: left; gap: 18px; }
+.plan-options { position: relative; display: grid; gap: 10px; max-height: 696px; overflow-y: auto; scrollbar-width: thin; padding: 2px; margin: -2px; }
+.plan-option { display: flex; align-items: center; width: 100%; padding: 21px 17px; border: 1px solid var(--line); border-radius: 17px; background: var(--surface); text-align: left; gap: 16px; }
 .plan-option.active { border-color: var(--accent); background: var(--accent); color: #fffefa; }
 .plan-option-number { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 43px; font-weight: 400; text-align: center; min-width: 42px; line-height: 1; color: #668457; }
 .plan-option.active .plan-option-number { color: var(--lime); }
@@ -306,8 +315,22 @@ legend { padding: 0; }
 .plan-summary p { max-width: 560px; font-size: 14px; line-height: 1.9; color: #5c6c53; }
 .plan-frequency { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 80px; font-weight: 350; line-height: 1; text-align: center; }
 .plan-frequency small { font-size: 12px; display: block; margin-top: 11px; white-space: nowrap; color: #718667; }
-.day-tabs { display: flex; border-bottom: 1px solid var(--line); margin-top: 29px; gap: 22px; overflow-x: auto; }
-.day-tabs button { position: relative; padding: 13px 8px 20px; min-width: 115px; flex: 1; background: transparent; text-align: left; color: #5e6c53; }
+.plan-facts { display: flex; flex-wrap: wrap; gap: 18px 25px; margin-top: 23px; padding-top: 19px; border-top: 1px solid #cbd6be; }
+.plan-facts > div { min-width: 72px; }
+.plan-facts dt { color: #718068; font-size: 10px; margin-bottom: 7px; }
+.plan-facts dd { font-size: 12px; line-height: 1.6; margin: 0; }
+.plan-week { padding: 21px 2px 18px; }
+.plan-week .small-label { font-size: 11px; color: #5a704d; letter-spacing: .6px; }
+.plan-week p { color: #5b6c52; font-size: 13px; line-height: 1.9; margin-top: 7px; }
+.plan-guidance { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.plan-guidance > summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 2px; list-style: none; cursor: pointer; color: #4f693f; font-size: 12px; }
+.plan-guidance > summary::-webkit-details-marker { display: none; }
+.plan-guidance[open] > summary > svg { transform: rotate(90deg); }
+.plan-guidance-content { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 26px; padding: 3px 2px 19px; }
+.plan-guidance-content h3 { font-size: 12px; color: #4d683e; font-weight: 550; }
+.plan-guidance-content p { font-size: 12px; line-height: 1.9; color: var(--muted); margin-top: 6px; }
+.day-tabs { display: flex; border-bottom: 1px solid var(--line); margin-top: 20px; gap: 22px; overflow-x: auto; scrollbar-width: thin; }
+.day-tabs button { position: relative; padding: 13px 8px 20px; min-width: 115px; flex: 1 0 auto; background: transparent; text-align: left; color: #5e6c53; }
 .day-tabs button.active { color: var(--accent); }
 .day-tabs button.active::after { content: ''; height: 3px; border-radius: 2px; background: var(--accent); position: absolute; bottom: 0; right: 0; left: 0; }
 .day-tabs button > span { font-size: 10px; letter-spacing: 1.4px; display: block; margin-bottom: 9px; color: #5d6c52; }
@@ -641,9 +664,9 @@ legend { padding: 0; }
   .supplement-card-actions { padding-left: 21px; padding-right: 21px; }
   .supplement-read { font-size: 13px; }
   .plans-layout { grid-template-columns: 1fr; gap: 28px; }
-  .plan-picker { display: flex; gap: 16px; flex-wrap: wrap; }
-  .plan-picker > .small-label { flex-basis: 100%; margin: 0; }
-  .plan-option { flex: 1; margin: 0; }
+  .plan-picker > .small-label { margin: 0 0 15px; }
+  .plan-options { display: flex; gap: 12px; overflow-x: auto; overflow-y: hidden; max-height: none; scroll-snap-type: x proximity; padding: 2px 2px 10px; }
+  .plan-option { flex: 0 0 264px; margin: 0; scroll-snap-align: start; }
   .plan-picker-note { display: none; }
   .plan-exercise { gap: 18px; }
   .plan-exercise-description h4 { font-size: 19px; }
@@ -780,8 +803,12 @@ legend { padding: 0; }
   .comparison-bar .small-button { padding: 11px 13px; min-height: 44px; font-size: 12px; gap: 7px; }
   .comparison-bar .small-button > svg { width: 14px; }
   .plans-layout { gap: 25px; }
-  .plan-picker { gap: 11px; }
-  .plan-option { padding: 20px 14px; gap: 12px; border-radius: 15px; }
+  .plan-filters { gap: 12px; padding-bottom: 19px; margin-bottom: 22px; }
+  .plan-frequency-filters { flex-basis: 100%; gap: 5px; }
+  .plan-frequency-filters button { padding: 9px 12px; font-size: 12px; }
+  .plan-goal-filter { margin-left: 0; flex: 1; max-width: 230px; }
+  .plan-filter-count { margin-left: auto; }
+  .plan-option { flex-basis: 245px; padding: 20px 14px; gap: 12px; border-radius: 15px; }
   .plan-option-number { font-size: 37px; min-width: 31px; }
   .plan-option-number > small { font-size: 9px; }
   .plan-option > span:nth-child(2) > strong { font-size: 14px; }
@@ -793,6 +820,10 @@ legend { padding: 0; }
   .plan-summary .small-label { font-size: 9px; letter-spacing: 1px; }
   .plan-frequency { font-size: 63px; }
   .plan-frequency small { font-size: 11px; }
+  .plan-facts { gap: 15px 20px; margin-top: 20px; padding-top: 16px; }
+  .plan-facts dd { font-size: 11px; }
+  .plan-week { padding-top: 19px; }
+  .plan-guidance-content { grid-template-columns: 1fr; gap: 16px; }
   .day-tabs { margin-top: 24px; gap: 13px; }
   .day-tabs > button { min-width: 88px; padding: 12px 3px 18px; }
   .day-tabs > button > span { font-size: 10px; letter-spacing: 1px; }
@@ -959,12 +990,8 @@ legend { padding: 0; }
   .supplement-goals { margin-right: -18px; flex-basis: calc(100% + 18px); }
   .supplement-card-actions { gap: 7px; padding-left: 20px; padding-right: 20px; }
   .flip-toggle, .supplement-read { font-size: 12px; }
-  .plan-picker { flex-direction: column; flex-wrap: nowrap; }
-  .plan-picker > .small-label { flex-basis: auto; }
-  .plan-option { width: 100%; flex: auto; padding: 19px; }
-  .plan-option-number { font-size: 40px; }
-  .plan-option > span:nth-child(2) > strong { font-size: 16px; }
-  .plan-option > span:nth-child(2) > small { font-size: 12px; }
+  .plan-options { gap: 10px; }
+  .plan-option { flex-basis: 248px; }
   .plan-summary { padding: 25px 21px; gap: 14px; }
   .plan-summary h2 { font-size: 25px; }
   .plan-frequency { font-size: 55px; }

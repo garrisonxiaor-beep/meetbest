@@ -44,6 +44,13 @@ export type Plan = {
   daysPerWeek: number;
   level: string;
   description: string;
+  goal?: string;
+  equipment?: string;
+  duration?: string;
+  schedule?: string;
+  progression?: string;
+  recovery?: string;
+  activity?: string;
   sources?: Source[];
   days: {
     title: string;

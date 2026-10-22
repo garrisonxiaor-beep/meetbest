@@ -3257,6 +3257,252 @@
   ],
   "plans": [
     {
+      "id": "two-day-gym-foundation",
+      "name": "每周2练 · 全身入门",
+      "daysPerWeek": 2,
+      "level": "入门 / 重返训练",
+      "goal": "全身基础",
+      "equipment": "健身房 · 固定器械、绳索、哑铃",
+      "duration": "每次35–50分钟",
+      "schedule": "周一全身A，周四全身B；周二、三、五至日恢复，可按生活安排整体平移，避免连续两天全身负重。",
+      "description": "本站原创通用起步模板，适合每周能稳定腾出两次时间的健康成年人。以器械和基础动作练习蹲、伸髋、推、拉和躯干控制；每日6个动作、各2个工作组，先建立习惯与稳定动作，再逐步加量。",
+      "progression": "RIR是组末还能按标准动作完成的次数；起步保留约2–3次。连续两次训练中，一个动作所有组都达到次数上限、仍留有余力且姿势稳定，再把该动作增加最小一档重量，次数回到区间下限；一次只调一个因素。达不到下限就减轻重量或降低动作难度。",
+      "recovery": "两次全身训练至少间隔1个完整恢复日；若酸痛影响动作、睡眠欠佳或表现连续下降，先延后训练或将各动作减1组，恢复后再回到原安排。关节刺痛或锐痛时停止相应动作。",
+      "sources": [
+        {
+          "title": "ACSM 2026抗阻训练原则：规律训练与个体调整",
+          "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+        },
+        {
+          "title": "CDC成人活动建议：抗阻与有氧相配合",
+          "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 全身A",
+          "subtitle": "器械起步，建立推拉与腿部基础",
+          "warmup": "先轻松走动或骑车约5分钟，活动当日会用到的关节；前几个负重动作以轻重量逐步热身。热身组不计入下列工作组。",
+          "exercises": [
+            {
+              "exerciseId": "leg-press",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "2分钟",
+              "note": "先用轻重量熟悉器械；膝盖随脚尖方向，背和骨盆保持贴稳靠垫。"
+            },
+            {
+              "exerciseId": "seated-machine-chest-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "narrow-seated-row",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "90–120秒",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "轻重量控制上举和下放，避免耸肩或甩动。"
+            },
+            {
+              "exerciseId": "dead-bug",
+              "sets": "2",
+              "reps": "每侧6–8",
+              "rest": "60–90秒",
+              "note": "慢速交替伸展；腰背开始拱起时缩小幅度，不追求力竭。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 全身B",
+          "subtitle": "抱铃深蹲，补齐伸髋与垂直拉",
+          "warmup": "先轻松走动或骑车约5分钟，活动当日会用到的关节；前几个负重动作以轻重量逐步热身。热身组不计入下列工作组。",
+          "exercises": [
+            {
+              "exerciseId": "goblet-squat",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "先徒手熟悉深蹲，再用能稳定抱住的轻哑铃；保留2–3次余力。"
+            },
+            {
+              "exerciseId": "hip-thrust",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "2分钟",
+              "note": "使用器械臀推；顶端伸髋即可，避免靠过度挺腰完成。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "incline-push-up",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "双手撑稳固训练台；选择能留2–3次余力的高度。"
+            },
+            {
+              "exerciseId": "seated-dumbbell-shoulder-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "使用有靠背的训练凳，轻重量起步，腰背保持稳定。"
+            },
+            {
+              "exerciseId": "reverse-crunch",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "60–90秒",
+              "note": "骨盆缓慢卷起，小幅度完成，避免摆腿借力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-day-home-dumbbell",
+      "name": "每周2练 · 居家哑铃",
+      "daysPerWeek": 2,
+      "level": "入门 / 基础",
+      "goal": "居家训练",
+      "equipment": "一对哑铃、稳固靠背座椅与高台、地垫",
+      "duration": "每次35–45分钟",
+      "schedule": "周二居家A，周五居家B；其余日恢复。两次训练之间留足至少1个完整恢复日。",
+      "description": "本站原创居家全身模板，只用哑铃、自重和稳固支撑，无需杠铃、龙门架或固定器械。通过抬高俯卧撑支撑面、扶稳单腿动作来调节难度；座椅和高台需防滑、不会折叠或倾倒。",
+      "progression": "RIR是组末还能按标准动作完成的次数；起步保留约2–3次。连续两次训练中，一个动作所有组都达到次数上限、仍留有余力且姿势稳定，再把该动作增加最小一档重量，次数回到区间下限；一次只调一个因素。达不到下限就减轻重量或降低动作难度。 自重动作先增加区间内的次数；上斜俯卧撑达标后才略降低支撑面，单腿动作先稳住平衡再加重量。",
+      "recovery": "两次全身训练至少间隔1个完整恢复日；若酸痛影响动作、睡眠欠佳或表现连续下降，先延后训练或将各动作减1组，恢复后再回到原安排。关节刺痛或锐痛时停止相应动作。",
+      "sources": [
+        {
+          "title": "ACSM 2026抗阻训练原则：规律训练与个体调整",
+          "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+        },
+        {
+          "title": "CDC成人活动建议：抗阻与有氧相配合",
+          "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 居家A",
+          "subtitle": "深蹲、推拉与臀桥",
+          "warmup": "室内走动约5分钟，随后做几次徒手深蹲、轻松髋部活动和肩臂活动；前几个哑铃动作用更轻重量热身。热身不计入工作组。",
+          "exercises": [
+            {
+              "exerciseId": "goblet-squat",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "抱铃贴近胸前，先选择能稳定完成的重量。"
+            },
+            {
+              "exerciseId": "incline-push-up",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "双手撑不会滑动或倾倒的高台，按能力选择高度。"
+            },
+            {
+              "exerciseId": "single-arm-dumbbell-row",
+              "sets": "2",
+              "reps": "每侧8–12",
+              "rest": "90–120秒",
+              "note": "一手扶稳固座椅或高台；两侧完成为一组，侧间可短暂换位。"
+            },
+            {
+              "exerciseId": "glute-bridge",
+              "sets": "2",
+              "reps": "12–15",
+              "rest": "60–90秒",
+              "note": "先徒手，收紧臀部抬髋，不用挺腰换取高度。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "使用轻哑铃，不甩动、不耸肩。"
+            },
+            {
+              "exerciseId": "dead-bug",
+              "sets": "2",
+              "reps": "每侧6–8",
+              "rest": "60–90秒",
+              "note": "腰背稳定、自然呼吸；必要时先只动腿或手。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 居家B",
+          "subtitle": "单侧腿部与后侧控制",
+          "warmup": "室内走动约5分钟，做几次扶稳的徒手反向箭步蹲、髋部折叠及肩臂活动；单腿硬拉先不持铃试做，推肩先用更轻重量热身。热身不计入工作组。",
+          "exercises": [
+            {
+              "exerciseId": "reverse-lunge",
+              "sets": "2",
+              "reps": "每侧8–10",
+              "rest": "90–120秒",
+              "note": "先徒手，可轻扶固定物找平衡；两侧完成为一组。"
+            },
+            {
+              "exerciseId": "single-leg-dumbbell-romanian-deadlift",
+              "sets": "2",
+              "reps": "每侧6–10",
+              "rest": "90–120秒",
+              "note": "一手扶固定支撑，另一手持轻哑铃；先徒手练稳，不追求触地，两侧完成为一组。"
+            },
+            {
+              "exerciseId": "incline-push-up",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "选择能保留2–3次余力的高台，身体保持整体移动。"
+            },
+            {
+              "exerciseId": "single-arm-dumbbell-row",
+              "sets": "2",
+              "reps": "每侧8–12",
+              "rest": "90–120秒",
+              "note": "一手扶稳固支撑；骨盆和躯干不随哑铃旋转，两侧完成为一组。"
+            },
+            {
+              "exerciseId": "seated-dumbbell-shoulder-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "用稳固、有靠背的座椅，不用会滑动的转椅；从轻重量开始。"
+            },
+            {
+              "exerciseId": "reverse-crunch",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "60–90秒",
+              "note": "缓慢卷起骨盆，不靠甩腿；保持可控幅度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "three-day-foundation",
       "name": "每周3练 · 全身基础",
       "daysPerWeek": 3,
@@ -3392,6 +3638,193 @@
               "reps": "10–12",
               "rest": "60–90秒",
               "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        }
+      ],
+      "goal": "全身基础",
+      "equipment": "健身房 · 哑铃、杠铃、绳索、固定器械",
+      "duration": "每次约40–55分钟（含热身）",
+      "schedule": "周一建立基础、周三后侧发力、周五重复巩固；其余日恢复或轻松活动，可按生活安排整体平移。",
+      "progression": "先以每组还能规范完成2–3次的强度训练。一个动作各组都达到次数上限、动作稳定且连续两次表现良好，再增加最小一档负重，次数回到区间下限；徒手动作先增加可控次数或小幅提高难度。不要同时加重量和组数。",
+      "recovery": "全身训练日之间留出至少1个完整恢复日；若疲劳或酸痛影响下一次动作，把当周各动作暂减1组，恢复后再回到原量。出现尖锐或关节疼痛时停止相关动作。"
+    },
+    {
+      "id": "three-day-fat-loss-support",
+      "name": "每周3练 · 减脂保肌",
+      "daysPerWeek": 3,
+      "level": "基础 / 已掌握基础动作",
+      "goal": "减脂保肌",
+      "equipment": "健身房 · 哑铃、杠铃、绳索、固定器械",
+      "duration": "每次45–60分钟",
+      "schedule": "周一全身A，周三全身B，周五全身C；周二、四、六安排轻至中等强度活动，周日按疲劳恢复。三个抗阻训练日之间均留1个完整恢复日。",
+      "description": "本站原创体重管理配套模板，重点是在饮食调整期间继续规律抗阻、维持动作表现。每次覆盖下肢、推、拉与核心，不用赶时间的循环训练换取疲劳感。体重和体脂变化还取决于饮食、日常活动与个体情况；本模板不承诺减重速度或局部减脂。",
+      "progression": "用可控重量完成规定组次，组末保留2–3次余力；RIR即还能按标准动作做出的次数。饮食调整期间先争取维持负重与次数，恢复良好且同一动作连续两次各组达次数上限时才加最小一档重量；连续两次明显退步先少做每个动作1组并检查睡眠与饮食，不用额外高强度训练补偿。",
+      "recovery": "三个全身日不连续安排。若酸痛影响动作或疲劳累积，将当周各动作减1组并降低额外活动强度；恢复后再逐步回原量。关节锐痛时停止相应动作，避免在疲劳下勉强完成。",
+      "activity": "抗阻训练之外，按当前体能逐步累计每周约150分钟中等强度有氧（如快走，能说话但不易唱歌），可拆成短段，随后按恢复情况调整总量。训练日可选训练后或分开时段短走，恢复日以轻松活动为主；配合可持续的饮食安排，不以运动抵消进食。",
+      "sources": [
+        {
+          "title": "ACSM 2026抗阻训练原则：规律训练与个体调整",
+          "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+        },
+        {
+          "title": "CDC成人活动建议：抗阻与有氧相配合",
+          "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
+        },
+        {
+          "title": "CDC体重管理：饮食与身体活动共同作用",
+          "url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/"
+        },
+        {
+          "title": "美国成人身体活动指南：肌力训练与体重下降期肌肉维持",
+          "url": "https://www.cdc.gov/physical-activity/media/pdfs/Physical_Activity_Guidelines_2nd_edition.pdf"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 全身A",
+          "subtitle": "深蹲与水平推拉，保留稳定训练表现",
+          "warmup": "先轻松走动或骑车约5分钟，活动当日会用到的关节；前几个负重动作以轻重量逐步热身。热身组不计入下列工作组。",
+          "exercises": [
+            {
+              "exerciseId": "goblet-squat",
+              "sets": "3",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "seated-machine-chest-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "narrow-seated-row",
+              "sets": "3",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "90–120秒",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "2",
+              "reps": "12–15",
+              "rest": "60–90秒",
+              "note": "扶稳固定物，缓慢起落，脚踝保持稳定。"
+            },
+            {
+              "exerciseId": "dead-bug",
+              "sets": "2",
+              "reps": "每侧6–8",
+              "rest": "60–90秒",
+              "note": "慢速交替，腰背稳定；不追求做快或做至力竭。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 全身B",
+          "subtitle": "髋部折叠与垂直拉，兼顾单侧腿部",
+          "warmup": "先轻松走动或骑车约5分钟，活动当日会用到的关节；前几个负重动作以轻重量逐步热身。热身组不计入下列工作组。",
+          "exercises": [
+            {
+              "exerciseId": "romanian-deadlift",
+              "sets": "3",
+              "reps": "8–10",
+              "rest": "2–3分钟",
+              "note": "使用杠铃；已熟悉髋部折叠再负重，不必降到地面。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "3",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "每组结束保留约2–3次余力，动作质量优先。"
+            },
+            {
+              "exerciseId": "incline-push-up",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "90–120秒",
+              "note": "台面高度按能力选择，最后仍留2–3次余力。"
+            },
+            {
+              "exerciseId": "reverse-lunge",
+              "sets": "2",
+              "reps": "每侧8–10",
+              "rest": "2分钟",
+              "note": "先徒手控制平衡，两侧完成为一组；不过度追求步幅。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "轻重量控制上举，不甩动。"
+            },
+            {
+              "exerciseId": "reverse-crunch",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "60–90秒",
+              "note": "小幅卷起骨盆，避免摆腿借力。"
+            }
+          ]
+        },
+        {
+          "title": "第3天 · 全身C",
+          "subtitle": "器械腿部与哑铃推拉，收住一周训练量",
+          "warmup": "先轻松走动或骑车约5分钟，活动当日会用到的关节；前几个负重动作以轻重量逐步热身。热身组不计入下列工作组。",
+          "exercises": [
+            {
+              "exerciseId": "leg-press",
+              "sets": "3",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "靠垫贴稳，控制下降深度；不靠膝关节弹起负重。"
+            },
+            {
+              "exerciseId": "dumbbell-bench-press",
+              "sets": "2",
+              "reps": "8–12",
+              "rest": "2分钟",
+              "note": "使用稳固训练凳，选择能独立安全起落的哑铃。"
+            },
+            {
+              "exerciseId": "single-arm-dumbbell-row",
+              "sets": "3",
+              "reps": "每侧8–12",
+              "rest": "2分钟",
+              "note": "一手扶训练凳，两侧完成为一组；避免扭转躯干。"
+            },
+            {
+              "exerciseId": "hip-thrust",
+              "sets": "2",
+              "reps": "10–12",
+              "rest": "2分钟",
+              "note": "使用器械臀推，以臀部发力，不用腰部过伸顶起。"
+            },
+            {
+              "exerciseId": "dumbbell-reverse-fly",
+              "sets": "2",
+              "reps": "10–15",
+              "rest": "60–90秒",
+              "note": "轻重量、稳定髋部折叠；不甩肩或耸肩。"
+            },
+            {
+              "exerciseId": "dead-bug",
+              "sets": "2",
+              "reps": "每侧6–8",
+              "rest": "60–90秒",
+              "note": "核心控制优先，疲劳时缩小手脚伸展幅度。"
             }
           ]
         }
@@ -3575,6 +4008,640 @@
               "reps": "8–12",
               "rest": "60秒",
               "note": "选择能保留2–3次余力的重量。"
+            }
+          ]
+        }
+      ],
+      "goal": "增肌",
+      "equipment": "健身房 · 杠铃、哑铃、绳索、固定器械",
+      "duration": "每次约50–70分钟（含热身）",
+      "schedule": "周一上肢A、周二下肢A、周三休息、周四上肢B、周五下肢B、周六和周日恢复或轻松活动。",
+      "progression": "组末先保留约2–3次余力，也就是还能按标准动作完成的次数。某动作全部组连续两次达到次数上限，仍有余力且恢复良好，再增加最小一档重量，从区间下限继续；单侧动作以较弱侧为准，两侧负重与次数相同。",
+      "recovery": "两次同一区域训练间隔约72–96小时。睡眠不足、持续酸痛或多项表现连续下降时，下一周每个动作少1组，并保持至少3次余力；恢复后逐步回到原量，不用加练补偿。"
+    },
+    {
+      "id": "four-day-strength-base",
+      "name": "每周4练 · 基础力量",
+      "daysPerWeek": 4,
+      "level": "基础 / 已有负重训练经验",
+      "goal": "基础力量",
+      "equipment": "健身房：杠铃、哑铃、绳索及固定器械",
+      "duration": "每次约55–70分钟（含热身）",
+      "schedule": "周一上肢A、周二下肢A、周三休息、周四上肢B、周五下肢B、周六与周日休息或轻松活动。",
+      "description": "本站原创通用模板，适合动作技术稳定、希望提高基础负重能力的人。主要动作安排在前，以较低次数和充分休息练习；腿部使用已入库的器械腿举与杠铃罗马尼亚硬拉。不测1RM，起始重量以完成目标次数且保持动作控制为准。",
+      "progression": "RIR指做完一组后估计还能标准完成的次数。本计划各组保留1–3次余力；主动作先在4–8次范围内逐次增加重复。某动作所有正式组都达到各自次数上限，且仍有至少2次余力，连续两次训练达标后，下次增加器械最小档或约2%–5%重量，次数回到区间下端；辅助动作同样采用先加次数、再加重量。未达到下限或动作变形时减重，不补做到力竭。",
+      "recovery": "同一上下肢训练间隔约72–96小时；主动作组间休息2–3分钟，呼吸与动作准备未恢复可适当延长。若连续两次训练表现下降、酸痛妨碍正常活动或睡眠不足，下一周每个动作少1组并保持至少3次余力，再逐步恢复。出现尖锐或关节疼痛时停止相关动作。",
+      "sources": [
+        {
+          "title": "ACSM 2026 抗阻训练立场文件：原始综述与建议",
+          "url": "https://doi.org/10.1249/MSS.0000000000003897"
+        },
+        {
+          "title": "ACSM 2026 官方训练要点",
+          "url": "https://www.acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 上肢A",
+          "subtitle": "卧推与水平拉为主",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "barbell-bench-press",
+              "sets": "3",
+              "reps": "4–6次",
+              "rest": "2–3分钟",
+              "note": "使用安全架或保护者；保留1–3次余力，不做极限单次。"
+            },
+            {
+              "exerciseId": "chest-supported-t-bar-row",
+              "sets": "3",
+              "reps": "5–8次",
+              "rest": "2–3分钟",
+              "note": "胸部贴稳靠垫，避免借腰甩动；保留1–3次余力。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "straight-bar-cable-triceps-extension",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 下肢A",
+          "subtitle": "器械腿举与髋部折叠",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "leg-press",
+              "sets": "3",
+              "reps": "4–8次",
+              "rest": "2–3分钟",
+              "note": "按腿举机安全限位设置深度，骨盆保持稳定；保留1–3次余力，不锁死膝盖。"
+            },
+            {
+              "exerciseId": "romanian-deadlift",
+              "sets": "3",
+              "reps": "4–8次",
+              "rest": "2–3分钟",
+              "note": "使用杠铃；髋向后移，下降到腰背能稳定的位置；保留1–3次余力。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "2",
+              "reps": "12–15次",
+              "rest": "60–90秒",
+              "note": "本站动作为自重提踵；扶稳支撑，控制上下。"
+            },
+            {
+              "exerciseId": "dead-bug",
+              "sets": "2",
+              "reps": "每侧8–12次",
+              "rest": "60秒",
+              "note": "左右各完成目标次数算1组；腰背稳定，控制呼吸，不憋气抢次数。"
+            }
+          ]
+        },
+        {
+          "title": "第3天 · 上肢B",
+          "subtitle": "垂直推拉与卧推补充",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "standing-overhead-press",
+              "sets": "3",
+              "reps": "4–6次",
+              "rest": "2–3分钟",
+              "note": "使用杠铃，收紧躯干，避免后仰借力；保留1–3次余力。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "3",
+              "reps": "5–8次",
+              "rest": "2–3分钟",
+              "note": "保持躯干稳定，不用摆动制造次数；保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dumbbell-bench-press",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "chest-supported-t-bar-row",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "barbell-curl",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            }
+          ]
+        },
+        {
+          "title": "第4天 · 下肢B",
+          "subtitle": "后侧链优先与膝伸补充",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "romanian-deadlift",
+              "sets": "3",
+              "reps": "5–8次",
+              "rest": "2–3分钟",
+              "note": "使用杠铃；今天先练髋部折叠，以腰背稳定和1–3次余力为前提。"
+            },
+            {
+              "exerciseId": "leg-press",
+              "sets": "3",
+              "reps": "6–8次",
+              "rest": "2–3分钟",
+              "note": "保持骨盆贴稳靠垫，在可控幅度内发力，保留1–3次余力。"
+            },
+            {
+              "exerciseId": "seated-leg-extension",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "2",
+              "reps": "12–15次",
+              "rest": "60–90秒",
+              "note": "使用自重，扶稳支撑；上下均控制，不弹震。"
+            },
+            {
+              "exerciseId": "reverse-crunch",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60秒",
+              "note": "缓慢卷起骨盆，不靠腿部摆动；动作失控前结束。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "four-day-glute-priority",
+      "name": "每周4练 · 臀腿优先",
+      "daysPerWeek": 4,
+      "level": "基础 / 已规律训练",
+      "goal": "臀腿优先",
+      "equipment": "健身房：哑铃、杠铃、绳索及固定器械",
+      "duration": "每次约50–65分钟（含热身）",
+      "schedule": "周一下肢A、周二上肢A、周三休息、周四下肢B、周五上肢B、周六与周日休息或轻松活动。",
+      "description": "本站原创通用模板，每周安排两次下肢、两次上肢，优先练习臀部伸髋与下肢力量，同时保留胸背、肩臂和核心训练。适合希望增加臀腿训练比重的人；训练不能决定局部脂肪减少。",
+      "progression": "RIR指每组结束时估计还能标准完成几次。前两周各组保留约3次余力，之后维持1–3次；先在规定区间逐次增加次数。某动作全部正式组连续两次达到次数上限且仍有至少2次余力，再增加器械最小档或约2%–5%重量，回到次数区间下端；不同时增加组数和重量。单侧动作以较弱侧决定次数，两侧使用相同负重和次数。",
+      "recovery": "两次下肢训练间隔约72–96小时，不额外插入高强度臀腿日。若酸痛影响走路或下次下肢表现持续下降，先把每个3组的下肢动作减为2组，待恢复后再增加；上肢按恢复情况照常完成。关节或腰部出现疼痛时停止相应动作。",
+      "sources": [
+        {
+          "title": "ACSM 2026 抗阻训练立场文件：原始综述与建议",
+          "url": "https://doi.org/10.1249/MSS.0000000000003897"
+        },
+        {
+          "title": "ACSM 2026 官方训练要点",
+          "url": "https://www.acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 下肢A",
+          "subtitle": "臀推优先与下肢基础",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "hip-thrust",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "使用本站器械臀推；顶端收臀而非后仰，保留1–3次余力。"
+            },
+            {
+              "exerciseId": "leg-press",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "骨盆稳定，膝盖沿脚尖方向移动；控制幅度。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "seated-hip-abduction",
+              "sets": "2",
+              "reps": "12–15次",
+              "rest": "60–90秒",
+              "note": "坐稳，不靠弹震追求幅度；保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dead-bug",
+              "sets": "2",
+              "reps": "每侧8–12次",
+              "rest": "60秒",
+              "note": "左右各完成目标次数算1组，腰背不拱起；控制呼吸。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 上肢A",
+          "subtitle": "水平推拉与肩臂",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "seated-machine-chest-press",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "narrow-seated-row",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "straight-bar-cable-triceps-extension",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            }
+          ]
+        },
+        {
+          "title": "第3天 · 下肢B",
+          "subtitle": "髋部折叠与单侧稳定",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "romanian-deadlift",
+              "sets": "3",
+              "reps": "8–10次",
+              "rest": "2–3分钟",
+              "note": "使用杠铃；臀部向后移，下降幅度服从腰背稳定。"
+            },
+            {
+              "exerciseId": "goblet-squat",
+              "sets": "2",
+              "reps": "10–12次",
+              "rest": "2分钟",
+              "note": "胸前抱一只哑铃，选择能稳定蹲起的重量。"
+            },
+            {
+              "exerciseId": "bulgarian-split-squat",
+              "sets": "2",
+              "reps": "每侧8–12次",
+              "rest": "两侧完成后休息90–120秒",
+              "note": "每组左右各做目标次数；换侧可休30–60秒，先练较弱侧，必要时扶稳支撑。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "2",
+              "reps": "12–15次",
+              "rest": "60–90秒",
+              "note": "使用自重，扶稳支撑；不弹震。"
+            },
+            {
+              "exerciseId": "reverse-crunch",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60秒",
+              "note": "缓慢卷起骨盆，不用惯性；动作失控前结束。"
+            }
+          ]
+        },
+        {
+          "title": "第4天 · 上肢B",
+          "subtitle": "上斜推举与背部补充",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "incline-dumbbell-chest-press",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "chest-supported-t-bar-row",
+              "sets": "2",
+              "reps": "10–12次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "reverse-pec-deck",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dumbbell-hammer-curl",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "five-day-hypertrophy",
+      "name": "每周5练 · 增肌分化",
+      "daysPerWeek": 5,
+      "level": "进阶 / 持续规律训练且恢复充足",
+      "goal": "增肌",
+      "equipment": "健身房：杠铃、哑铃、绳索及固定器械",
+      "duration": "每次约50–70分钟（含热身）",
+      "schedule": "周一推、周二拉、周三腿、周四休息、周五上肢、周六下肢、周日休息。",
+      "description": "本站原创通用模板，适合已持续规律训练、能稳定完成每周5练的人。采用推、拉、腿、上肢、下肢安排，把训练量分散到5天；胸背和下肢主要肌群每周接触约两次，单次11–14个正式组。比每周4练增加的是时间分配选择，训练日更多并不自动代表效果更好。",
+      "progression": "RIR是组末估计还能标准完成的次数。起步两周保留2–3次余力，恢复稳定后维持1–3次；不需要每组力竭。每个动作先增加重复，全部正式组连续两次达到次数上限且仍保留至少2次余力，再增加器械最小档或约2%–5%重量，次数回到下端。单侧动作两侧采用相同负重，以较弱侧达标为准。先维持给定组数，不因改成5练而自行继续加量。",
+      "recovery": "同一区域两次主要训练间隔约72–96小时；周四和周日休息或轻松活动。若一周内出现多项动作表现下降或酸痛妨碍下次训练，下一周每个动作减1组、保留至少3次余力；若仍无法恢复，改选每周4练。出现关节或尖锐疼痛时停止相关动作。",
+      "sources": [
+        {
+          "title": "ACSM 2026 抗阻训练立场文件：原始综述与建议",
+          "url": "https://doi.org/10.1249/MSS.0000000000003897"
+        },
+        {
+          "title": "ACSM 2026 官方训练要点",
+          "url": "https://www.acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf"
+        }
+      ],
+      "days": [
+        {
+          "title": "第1天 · 推",
+          "subtitle": "胸部优先，补充肩与肱三头肌",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "barbell-bench-press",
+              "sets": "3",
+              "reps": "6–10次",
+              "rest": "2–3分钟",
+              "note": "使用安全架或保护者，保留1–3次余力。"
+            },
+            {
+              "exerciseId": "incline-dumbbell-chest-press",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "seated-dumbbell-shoulder-press",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "straight-bar-cable-triceps-extension",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            }
+          ]
+        },
+        {
+          "title": "第2天 · 拉",
+          "subtitle": "垂直拉、水平拉与手臂",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "chest-supported-t-bar-row",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "reverse-pec-deck",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "barbell-curl",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dumbbell-hammer-curl",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            }
+          ]
+        },
+        {
+          "title": "第3天 · 腿",
+          "subtitle": "膝伸与后侧链均衡",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "leg-press",
+              "sets": "4",
+              "reps": "8–12次",
+              "rest": "2–3分钟",
+              "note": "骨盆稳定，按器械限位控制深度；每组保留1–3次余力。"
+            },
+            {
+              "exerciseId": "romanian-deadlift",
+              "sets": "3",
+              "reps": "8–10次",
+              "rest": "2–3分钟",
+              "note": "使用杠铃，髋部折叠，幅度服从腰背稳定。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "3",
+              "reps": "10–15次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "2",
+              "reps": "12–15次",
+              "rest": "60–90秒",
+              "note": "使用自重，扶稳支撑；控制伸展与提踵。"
+            },
+            {
+              "exerciseId": "reverse-crunch",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60秒",
+              "note": "卷起骨盆，不借惯性；动作失控前结束。"
+            }
+          ]
+        },
+        {
+          "title": "第4天 · 上肢",
+          "subtitle": "第二次胸背刺激，分散周训练量",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "incline-dumbbell-chest-press",
+              "sets": "3",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "cable-chest-fly",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "narrow-seated-row",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "angled-handle-lat-pulldown",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "dumbbell-lateral-raise",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "overhead-cable-extension",
+              "sets": "2",
+              "reps": "10–15次",
+              "rest": "60–90秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            }
+          ]
+        },
+        {
+          "title": "第5天 · 下肢",
+          "subtitle": "单侧腿部与臀部补充",
+          "warmup": "先轻松走路或骑车约5分钟，再活动本次训练涉及的关节；首个主要负重动作做2–4组递增热身，后续新动作按需做轻重量试做。热身不计正式组。",
+          "exercises": [
+            {
+              "exerciseId": "goblet-squat",
+              "sets": "3",
+              "reps": "10–15次",
+              "rest": "2分钟",
+              "note": "胸前抱一只哑铃；负重选择以稳定完成和目标余力为准。"
+            },
+            {
+              "exerciseId": "bulgarian-split-squat",
+              "sets": "3",
+              "reps": "每侧8–12次",
+              "rest": "两侧完成后休息90–120秒",
+              "note": "每组左右各做目标次数；换侧可休30–60秒，以较弱侧决定负重与次数。"
+            },
+            {
+              "exerciseId": "hip-thrust",
+              "sets": "2",
+              "reps": "8–12次",
+              "rest": "2分钟",
+              "note": "使用本站器械臀推；收臀，避免腰部过伸。"
+            },
+            {
+              "exerciseId": "prone-leg-curl",
+              "sets": "3",
+              "reps": "10–15次",
+              "rest": "90–120秒",
+              "note": "动作保持稳定，组末保留1–3次余力。"
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "sets": "2",
+              "reps": "12–15次",
+              "rest": "60–90秒",
+              "note": "使用自重，扶稳支撑，控制上下。"
             }
           ]
         }

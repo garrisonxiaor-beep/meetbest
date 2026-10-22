@@ -82,6 +82,10 @@ export function validateContent(data) {
     const key = `plan:${p.id}`;
     text(p.level, `${key}.level`);
     text(p.description, `${key}.description`);
+    for (const field of ['goal', 'equipment', 'duration', 'schedule', 'progression', 'recovery', 'activity']) {
+      if (p[field] !== undefined) text(p[field], `${key}.${field}`);
+    }
+    if (p.sources !== undefined) sources(p.sources, `${key}.sources`);
     assert(Number.isInteger(p.daysPerWeek) && p.daysPerWeek >= 1 && p.daysPerWeek <= 7, `${key}.daysPerWeek 无效`);
     assert(Array.isArray(p.days) && p.days.length === p.daysPerWeek, `${key}.days 数量不符`);
     p.days.forEach((d, i) => {
